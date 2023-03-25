@@ -9,6 +9,14 @@
 
 /* -------------------------------------------------BODY--------------------------------------------- */
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('/docs/images/jum-img.webp') bottom right; /* image from Pexels by Alexander Grey */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+}
 
 
 
@@ -23,19 +31,66 @@
 
 /* -------------------------------------------------NAVIGATION--------------------------------------------- */
 
+.nav-item:hover {
+    text-decoration: underline;
+    color: #17a2b8;
+}
 
 
+.navbar {
+    background-color: #3C6997;
+}
+
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+button {
+    background-color: #17a2b8;
+}
+
+
+
+button:hover {
+    background-color: #3C6997;
+    border-radius: 12%;
+}
 
 
 
 
 /* -------------------------------------------------JUMBOTRON--------------------------------------------- */
 
+.jumbatron-container {
+    height: 60vh;
+    background-color: transparent;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
 
 
+.jumbotron {
+    background-color: #ffc107;
+}
 
+.jumbotron h1 {
+    color: #30363f;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
 
-
+.row {
+    width: 100%;
+}
 
 
 
