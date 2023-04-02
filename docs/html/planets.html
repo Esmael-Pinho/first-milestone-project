@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Covennant | Solar System Space Travel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <h2 id="logo">
+                    <a href="/html/index.html">Covennant</a>
+                </h2>
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropbtn" href="/html/destination-moons.html" id="nav-dropdown-list" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destination</a>
+                        <div class="dropdown-list" aria-labelledby="nav-dropdown-list">
+                            <a class="dropdown-item" href="/html/destination-moons.html">Moons</a>
+                            <a class="dropdown-item" href="/html/destinations-planets.html">Planets</a>
+                            <a class="dropdown-item" href="/html/destination-comets.html">Comets</a>
+                        </div>
+                    </li>
+                </ul>
+                <button type="submit" class="btn " data-toggle="modal" data-target="#signUpModal">Subscribe</button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="destinations-tab" class="tab-list" role="tablist" aria-label="destination list">
+        <div>
+            <button aria-selected="true" role="tab" aria-controls="mercury-tab" class="uppercase" tabindex="0">Mercury</button>
+            <button aria-selected="false" role="tab" aria-controls="venus-tab" class="uppercase" tabindex="1">Venus</button>
+            <button aria-selected="false" role="tab" aria-controls="moon-tab" class="uppercase" tabindex="1">Moon</button>
+            <button aria-selected="false" role="tab" aria-controls="mars-tab" class="uppercase" tabindex="-1">Mars</button>
+            <button aria-selected="false" role="tab" aria-controls="jupiter-tab" class="uppercase" tabindex="-1">Jupiter</button>
+            <button aria-selected="false" role="tab" aria-controls="saturn-tab" class="uppercase" tabindex="-1">Saturn</button>
+            <button aria-selected="false" role="tab" aria-controls="neptune-tab" class="uppercase" tabindex="-1">Neptune</button>
+            <button aria-selected="false" role="tab" aria-controls="uranus-tab" class="uppercase" tabindex="-1">Uranus</button>
+        </div>
+    </section>
+
+
+
+    <section id="main" class="grid-container grid-container--destination flow">
+        <h1 class="title">Destination: Moons</h1>
+        
+        <!-- <picture>
+        <source srcset="/images/mercury_new.png" type="image/png">
+        <img src="/images/mercury_new.png" alt="Mercury">
+        </picture>
+        <picture hidden>
+        <source srcset="/images/venus_jg.png" type="image/png">
+        <img src="/images/venus_jg.png" alt="Venus">
+        </picture>
+        <picture hidden>
+        <source srcset="assets/destination/image-europa.webp" type="image/webp">
+        <img src="assets/destination/image-europa.png" alt="the planet europa">
+        </picture>
+        <picture hidden>
+        <source srcset="assets/destination/image-titan.webp" type="image/webp">
+        <img src="assets/destination/image-titan.png" alt="the moon titan">
+        </picture> -->
+        
+        
+        <!-- <div class="tab-list underline-indicators flex" role="tablist" aria-label="destination list">
+            <button aria-selected="true" role="tab" aria-controls="moon-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="0">Moon</button>
+            <button aria-selected="false" role="tab" aria-controls="mars-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="-1">Mars</button>
+            <button aria-selected="false" role="tab" aria-controls="europa-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="-1">Europa</button>
+            <button aria-selected="false" role="tab" aria-controls="titan-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="-1">Titan</button>
+        </div> -->
+
+        <!-- Mercury -->
+
+        <div class="grid">
+            <div class="row">
+                <div class="col-6">
+                    <picture>
+                        <img src="/images/mercury_new.png" width="100%" alt="The Planet Mercury">
+                    </picture>
+                </div>
+                <div class="col-2">
+                    <table class="destination-info flow" id="mercury-tab" tabindex="0" role="tabpanel">
+                        <th>
+                            <td colspan="2" class="uppercase text-white text-center">Mercury</td>
+                        </th>
+                        <tr>
+                            <td colspan="2">
+                                <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+                                    regain perspective and come back refreshed. While you’re there, take in some history 
+                                    by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                            </td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Avg. distance:</td>
+                            <td class="text-left">384,400 km</td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Est. travel time:</td>
+                            <td class="text-left">3 days</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-2">
+                    <!-- Nasa 3D Model of Mercury Link below -->
+                    <!-- https://solarsystem.nasa.gov/resources/2369/mercury-3d-model/ -->
+                    <div>
+                        <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2369&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+
+        
+        <!-- Mercury -->
+        
+        <div class="grid">
+            <div class="row">
+                <div class="col-2">
+                    <!-- Nasa 3D Model of Mercury Link below -->
+                    <!-- https://solarsystem.nasa.gov/resources/2369/mercury-3d-model/ -->
+                    <div>
+                        <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2343&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
+                    </div>
+                </div>
+                
+                <div class="col-2">
+                    <table class="destination-info flow" id="mercury-tab" tabindex="0" role="tabpanel">
+                        <th>
+                            <td colspan="2" class="uppercase text-white text-center">Venus</td>
+                        </th>
+                        <tr>
+                            <td colspan="2">
+                                <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+                                    regain perspective and come back refreshed. While you’re there, take in some history 
+                                    by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                            </td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Avg. distance:</td>
+                            <td class="text-left">384,400 km</td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Est. travel time:</td>
+                            <td class="text-left">3 days</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="col-6">
+                    <picture>
+                        <img src="/images/venus_jg.png" width="100%" alt="The Planet Mercury">
+                    </picture>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <!-- Mercury -->
+        
+        <div class="grid">
+            <div class="row">
+                <div class="col-6">
+                    <picture>
+                        <img src="/images/mars.png" width="100%" alt="The Planet Mercury">
+                    </picture>
+                </div>
+                <div class="col-2">
+                    <table class="destination-info flow" id="mercury-tab" tabindex="0" role="tabpanel">
+                        <th>
+                            <td colspan="2" class="uppercase text-white text-center">Mars</td>
+                        </th>
+                        <tr>
+                            <td colspan="2">
+                                <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+                                    regain perspective and come back refreshed. While you’re there, take in some history 
+                                    by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                            </td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Avg. distance:</td>
+                            <td class="text-left">384,400 km</td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Est. travel time:</td>
+                            <td class="text-left">3 days</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-2">
+                    <!-- Nasa 3D Model of Mercury Link below -->
+                    <!-- https://solarsystem.nasa.gov/resources/2369/mercury-3d-model/ -->
+                    <div>
+                        <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2372&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Mercury -->
+        
+        <div class="grid">
+            <div class="row">
+                <div class="col-2">
+                    <!-- Nasa 3D Model of Mercury Link below -->
+                    <!-- https://solarsystem.nasa.gov/resources/2369/mercury-3d-model/ -->
+                    <div>
+                        <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2375&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
+                    </div>
+                </div>
+                
+                <div class="col-2">
+                    <table class="destination-info flow" id="mercury-tab" tabindex="0" role="tabpanel">
+                        <th>
+                            <td colspan="2" class="uppercase text-white text-center">Jupiter</td>
+                        </th>
+                        <tr>
+                            <td colspan="2">
+                                <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+                                    regain perspective and come back refreshed. While you’re there, take in some history 
+                                    by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                            </td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Avg. distance:</td>
+                            <td class="text-left">384,400 km</td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Est. travel time:</td>
+                            <td class="text-left">3 days</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="col-6">
+                    <picture>
+                        <img src="/images/jupiter_new.png" width="100%" alt="The Planet Mercury">
+                    </picture>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <!-- Mercury -->
+        
+        <div class="grid">
+            <div class="row">
+                <div class="col-6">
+                    <picture>
+                        <img src="/images/saturn.png" width="100%" alt="The Planet Mercury">
+                    </picture>
+                </div>
+                <div class="col-2">
+                    <table class="destination-info flow" id="mercury-tab" tabindex="0" role="tabpanel">
+                        <th>
+                            <td colspan="2" class="uppercase text-white text-center">Saturn</td>
+                        </th>
+                        <tr>
+                            <td colspan="2">
+                                <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+                                    regain perspective and come back refreshed. While you’re there, take in some history 
+                                    by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                            </td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Avg. distance:</td>
+                            <td class="text-left">384,400 km</td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Est. travel time:</td>
+                            <td class="text-left">3 days</td>
+                        </tr>
+                    </table>
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="/images/girl-image.png" width="125px" height="125px" alt="">
+                            <img src="/images/guy-image.png" width="125px" height="125px" alt="">
+                        </div>
+                        <div class="col-12">
+                            <img src="/images/guy-image.png" width="125px" height="125px" alt="">
+                            <img src="/images/girl-image.png" width="125px" height="125px" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <!-- Nasa 3D Model of Mercury Link below -->
+                    <!-- https://solarsystem.nasa.gov/resources/2369/mercury-3d-model/ -->
+                    <div>
+                        <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2355&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Mercury -->
+        
+        <div class="grid">
+            <div class="row">
+                <div class="col-2">
+                    <!-- Nasa 3D Model of Mercury Link below -->
+                    <!-- https://solarsystem.nasa.gov/resources/2369/mercury-3d-model/ -->
+                    <div>
+                        <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2364&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
+                    </div>
+                </div>
+                
+                <div class="col-2">
+                    <table class="destination-info flow" id="mercury-tab" tabindex="0" role="tabpanel">
+                        <th>
+                            <td colspan="2" class="uppercase text-white text-center">Neptune</td>
+                        </th>
+                        <tr>
+                            <td colspan="2">
+                                <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+                                    regain perspective and come back refreshed. While you’re there, take in some history 
+                                    by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                            </td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Avg. distance:</td>
+                            <td class="text-left">384,400 km</td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Est. travel time:</td>
+                            <td class="text-left">3 days</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="col-6">
+                    <picture>
+                        <img src="/images/neptune.png" width="100%" alt="The Planet Mercury">
+                    </picture>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <!-- Mercury -->
+        
+        <div class="grid">
+            <div class="row">
+                <div class="col-6">
+                    <picture>
+                        <img src="/images/uranus.png" width="100%" alt="The Planet M">
+                    </picture>
+                </div>
+                <div class="col-2">
+                    <table class="destination-info flow" id="uranus-tab" tabindex="0" role="tabpanel">
+                        <th>
+                            <td colspan="2" class="uppercase text-white text-center">Uranus</td>
+                        </th>
+                        <tr>
+                            <td colspan="2">
+                                <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+                                    regain perspective and come back refreshed. While you’re there, take in some history 
+                                    by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                            </td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Avg. distance:</td>
+                            <td class="text-left">384,400 km</td>
+                        </tr>
+                        <tr class="text-white">
+                            <td class="text-right">Est. travel time:</td>
+                            <td class="text-left">3 days</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-2">
+                    <!-- Nasa 3D Model of Mercury Link below -->
+                    <!-- https://solarsystem.nasa.gov/resources/2369/mercury-3d-model/ -->
+                    <div>
+                        <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2344&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footer-details" class="py-3 container-fluid row">
+            <div class="about col-4">
+                <h5 class="uppercase"><strong>About Us:</strong></h5>
+                <p class="inline-block footer-info">
+                    Since 2075 focused on bringing you <br>the best, fastest, safest deep space travel.
+                    <br>
+                    Find more
+                    <a href="/docs/html/about.html">
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+                        <span class="sr-only">Find more about Covennant</span>
+                    </a>
+                </p>  
+            </div>
+
+            <div class="col-4">
+                <div>
+                    <div class="copyright">
+                        <p class="m-0 font-italic">Copyright &copy; Covennant 2023</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <h5 class="uppercase"><strong>Our Socials:</strong></h5>
+                <ul class="socials">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </li>
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal from walkthrought Bootstrap introduction -->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Subscribe! </h5>
+                    <p> * To stay inside new Worlds journeys. </p>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="covennant@deepspacetravel.com">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Bootstrap Script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
