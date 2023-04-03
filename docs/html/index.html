@@ -30,11 +30,10 @@
                         <a class="nav-link" href="/html/about.html">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropbtn" href="/html/destination-moons.html" id="nav-dropdown-list" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destination</a>
+                        <a class="nav-link dropbtn" href="/html/moons.html" id="nav-dropdown-list" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destination</a>
                         <div class="dropdown-list" aria-labelledby="nav-dropdown-list">
-                            <a class="dropdown-item" href="/html/destination-moons.html">Moons</a>
-                            <a class="dropdown-item" href="/html/destinations-planets.html">Planets</a>
-                            <a class="dropdown-item" href="/html/destination-comets.html">Comets</a>
+                            <a class="dropdown-item" href="/html/moons.html">Moons</a>
+                            <a class="dropdown-item" href="/html/planets.html">Planets</a>
                         </div>
                     </li>
                 </ul>
@@ -43,142 +42,240 @@
         </div>
     </header>
 
-    <section>
+
     <!-- Jumbotron Bootstrap -->
 
-        <section>  
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <section class="jumbotron text-center">
-                            <h1 class="jumbotron-header"><span class="jum-blue">All Your</span> 
-                                <span class="jum-white">Favourite</span> 
-                                <span class="jum-green">Ice Creams</span><br> 
-                                <span class="jum-blue">Scooped</span>
-                                <span class="jum-white"> In One</span>
-                                <span class="jum-green"> Place!</span>
-                            </h1>
-                            <aside><small>*For more Plantes, Comets, Moons please <a href="signUpModal" data-toggle="modal" data-target="#signUpModal">Subscribe</a></small></aside>
-                        </section>
-                    </div>
-                </div>
-            </div> 
-        </section>
-    
-    
-        <section id="video-container" class="row">
-            <div class="container col-6 offset-3">
-                <div class="row ">
-                    <div id="video-main" class="col-12">
-                        <video src="#" controls muted autoplay>
-                            <p>Your browser doesn't support HTML5 video.</p>
-                            <img src="#" alt="Covennat Sapce intro">
-                        </video>
-                    </div>
+    <section>  
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <section class="jumbotron text-center">
+                        <h1 class="jumbotron-header"><span class="jum-blue">All Your</span> 
+                            <span class="jum-white">Favourite</span> 
+                            <span class="jum-green">Ice Creams</span><br> 
+                            <span class="jum-blue">Scooped</span>
+                            <span class="jum-white"> In One</span>
+                            <span class="jum-green"> Place!</span>
+                        </h1>
+                        <aside><small>*For more Plantes, Comets, Moons please <a href="signUpModal" data-toggle="modal" data-target="#signUpModal">Subscribe</a></small></aside>
+                    </section>
                 </div>
             </div>
-        </section>   
-    
-    
-    
-        <section id="aside-container">
-            <aside>
-                <p><strong>Covennant:</strong></p>
-                <small class="font-italic">"Ice Cream here <br> Ice cream there <br> They're everywhere"</small>
-            </aside>
-        </section>
+        </div> 
+    </section>
 
+    <!-- Video -->
+    <section id="video-container" class="row">
+        <div class="container col-6 offset-3">
+            <div class="row ">
+                <div id="video-main" class="col-12">
+                    <video src="#" controls muted autoplay>
+                        <p>Your browser doesn't support HTML5 video.</p>
+                        <img src="#" alt="Covennat Sapce intro">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <!-- Aside -->
+    
+    <section id="aside-container">
+        <aside>
+            <p><strong>Covennant:</strong></p>
+            <small class="font-italic">"Ice Cream here <br> Ice cream there <br> They're everywhere"</small>
+        </aside>
+    </section>
 
+    <!-- What they've said? -->
+    <section>
         <div>
             <h2><span>What</span> they've said<span> ?</span></h2>
         </div>
     
-        <!-- What they've said? -->
-        <section id="quotes" class=" container row offset-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="card carousel-item active">
+                    <div class="card-img-bg">
+                        <span class="overlay"></span>
 
-            
-    
-            <div id="carouselExampleIndicators" class="carousel slide col-8" data-ride="carousel">
-                <!-- Wont'be be needing the indicators -->
-                <!-- <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                </ol> -->
-                
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="media">
-                            <div id="quotes-image" class="d-none d-sm-block">
-                                <img src="/images/guy-image.png" alt="First slide" class="d-block rounded-circle mr-3" height=100 width=100>
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p>I haven't been sober for months!</p>
-                                    <p>- Jane Doe</p>
-                                </blockquote>
-                            </div>
+                        <div class="card-img">
+                            <img src="/images/girl-image.png" class="card-img-top" alt="...">
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="media">
-                            <div id="quotes-image" class="d-none d-sm-block">
-                                <img src="/images/girl-image.png" alt="Second slide" class="d-block rounded-circle mr-3" height=100 width=100>
+                    
+                    <div class="card-body">
+                        <div class="card-name">
+                            <h5 class="text-center">Card name</h5>
                             </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p>I haven't been sober for months!</p>
-                                    <p>- Jane Doe</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="media">
-                            <div id="quotes-image" class="d-none d-sm-block">
-                                <img src="/images/guy-image.png" alt="Third slide" class="d-block rounded-circle mr-3" height=100 width=100>
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p>I haven't been sober for months!</p>
-                                    <p>- Jane Doe</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="media">
-                            <div id="quotes-image" class="d-none d-sm-block">
-                                <img src="/images/girl-image.png" alt="Fourth slide" class="d-block rounded-circle mr-3" height=100 width=100>
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p>I haven't been sober for months!</p>
-                                    <p>- Jane Doe</p>
-                                </blockquote>
-                            </div>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="card-socials">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
                         </div>
                     </div>
                 </div>
-                
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+
+                <div class="card carousel-item">
+                    <div class="card-img-bg">
+                        <span class="overlay"></span>
+
+                        <div class="card-img">
+                            <img src="/images/girl-image.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="card-name">
+                            <h5 class="text-center">Card name</h5>
+                            </div>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="card-socials">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card carousel-item">
+                    <div class="card-img-bg">
+                        <span class="overlay"></span>
+
+                        <div class="card-img">
+                            <img src="/images/girl-image.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="card-name">
+                            <h5 class="text-center">Card name</h5>
+                            </div>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="card-socials">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card carousel-item">
+                    <div class="card-img-bg">
+                        <span class="overlay"></span>
+
+                        <div class="card-img">
+                            <img src="/images/girl-image.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="card-name">
+                            <h5 class="text-center">Card name</h5>
+                            </div>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="card-socials">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card carousel-item">
+                    <div class="card-img-bg">
+                        <span class="overlay"></span>
+
+                        <div class="card-img">
+                            <img src="/images/girl-image.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="card-name">
+                            <h5 class="text-center">Card name</h5>
+                            </div>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="card-socials">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card carousel-item">
+                    <div class="card-img-bg">
+                        <span class="overlay"></span>
+
+                        <div class="card-img">
+                            <img src="/images/girl-image.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="card-name">
+                            <h5 class="text-center">Card name</h5>
+                            </div>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="card-socials">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-    
-        </section>
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div>
     </section>
-    
-
-
+        
     <!-- Footer -->
-    <!-- Bootstrap -->
     <footer>
         <div id="footer-details" class="py-3 container-fluid row">
             <div class="about col-4">
@@ -207,25 +304,29 @@
                 <ul class="socials">
                     <li>
                         <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
+                        <span class="sr-only">Facebook</span>
+                        </a>
                     </li>
                     <li>
                         <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </li>
+                        <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
                     <li>
                         <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </li>
+                        <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
                     <li>
                         <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
                         <span class="sr-only">Instagram</span>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </footer>
-<!-- Modal from walkthrought Bootstrap introduction -->
+
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
