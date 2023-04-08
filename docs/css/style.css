@@ -3,7 +3,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 body,
@@ -61,7 +61,8 @@ h2 span {
 /* -------------------------------------------------------------- NAVIGATION----------------------*/
 .nav-container {
     width: 100%;
-    position: relative;
+    position: fixed;
+    z-index: 1000;
 }
 nav {
     display: flex;
@@ -207,21 +208,32 @@ aside p {
 /* Cards */
 
 #carouselExampleControls {
-    margin: 0 2.5rem 0 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#carouselExampleControls .carousel-inner {
+    width: 200%;
+    display: flex;
 }
 
 .carousel-inner {
     display: inline-flex;
     margin: 2.5rem auto;
+    left: 2rem;
 }
 
 .card {
     width: 18rem;
     background: transparent;
-    border-radius: 25%;
-    display: inline-block;
-    margin: 2rem .5rem .5rem .5rem;
+    border-radius: 15%;
+    display: inline-flex;
+    margin: 2.5rem auto;
+    
 }
+
+
 
 
 .card-img {
@@ -279,6 +291,15 @@ aside p {
     color: #fff;
     text-decoration: none;
 }
+
+
+.carousel-control-prev {
+    left: -5rem;
+}
+
+.carousel-control-next {
+    right: -5rem;
+}
 /* -------------------------------------------------------------- DESTINATIONS----------------------*/
 /* Moons */
 div table th tr {
@@ -291,11 +312,6 @@ div table th tr {
     margin-top: 2.5rem;
 }
 
-/* hr {
-    border: 2px solid lightgrey;
-    width: 35%;
-    margin: 4rem;
-} */
 
 .moons-tab {
     background-color: transparent;
@@ -339,7 +355,7 @@ div table th tr {
 .h3-heading::before {
     content: " ";
     display: block;
-    width: 42%;
+    width: 40%;
     height: .1rem;
     top: 50%;
     left: 1rem;
@@ -351,7 +367,7 @@ div table th tr {
 .h3-heading::after {
     content: " ";
     display: block;
-    width: 42%;
+    width: 40%;
     height: .1rem;
     top: 50%;
     right: 1rem;
@@ -394,9 +410,9 @@ div table th tr {
 /* -------------------------------------------------------------- FOOTER----------------------*/
 /* Footer */
 
-footer {
+#footer-details {
     background-color: hsl(0, 3%, 53%, 0.1);
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
 }
 
 footer h5,p {
