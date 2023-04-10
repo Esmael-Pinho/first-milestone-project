@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Covennant | Solar System Space Travel</title>
+    <title>Avallon | Space Travel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -17,9 +17,9 @@
 <body>
     <header>
         <div class="nav-container">
-            <nav>
+            <nav id="moon-dest">
                 <h2 id="logo">
-                    <a href="/docs/html/index.html">Avall<span class="logo-red">On</span></a>
+                    <a href="/docs/html/index.html">Avall<span class="red">On</span></a>
                 </h2>
                 <ul>
                     <li class="nav-item">
@@ -41,7 +41,7 @@
         </div>
     </header>
 
-    <section>
+    <section class="moons-sec">
         <h1 class="title">Destination: <span class="red">Moons</span></h1>
 
 
@@ -77,17 +77,6 @@
             </ul>
         </nav>
 
-
-        <!-- <div id="destinations-tab" class="tab-list" role="tablist" aria-label="destination list">
-            <button aria-selected="true" role="tab" aria-controls="mercury-tab" class="uppercase" tabindex="0">Mercury</button>
-            <button aria-selected="false" role="tab" aria-controls="venus-tab" class="uppercase" tabindex="1">Venus</button>
-            <button aria-selected="false" role="tab" aria-controls="moon-tab" class="uppercase" tabindex="1">Moon</button>
-            <button aria-selected="false" role="tab" aria-controls="mars-tab" class="uppercase" tabindex="-1">Mars</button>
-            <button aria-selected="false" role="tab" aria-controls="jupiter-tab" class="uppercase" tabindex="-1">Jupiter</button>
-            <button aria-selected="false" role="tab" aria-controls="saturn-tab" class="uppercase" tabindex="-1">Saturn</button>
-            <button aria-selected="false" role="tab" aria-controls="neptune-tab" class="uppercase" tabindex="-1">Neptune</button>
-            <button aria-selected="false" role="tab" aria-controls="uranus-tab" class="uppercase" tabindex="-1">Uranus</button>
-        </div> -->
     </section>
 
 
@@ -116,7 +105,7 @@
         <!-- Moon -->
 
         <h3 id="moon" class="h3-heading"><span>Moon</span></h3>
-        <div id="mercury-tab" tabindex="0" role="tabpanel" class="grid flow destination">
+        <div class=" grid">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6">
@@ -181,7 +170,7 @@
         <!-- IO -->
 
         <h3 id="io" class="h3-heading"><span>Io</span></h3>
-        <div id="mercury-tab" tabindex="0" role="tabpanel" class="grid flow destination">
+        <div class=" grid">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6">
@@ -246,7 +235,7 @@
         <!-- Europa-->
 
         <h3 id="europa" class="h3-heading"><span>Europa</span></h3>
-        <div id="mercury-tab" tabindex="0" role="tabpanel" class="grid flow destination">
+        <div class=" grid">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6">
@@ -312,7 +301,7 @@
         <!-- Ganymede -->
 
         <h3 id="ganymede" class="h3-heading"><span>Ganymede</span></h3>
-        <div id="mercury-tab" tabindex="0" role="tabpanel" class="grid flow destination">
+        <div class=" grid">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6">
@@ -378,7 +367,7 @@
         <!--Callisto -->
 
         <h3 id="callisto" class="h3-heading"><span>Callisto</span></h3>
-        <div id="mercury-tab" tabindex="0" role="tabpanel" class="grid flow destination">
+        <div class=" grid">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6">
@@ -444,7 +433,7 @@
         <!-- Triton -->
 
         <h3 id="triton" class="h3-heading"><span>Triton</span></h3>
-        <div id="mercury-tab" tabindex="0" role="tabpanel" class="grid flow destination">
+        <div class=" grid">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6">
@@ -510,7 +499,7 @@
         <!-- Enceladus -->
 
         <h3 id="enceladus" class="h3-heading"><span>Enceladus</span></h3>
-        <div id="mercury-tab" tabindex="0" role="tabpanel" class="grid flow destination">
+        <div class=" grid">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6">
@@ -576,7 +565,7 @@
         <!-- Titan -->
 
         <h3 id="titan" class="h3-heading"><span>Titan</span></h3>
-        <div id="mercury-tab" tabindex="0" role="tabpanel" class="grid flow destination">
+        <div class=" grid">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6">
@@ -642,7 +631,7 @@
         <!-- Lapetus -->
 
         <h3 id="lapetus" class="h3-heading"><span>Lapetus</span></h3>
-        <div id="mercury-tab" tabindex="0" role="tabpanel" class="grid flow destination">
+        <div class=" grid">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6">
@@ -707,7 +696,11 @@
 
         <div class="container-fluid">
             <div class="back-top-btn">
-                <button type="button" class="btn btn-danger"><a href="#logo">Back to Top</a></button>
+                <button type="button" class="btn">
+                    <a href="#moon-dest">
+                        <i class="fas fa-arrow-circle-up"></i>
+                    </a>
+                </button>
             </div>
         </div>
 

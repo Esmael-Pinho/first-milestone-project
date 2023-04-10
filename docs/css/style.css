@@ -38,6 +38,7 @@ body {
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
+    position: relative;
 }
 
 h1,
@@ -61,17 +62,19 @@ h2 span {
 /* -------------------------------------------------------------- NAVIGATION----------------------*/
 .nav-container {
     width: 100%;
-    position: fixed;
     z-index: 1000;
+    position: fixed;
+    top: 0;
 }
 nav {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     align-items: center;
     justify-content: space-around;
     padding-top: 0px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 25px;
+    padding-right: 25px;
     background-color: hsl(0, 3%, 53%, 0.1);
 }
 
@@ -150,160 +153,82 @@ button:hover {
 
 
 
-/* -------------------------------------------------------------- JUMBOTRON----------------------*/
-/* Jumbotron-Container */
-
-.jumbotron {
-    background-color: transparent;
-    color: #fff;
-}
-
-.jumbotron a {
-    color: #dc3545;
-}
+/* -------------------------------------------------------------- HOME----------------------*/
+/* Home-Container */
 
 
-
-/* -------------------------------------------------------------- VIDEO----------------------*/
-/* Video-Container */
-
-.container {
-    padding: 0;
-}
-
-#video-container {
-    margin-top: 2rem;
-}
-
-#video-main {
-    margin: 0;
-    padding: 0;
-}
-
-video {
-    width: 100%;
-}
-
-
-/* Aside  */
-
-#aside-container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-
-}
-aside {
-    text-align: center;
-    color: white;
-}
-
-aside p {
+#home {
+    margin-top: 7.5rem;
     margin-bottom: 0;
 }
 
-/* -------------------------------------------------------------- CARROUSEL----------------------*/
 
-
-
-/* Cards */
-
-#carouselExampleControls {
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-#carouselExampleControls .carousel-inner {
-    width: 200%;
-    display: flex;
-}
-
-.carousel-inner {
-    display: inline-flex;
-    margin: 2.5rem auto;
-    left: 2rem;
-}
-
-.card {
-    width: 18rem;
-    background: transparent;
-    border-radius: 15%;
-    display: inline-flex;
-    margin: 2.5rem auto;
-    
-}
-
-
-
-
-.card-img {
-    border: 5px solid #fff;
-    width: 12rem;
-    height: 12rem;
-    border-radius: 50%;
-    margin: 10px auto;
+.home-container {
     position: relative;
+    width: 90%;
+    height: 100vh;
+    top: -1rem;
 }
 
-.card-img img {
-    border: 2px solid #dc3545;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
-
-
-.card-body {
-    background-color: darkgrey;
-    margin-top: 0;
-    padding: 2px auto;
-    position: relative;
-}
-
-
-.card-name {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-}
-
-.overlay {
+.side-text {
     position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #dc3545;
-    border-radius: 25px 25px 0 0;
+    left: 20rem;
+    bottom: 18rem;
+    background-color: hsl(0, 3%, 53%, 0.1);
 }
 
-
-.card-socials {
-    margin: 1rem auto;
-    text-align: center;
+.journey {
+    color: #fff;
 }
 
-.card-socials a {
-    font-size: 22px;
+.red {
     color: #dc3545;
 }
 
-.card-socials a:hover {
-    color: #fff;
-    text-decoration: none;
+.home-images1 {
+    position: absolute;
+    right: -10rem;
+    z-index: -1;
+}
+
+.home-images2 {
+    position: absolute;
+    left: 2%;
+}
+
+.home-images3 {
+    position: absolute;
+    right: 25rem;
+    bottom: 12rem;
 }
 
 
-.carousel-control-prev {
-    left: -5rem;
+.home-images1 img {
+    width: 750px;
+    height: 750px;
 }
 
-.carousel-control-next {
-    right: -5rem;
+
+.home-images2 img {
+    width: 600px;
+    height: 200px;
 }
+
+.home-images3 img {
+    width: 150px;
+    height: 150px;
+}
+
+
 /* -------------------------------------------------------------- DESTINATIONS----------------------*/
 /* Moons */
-div table th tr {
-    /* float: left; */
+
+.moons-sec {
+    margin-top: 7.5rem;
+}
+
+#moons {
+    position: relative;
 }
 
 
@@ -343,8 +268,6 @@ div table th tr {
     border-right: 1px solid #dc3545;
 }
 
-
-/* Destinations */
 
 .h3-heading {
     margin: 3.5rem;
@@ -393,16 +316,41 @@ div table th tr {
 
 
 .back-top-btn {
+    position: absolute;
     margin: 4.5rem auto;
     text-align: center;
+    width: 50px;
+    height: 50px;
+    left: 2rem;
+    bottom: 5rem;
+    position: fixed;
+    border-radius: 50%;
 }
 
 .back-top-btn a {
     color: #fff;
+    font-size: 25px;
 }
 
-.back-top-btn a:hover {
+.back-top-btn button {
+    transform: none;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.back-top-btn button a:hover {
     text-decoration: none;
+    color: #dc3545;
+}
+
+
+
+
+/* -------------------------------------------------------------- DESTINATIONS----------------------*/
+/* Planets */
+
+.planets-sec {
+    margin-top: 8.5rem;
 }
 
 
