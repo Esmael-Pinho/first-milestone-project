@@ -6,27 +6,10 @@
   box-sizing: border-box; 
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-p {
-  margin: 0;
-}
-
 * {
     padding: 0;
     margin: 0;
 }
-
-/* -------------------------------------------------------------- RESETS----------------------*/
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 /* -------------------------------------------------------------- IMPORTS----------------------*/
 
 
@@ -44,19 +27,23 @@ body {
 h1,
 h2,
 h3,
-h5, p {
+h4,
+h5, 
+h6, p {
     color: #fff;
-}
-
-h2 {
     text-align: center;
 }
+
 h2 span {
     color: #dc3545;
 }
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.red {
+    color: #dc3545;
 }
 
 /* -------------------------------------------------------------- NAVIGATION----------------------*/
@@ -92,9 +79,6 @@ nav ul li {
     font-size: 30px;
     font-weight: bold;
 }
-.red {
-    color: #dc3545;
-}
 
 nav ul li a {
     color: white;
@@ -109,7 +93,6 @@ nav ul li a:hover {
 }
 
 
-  /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -119,13 +102,13 @@ nav ul li a:hover {
 .dropdown-list {
     display: none;
     position: absolute;
-    background: url("/docs/images/pexels-alexandre-p-junior-7736052.jpg") center cover;    /* Image from Pexels by alexandre junior*/
+    background-color: #dc3545;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
+  /*Dropdown Links */
 .dropdown-list a {
     padding: 12px 16px;
     text-decoration: none;
@@ -133,53 +116,65 @@ nav ul li a:hover {
     color: #fff;
   }
   
-  /* Show the dropdown menu on hover */
+  /*Dropdown menu on hover */
 .dropdown:hover .dropdown-list {
     display: block;
 }
 
+.dropdown-list a:hover {
+    color: #dc3545;
+}
 
-/* Subribe Button */
+
+/* Sign Up Button */
 button {
     padding: 0;
     text-transform: uppercase;
+    color: #dc3545;
+}
+
+.journey {
     background-color: #dc3545;
     color: #fff;
 }
 
-button:hover {
-    transform: scale(1.1);
+.journey:hover {
+    border-color: #fff;
 }
 
 
+/* Modal Button */
+.modal-button {
+    background-color: #dc3545;
+    color: #fff;
+}
 
 /* -------------------------------------------------------------- HOME----------------------*/
 /* Home-Container */
 
 
 #home {
-    margin-top: 7.5rem;
+    margin-top: 5.5rem;
     margin-bottom: 0;
 }
 
 
 .home-container {
     position: relative;
-    width: 90%;
     height: 100vh;
-    top: -1rem;
 }
 
-.side-text {
+.intro-text {
     position: absolute;
-    left: 20rem;
-    bottom: 18rem;
-    background-color: hsl(0, 3%, 53%, 0.1);
+    top: 4rem;
+    left: 0;
+    right: 0;
 }
 
-.journey {
-    color: #fff;
+.intro-btn {
+    margin-top: .2rem;
 }
+
 
 .red {
     color: #dc3545;
@@ -187,36 +182,139 @@ button:hover {
 
 .home-images1 {
     position: absolute;
-    right: -10rem;
+    right: 0;
+    bottom: 4.5rem;
     z-index: -1;
+    overflow: hidden;
 }
 
 .home-images2 {
     position: absolute;
     left: 2%;
+    top: 9.5rem;
 }
 
 .home-images3 {
     position: absolute;
-    right: 25rem;
+    right: 28rem;
     bottom: 12rem;
 }
 
 
 .home-images1 img {
-    width: 750px;
-    height: 750px;
+    width: 595px;
+    height: 595px;
+    top: 0;
 }
 
-
 .home-images2 img {
-    width: 600px;
-    height: 200px;
+    width: 550px;
+    height: 150px;
 }
 
 .home-images3 img {
     width: 150px;
     height: 150px;
+}
+
+
+
+
+/* ------------------------------------------------------------- Quotes -----------------------------*/
+
+/* side */
+
+.comments {
+    margin-top: 9rem;
+}
+
+.side-text {
+    margin-top: 5rem;
+    background-color: hsl(0, 3%, 53%, 0.1);
+}
+
+.vert-line {
+    width: .2rem;
+    height: 10rem;
+    margin: 0 auto;
+    background-color: #dc3545;
+}
+
+
+.arrow i {
+    color: #dc3545;
+    margin-bottom: 0;
+}
+
+.align-items-end h6 {
+    margin-top: .5rem;
+}
+
+/* Cards */
+.card {
+    background: transparent;
+    border-radius: 12%;
+}
+
+.card-body {
+    position: relative;
+}
+.card-img {
+    padding: 0;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    position: relative;
+}
+.ratings {
+    position: absolute;
+    left: auto;
+    right: auto;
+    z-index: 3;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(354, 70%, 54%, 0.7);
+}
+
+.card-img img {
+    border: 2px solid #dc3545;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.card-body {
+    background-color: hsl(0, 0%, 66%, 0.9);
+    margin-top: 0;
+    padding: 2px auto;
+    position: relative;
+}
+
+
+.card-name {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+
+.card-socials {
+    margin-top: 1.5rem ;
+    margin-bottom: 2.5rem ;
+}
+
+.card-socials a {
+    font-size: 22px;
+    margin: 0 auto;
+    color: #dc3545;
+}
+
+.card-socials a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 
@@ -313,7 +411,7 @@ button:hover {
     margin: 0 auto;
 }
 
-
+/* Back Top Button */
 
 .back-top-btn {
     position: absolute;
@@ -360,7 +458,7 @@ button:hover {
 
 #footer-details {
     background-color: hsl(0, 3%, 53%, 0.1);
-    margin-top: 3.5rem;
+    margin-top: 8.5rem;
 }
 
 footer h5,p {
@@ -391,4 +489,10 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: #fff;
+}
+
+/* -------------------------------------------------------------- MODAL----------------------*/
+
+.modal-header .modal-title {
+    color: #000;
 }
