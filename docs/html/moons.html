@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="/docs/css/style.css" type="text/css" />
 </head>
 <body>
-    <header>
+    <header id="top">
         <div class="nav-container">
-            <nav id="moon-dest">
+            <nav>
                 <h2 id="logo">
                     <a href="/docs/html/index.html">Avall<span class="red">On</span></a>
                 </h2>
@@ -28,7 +28,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/docs/html/about.html">About Us</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown nav-active">
                         <a class="nav-link dropbtn" href="/docs/html/moons.html" id="nav-dropdown-list" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destination</a>
                         <div class="dropdown-list" aria-labelledby="nav-dropdown-list">
                             <a class="dropdown-item" href="/docs/html/moons.html">Moons</a>
@@ -694,11 +694,12 @@
 
 
 
+        
         <div class="container-fluid">
-            <div class="back-top-btn">
-                <button type="button" class="btn">
-                    <a href="#moon-dest">
-                        <i class="fas fa-arrow-circle-up"></i>
+            <div id="back-top-btn">
+                <button title="Return to Top" type="button" class="btn">
+                    <a href="#top">
+                        <i class="fas fa-arrow-circle-up"><span class="sr-only">Return to top</span></i>
                     </a>
                 </button>
             </div>

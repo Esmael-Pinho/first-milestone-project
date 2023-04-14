@@ -23,7 +23,7 @@
                     <a href="/docs/html/index.html">Avall<span class="red">On</span></a>
                 </h2>
                 <ul>
-                    <li class="nav-item">
+                    <li class="nav-item nav-active">
                         <a class="nav-link" href="/docs/html/index.html">Home</a>
                     </li>
                     <li class="nav-item">
@@ -37,7 +37,7 @@
                         </div>
                     </li>
                 </ul>
-                <button type="submit" class="btn journey" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+                <button type="submit" class="btn journey" data-toggle="modal" data-target="#signUpModal">Subscribe</button>
             </nav>
         </div>
     </header>
@@ -49,7 +49,7 @@
         <div class="home-container container-fluid">
 
             <div class="intro-text">
-                <h1 class="text-center text-capitalize"><strong>Space Travel</strong></h1>
+                <h1 class="text-center text-capitalize"><strong>Space Travel<span class="red"> ?</span></strong></h1>
                 <h3 class="text-center text-capitalize">We've got you covered</h3>
                 <br>
                 <h5 class="text-center text-capitalize">
@@ -81,9 +81,9 @@
                 <h3 class="h3-heading"><span class="red">What</span> They've Said<span class="red"> ?</span></h3>
             </div>
 
-            <div class="comments row">
+            <div class="comments row justify-content-center">
 
-                <div class="col-4">
+                <div id="quotes-col" class="col-4">
                     <!--Review section-->
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -283,7 +283,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 order-first">
+                <div id="quotes-col" class=" col-4 order-last">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-6 side-text">
@@ -305,13 +305,81 @@
                                 </h6>
                             </div>
                         </div>
+                        <div class="row justify-content-center">
+                            <div class="arrow text-center col-6">
+                                <div class="vert-line"></div>
+                                <i class="fa fa-arrow-down"></i>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-6 side-text-bot">
+                                <P class="text-center text-white">
+                                    <i><span class="red">"</span>Don't just listen<br>to what they say<br>Go Find Out<span class="red">"</span></i>
+                                </P>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-4 order-last">
-                    <div class="container">
-                        <div class="grid">
-                            <h4>news, tv programs, bussines comments + their logos</h4> 
+                <div id="quotes-col" class="col-4 order-first">
+                    <div class="container sources">
+                        <div class="row justify-content-center">
+                            <div class="col-6">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <img src="/docs/images/cnn.png" title="The American News Channel CNN" alt="The American News Channel CNN Logo"> <!--Image Source: https://th.bing.com/th/id/R.53cd07fd542e72aff9099c7ab58f601b?rik=pnitBd64GcOYQg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2016%2f11%2fCNN-Logo.png&ehk=SG%2fxXdeMMvUxe0%2bURIbDb106YjqNYzqSUgxQ9bBxLk8%3d&risl=&pid=ImgRaw&r=0-->
+                                        <P class="text-center text-white">
+                                            <i><span class="red">"</span>It feels good<br>to be lost in the right<br>adventure!<span class="red">"</span></i>
+                                        </P>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <img src="/docs/images/fox.png" title="The American Television Network Fox" alt="The American Television Network Logo"> <!--Image source: https://th.bing.com/th/id/R.14fbbdc5f9e6a326fcfb1b5ff86685a9?rik=HHiZGtJ1bZiOxQ&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f02%2fFox_logo_main.png&ehk=PjtkJLUbYBaT3jgi76hpAyxAGr2Y0nTEGBV1Zo2MAag%3d&risl=&pid=ImgRaw&r=0-->
+                                        <P class="text-center text-white">
+                                            <i><span class="red">"</span>Go somewhere<br>New.<span class="red">"</span></i>
+                                        </P>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-6">
+                                <img src="/docs/images/nasa.png" title="Nasa" alt="The Nasa Logo"> <!--Image Source: https://th.bing.com/th/id/R.dfe000c4d39e10adeac73e968d0081c0?rik=2qecWrg5GwkLaA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fnasa-logo-png-nasa-logo-1664.png&ehk=d%2bgvuoNz%2b0udsBSxL%2bAGF0N%2f1tWoj4H6GaKOJhRCIyQ%3d&risl=&pid=ImgRaw&r=0-->
+                                <P class="text-center text-white">
+                                    <i><span class="red">"</span>Do not wait,<br>because the adventure awaits.<span class="red">"</span></i>
+                                </P>
+                            </div>
+                            <div class="col-6">
+                                <img src="/docs/images/cbs.png" title="The Columbia Phonographic Broadcasting System CBS" alt="The Columbia Phonographic Broadcasting System CBS Logo"> <!--Image Source: https://logos-world.net/wp-content/uploads/2020/08/CBS-Symbol.png-->
+                                <P class="text-center text-white">
+                                    <i><span class="red">"</span>Much of who we<br>are is where we<br>have been.<br>Who are you?<span class="red">"</span></i>
+                                </P>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-6">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <img src="/docs/images/the-sun.png" title="The Sun Newspaper" alt="The Sun Newspaper Logo"> <!--Image Source: https://cdn.freebiesupply.com/logos/large/2x/the-sun-newspaper-logo-png-transparent.png-->
+                                        <P class="text-center text-white">
+                                            <i><span class="red">"</span>The antidote to boredom<br>is travelling<span class="red">"</span></i>
+                                        </P>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <img src="/docs/images/nbc-news.png" title="The American Television Network NBC" alt="The American Television Network NBC logo"> <!--Image Source: https://th.bing.com/th/id/R.264ad84e813cd8c987d994703e93f9af?rik=VwXgjvD8Nuj%2fgg&riu=http%3a%2f%2fvignette1.wikia.nocookie.net%2flogopedia%2fimages%2fe%2fec%2fNBC_Peacock_logo_2013_svg.png%2frevision%2flatest%3fcb%3d20150923023920&ehk=qHu3cV%2bxV426CD89hxt2Q14JQEcdaKL%2fCKIBFhoXnRg%3d&risl=&pid=ImgRaw&r=0-->
+                                        <P class="text-center text-white">
+                                            <i><span class="red">"</span>You can't control the past<br>but you can control<br>where to go next!<span class="red">"</span></i>
+                                        </P>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -330,7 +398,7 @@
                     Find more
                     <a href="/docs/html/about.html">
                         <i class="fa fa-info-circle" aria-hidden="true"></i>
-                        <span class="sr-only">Find more about Covennant</span>
+                        <span class="sr-only">Find more about Avallon</span>
                     </a>
                 </p>  
             </div>
@@ -377,8 +445,8 @@
                 <div class="modal-header">
                     <h5 class="modal-title">Join Us<span><small>* and stay inside new Worlds journeys.</small></span></p></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <form>
