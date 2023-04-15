@@ -43,14 +43,121 @@
     </header>
 
     <section>
-        <div>
-            <h3 id="moon" class="h3-heading"><span>Who are we</span></h3>
+        <div class="about-container container-fluid">
+            <div class="row about-row justify-content-around">
+                <div class="col-4">
+                    <h3>Who are we <span class="red">?</span></h3>
+                    
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="history-heading uppercase">
+                                Our History
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="col-8 section-column">
+                            <div class="history-items">
+                                <div class="timeline-item yellow" data-dates="02/1998 - 04/2004">
+                                    <h4>National College of Art and Design (NCAD)</h4>
+                                    <p>Sculptor in residence</p>
+                                </div>
+                                <div class="timeline-item yellow" data-dates="04/2004 - 06/2008">
+                                    <h4 class="text-white">Fisher and Diaz Funeral Directors</h4>
+                                    <p class="text-white">Junior Embalmer</p>
+                                </div>
+                                <div class="timeline-item yellow" data-dates="06/2008 - 06/2011">
+                                    <h4 class="text-white">Phantom Design Inc. Dublin</h4>
+                                    <p class="text-white">Junior Front End Developer</p>
+                                </div>
+                                <div class="timeline-item yellow" data-dates="06/2011 - Present">
+                                    <h4 class="text-white">Hooli Inc. Silicon Valley</h4>
+                                    <p class="text-white">Full Stack Web Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 history-p">
+                            <p>Since 2075 Space travel is important for several reasons.<br>
+                                It provides immense possibilities for scientific advancement,<br>
+                                educational opportunities, economic growth, and exploration of the universe1.<br>
+                                It satisfies the human urge to explore and travel, and could even provide<br>
+                            </p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row about-row justify-content-center">
+                <div class="col-6">
+                    <h3>Our Mission</h3>
+                    <p>To help you relax and enjoy your vaction, holidays on a new space<br>
+                        explore and discover our universe and our place in it.<br>
+                        Inspiring and encouraging by possibly  providing a new prespective.
+                    </p>
+                </div>
+            </div>
+            <div class="row leave-comment justify-content-center">
+                <div class="col-10">
+                    <h4 class="h3-heading">Leave a Feedback</h4>
+                </div>
 
-            <h3 id="moon" class="h3-heading"><span>Moon</span></h3>
+                <div class="row">
+                    <div class="col-8">
+                        <form action="" method="POST">
 
-            <h3 id="moon" class="h3-heading"><span>Moon</span></h3>
-
-            <h3 id="moon" class="h3-heading"><span>Contact US</span></h3>
+                            <fieldset>
+                                <legend class="text-white">Your details</legend>
+                        
+                                <div class="">
+                                    <label for="name-field" class="block-label text-white">Name</label>
+                                    <input id="name-field" type="text" name="full_name" placeholder="Your Name" required>
+                                </div>
+                                <div class="">
+                                    <label for="email-field" class="block-label text-white">Email</label>
+                                    <input id="email-field" type="email" name="email" placeholder="Your Email" required>
+                                </div>
+                        
+                                <label for="age" class="block-label text-white">Age</label>
+                                <select id="age" name="age" required>
+                                    <option value="under-20">Under 20</option>
+                                    <option value="20s">20-29</option>
+                                    <option value="30s">30-39</option>
+                                    <option value="40s">40-49</option>
+                                    <option value="50s">50-59</option>
+                                    <option value="60+">60+</option>
+                                </select>
+                        
+                            </fieldset>
+                    
+                            <fieldset>
+                                <legend class="text-white">Destination</legend>
+                                <div>
+                                    <label for="fav-destinations" class="block-label text-white">What is your favourite destination?</label>
+                                    <input id="fav-destinations" list="destinations" name="fav-destinations" required>
+                                    <datalist id="coffees">
+                                        <option value="">
+                                        <option value="">
+                                        <option value="">
+                                        <option value="">
+                                        <option value="">
+                                    </datalist>
+                                </div>
+                            </fieldset>
+                    
+                            <fieldset>
+                                <legend class="text-white">Feedback</legend>
+                                <label for="feedback" class="block-label text-white">How can we improve your experience with us?</label>
+                                <br>
+                                <textarea id="feedback" rows="4" cols="87" name="feedback" placeholder="Any tips, extra places to visit, comments about anything, or simply to say 'Hello' "></textarea>
+                            </fieldset>
+                    
+                            <button type="submit" class="btn modal-button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -127,7 +234,7 @@
                             <label for="repeatPassword">Repeat Password</label>
                             <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
                         </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="submit" class="btn modal-button">Submit</button>
                     </form>
                 </div>
             </div>

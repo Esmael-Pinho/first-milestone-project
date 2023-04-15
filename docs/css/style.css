@@ -21,6 +21,7 @@ body {
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
+    padding-top: 4rem;
 }
 
 h1,
@@ -48,8 +49,14 @@ h2 span {
 
 /* -------------------------------------------------------------- NAVIGATION----------------------*/
 .nav-container {
-    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(241, 237, 237, 0.2);
 }
+
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -59,7 +66,7 @@ nav {
     padding-top: 0px;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: hsl(0, 3%, 53%, 0.1);
+    background-color: #8b8484;
 }
 
 .nav-active > a {
@@ -141,15 +148,9 @@ button {
 }
 
 .journey:hover {
-    border-color: #fff;
+    background-color: #ffc107;
 }
 
-
-/* Modal Button */
-.modal-button {
-    background-color: #dc3545;
-    color: #fff;
-}
 
 /* -------------------------------------------------------------- HOME----------------------*/
 /* Home-Container */
@@ -162,18 +163,26 @@ button {
 
 .intro-text {
     position: absolute;
+    width: 20rem;
+    background-color: #ffc107ce;
     top: 4rem;
-    left: 0;
-    right: 0;
+    right: 60%;
+    left: 40%;
 }
 
 .intro-btn {
     margin-top: .2rem;
 }
+.intro-btn:hover {
+    background-color: #8b8484;
+}
 
 
 .red {
     color: #dc3545;
+}
+.yellow {
+    color: #ffc107;
 }
 
 .home-images1 {
@@ -221,11 +230,15 @@ button {
 /* side */
 
 .comments {
-    margin-top: 8.5rem;
+    margin-top: 6.5rem;
 }
 
 .side-text {
     margin-top: 2.5rem;
+}
+
+.side-text-bot {
+    padding-bottom: 2.5rem;
 }
 
 .vert-line {
@@ -241,8 +254,7 @@ button {
 }
 
 .container {
-    background-color: hsl(0, 3%, 53%, 0.1);
-
+    background-color: #8b848445;
 }
 
 
@@ -258,8 +270,8 @@ button {
 /* Cards */
 .card {
     background: transparent;
-    border-radius: 12%;
 }
+
 
 .card-body {
     position: relative;
@@ -293,7 +305,7 @@ button {
 
 
 .card-body {
-    background-color: hsl(0, 0%, 66%, 0.9);
+    background-color: #a8a8a8;
     margin-top: 0;
     padding: 2px auto;
     position: relative;
@@ -447,9 +459,6 @@ button {
 }
 
 
-
-
-/* -------------------------------------------------------------- DESTINATIONS----------------------*/
 /* Planets */
 
 .planets-sec {
@@ -457,13 +466,118 @@ button {
 }
 
 
+/* -------------------------------------------------------------- ABOUT US------------------------------*/
+
+.about-container {
+    background-color: transparent;
+    margin-top: 5.5rem;
+}
+
+.about-row {
+    margin-bottom: 3.5rem;
+}
+
+/* .about-row .col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-12 {
+    border: 2px solid #ffc107;
+} */
+
+
+/* Our History */
+
+
+.history-heading {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.history-p {
+    margin: auto;
+}
+
+.timeline-item {
+    padding: 4em 1em 0em 1em;
+    position: relative;
+    color: #ffc107;
+    border-left: 2px solid #fff;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #dc3545;
+}
+
+.history-items {
+    margin-bottom: .8rem;
+}
+
+
+/* Form */
+
+input:hover {
+    background-color: #dc3545;
+}
+
+textarea:hover {
+    border: 1px solid #ffc107;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#values {
+    text-align: center;
+}
 
 /* -------------------------------------------------------------- FOOTER----------------------*/
 /* Footer */
 
 #footer-details {
-    background-color: hsl(0, 3%, 53%, 0.1);
-    margin-top: 8.5rem;
+    background-color: #8b8484;
+    margin-top: 7.5rem;
+    line-height: .95rem;
 }
 
 footer h5,p {
