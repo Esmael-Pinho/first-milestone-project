@@ -46,6 +46,10 @@ h2 span {
     color: #dc3545;
 }
 
+.black {
+    color: #000;
+}
+
 
 /* -------------------------------------------------------------- NAVIGATION----------------------*/
 .nav-container {
@@ -54,7 +58,7 @@ h2 span {
     left: 0;
     right: 0;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(241, 237, 237, 0.2);
+    box-shadow: 0 2px 10px rgba(255, 253, 253, 0.2);
 }
 
 nav {
@@ -66,7 +70,16 @@ nav {
     padding-top: 0px;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: #8b8484;
+    background-color: #9c9a9a;
+}
+
+nav > a {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+nav a:hover {
+    text-decoration: none;
 }
 
 .nav-active > a {
@@ -82,13 +95,6 @@ nav ul li {
     padding: 10px 20px;
 }
 
-#logo a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-}
-
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -98,7 +104,6 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #dc3545;
-    transition: 0.3s;
 }
 
 
@@ -158,16 +163,24 @@ button {
 
 .home-container {
     position: relative;
-    height: 100vh;
+    height: 825px;
 }
 
 .intro-text {
     position: absolute;
     width: 20rem;
     background-color: #ffc107ce;
-    top: 4rem;
+    top: 14%;
     right: 60%;
     left: 40%;
+}
+
+.intro-text-bot {
+    position: absolute;
+    width: 20rem;
+    background-color: #ffc107ce;
+    left: 10%;
+    bottom: 30%;
 }
 
 .intro-btn {
@@ -188,7 +201,7 @@ button {
 .home-images1 {
     position: absolute;
     right: 0;
-    bottom: 4.5rem;
+    bottom: 10%;
     z-index: -1;
     overflow: hidden;
 }
@@ -196,7 +209,7 @@ button {
 .home-images2 {
     position: absolute;
     left: 2%;
-    top: 9.5rem;
+    top: 24%;
 }
 
 .home-images3 {
@@ -209,7 +222,6 @@ button {
 .home-images1 img {
     width: 595px;
     height: 595px;
-    top: 0;
 }
 
 .home-images2 img {
@@ -238,7 +250,7 @@ button {
 }
 
 .side-text-bot {
-    padding-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
 }
 
 .vert-line {
@@ -250,7 +262,11 @@ button {
 
 .sources img {
     width: 110px;
-    height: 70px;
+    height: 60px;
+}
+
+.sponsors {
+    margin-bottom: 10px;
 }
 
 .container {
@@ -436,8 +452,8 @@ button {
     text-align: center;
     width: 50px;
     height: 50px;
-    left: 2rem;
-    bottom: 5rem;
+    left: 2.5%;
+    bottom: 14%;
     position: fixed;
     border-radius: 50%;
 }
@@ -497,9 +513,9 @@ button {
 .history-p {
     margin: auto;
 }
-
+/* Timeline from Code Institue Walkthrought Project Resume */
 .timeline-item {
-    padding: 4em 1em 0em 1em;
+    padding: 2.5em 1em 0em 1em;
     position: relative;
     color: #ffc107;
     border-left: 2px solid #fff;
@@ -513,11 +529,11 @@ button {
 .timeline-item:before {
     content: attr(data-dates);
     position: absolute;
-    left: 2.5em;
-    top: 3em;
+    left: 1.5em;
+    top: 2em;
     display: block;
     font-family: "Exo", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 0.8em;
     padding: 0;
     margin: 0;
@@ -543,28 +559,12 @@ button {
 /* Form */
 
 input:hover {
-    background-color: #dc3545;
+    background-color: #c1c1c1;
 }
 
 textarea:hover {
     border: 1px solid #ffc107;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #values {
@@ -574,8 +574,8 @@ textarea:hover {
 /* -------------------------------------------------------------- FOOTER----------------------*/
 /* Footer */
 
-#footer-details {
-    background-color: #8b8484;
+footer {
+    background-color: #9c9a9a;
     margin-top: 7.5rem;
     line-height: .95rem;
 }
@@ -610,10 +610,19 @@ footer a:hover {
     color: #fff;
 }
 
+.about a:hover {
+    color: #ffc107;
+}
+
+.note {
+    margin: auto;
+}
+
 /* -------------------------------------------------------------- MODAL----------------------*/
 
-.modal-header .modal-title {
-    color: #000;
+form label {
+    color: #ffc107;
+    padding-right: 10px;
 }
 
 .modal-button {
