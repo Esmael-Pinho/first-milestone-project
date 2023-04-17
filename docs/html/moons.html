@@ -781,23 +781,14 @@
                         </div>
                         <div class="form-group">
                             <label for="password">Password:</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <input type="password" class="form-control" id="password" aria-describedby="passwordHelp" placeholder="Password">
+                            <small id="passwordHelp" class="form-text text-muted">Password must be minimum 8 character.</small>
                         </div>
                         <div class="form-group">
                             <label for="repeatPassword">Repeat Password:</label>
                             <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
                         </div>
-                        <div class="form-group">
-                            <p class="black">
-                                Would you like to subscribe to our mailing list and qualify for monthly discount rates and offers?
-                            </p>
-                            <br>
-                            <input type="radio" id="opt-in" name="consent" value="no" required>
-                            <label for="opt-in" class="radio-label">No Thanks</label>
-                            <input type="radio" id="opt-out" name="consent" value="yes" checked>
-                            <label for="opt-out">Yes Please</label>
-                        </div>
-                        <button type="submit" class="btn modal-button">Submit</button>
+                        <button type="submit" class="btn modal-button">Subscribe</button>
                     </form>
                 </div>
             </div>

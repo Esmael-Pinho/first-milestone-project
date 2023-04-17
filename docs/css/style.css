@@ -294,10 +294,13 @@ button {
 }
 .card-img {
     padding: 0;
+    width: 100px;
+    height: 260px;
     border: 5px solid #fff;
     border-radius: 50%;
     position: relative;
 }
+
 .ratings {
     position: absolute;
     left: auto;
@@ -305,18 +308,24 @@ button {
     z-index: 3;
 }
 
-.overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
+.card-img-bg {
     background-color: #dc3545;
 }
+
+.card-img-bg2 {
+    background-color: #e6ad03;
+}
+
 
 .card-img img {
     border: 2px solid #dc3545;
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+
+.f-img img {
+    border: 2px solid #ffc107;
 }
 
 
@@ -330,12 +339,14 @@ button {
 
 .card-name {
     margin-top: 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: .5rem;
 }
 
+.card-text {
+    margin-top: 1rem;
+}
 
 .card-socials {
-    margin-top: 1.5rem ;
     margin-bottom: 2.5rem ;
 }
 
@@ -343,6 +354,10 @@ button {
     font-size: 22px;
     margin: 0 auto;
     color: #dc3545;
+}
+
+.f-card-socials a {
+    color: #e6ad03;
 }
 
 .card-socials a:hover {
@@ -492,18 +507,18 @@ button {
 .about-row {
     margin-bottom: 3.5rem;
 }
+/* Who are we | Why love us */
 
-/* .about-row .col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-12 {
-    border: 2px solid #ffc107;
-} */
+#about-heading-2 {
+    margin-top: 4.5rem;
+}
+
+#about-text {
+    padding-top: 2rem;
+}
 
 
 /* Our History */
-
 
 .history-heading {
     color: #fff;
@@ -558,6 +573,14 @@ button {
 
 /* Form */
 
+.form-details {
+    margin-top: 10px;
+}
+
+form p {
+    margin-top: 25px;
+}
+
 input:hover {
     background-color: #c1c1c1;
 }
@@ -567,8 +590,8 @@ textarea:hover {
 }
 
 
-#values {
-    text-align: center;
+#map {
+    margin: 2.5rem 2.5rem;
 }
 
 /* -------------------------------------------------------------- FOOTER----------------------*/
@@ -620,6 +643,10 @@ footer a:hover {
 
 /* -------------------------------------------------------------- MODAL----------------------*/
 
+.modal {
+    background-image: url("");
+}
+
 form label {
     color: #ffc107;
     padding-right: 10px;
@@ -630,6 +657,8 @@ form label {
     background-color: #dc3545;
     color: #fff;
     box-shadow: 3px 8px #430303;
+    display: grid;
+    margin: 30px auto;
 }
 
 .modal-button:hover {

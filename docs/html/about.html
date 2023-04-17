@@ -52,7 +52,7 @@
                             <h3>Who are We <span class="red">?</span></h3>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
+                    <div id="about-text" class="row justify-content-center">
                         <div class="col-12">
                             <p>Founded in 500 B.C by Esmael Pinho<br>
                                 FIREFLY Space Travel<br>
@@ -65,12 +65,12 @@
                             </p>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
+                    <div id="about-heading-2" class="row justify-content-center ">
                         <div class="col-5">
                             <h3>Why Love Us <span class="red">?</span></h3>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
+                    <div id="about-text" class="row justify-content-center">
                         <div class="col-12">
                             <p>With an emphasis on customer satisfaction we match our quality<br>
                                 with the best prices and a great range of destinations to ensure our<br>
@@ -79,6 +79,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-5">
                     <div class="row justify-content-center">
                         <div class="col-4">
@@ -121,102 +122,103 @@
             <div class="row about-row justify-content-center">
                 <div class="col-6">
                     <h3>Our Mission</h3>
-                    <p>To help you relax and enjoy your vaction, holidays on a new space<br>
+                    <p id="about-text">To help you relax and enjoy your vaction, holidays on a new space<br>
                         explore and discover our universe and our place in it.<br>
                         Inspiring and encouraging by possibly  providing a new prespective.
                     </p>
                 </div>
             </div>
+        </div>
+
+        <div class="about-container container-fluid">
             <div class="row leave-comment justify-content-center">
                 <div class="col-8">
                     <h4 class="h3-heading">Contact us</h4>
                 </div>
+            </div>
 
-                <div class="row justify-content-around">
-                    <div class="col-5">
-                        <form action="" method="POST">
+            <div class="row justify-content-around">
+                <div class="col-5">
+                    <form action="" method="POST">
 
-                            <fieldset>
-                                <legend class="text-white">Your Details</legend>
-                        
-                                <div class="">
-                                    <label for="name-field" class="block-label text-white">Full Name:</label>
-                                    <br>
-                                    <input id="name-field" type="text" name="full_name" placeholder="Your Name" required>
-                                </div>
-                                <div class="">
-                                    <label for="email-field" class="block-label text-white">Email Address:</label>
-                                    <br>
-                                    <input id="email-field" type="email" name="email" placeholder="Your Email" required>
-                                </div>
-                        
-                                <label for="age" class="block-label text-white">Age</label>
-                                <br>
-                                <select id="age" name="age">
-                                    <option value="under-20">Under 20</option>
-                                    <option value="20s">20-29</option>
-                                    <option value="30s">30-39</option>
-                                    <option value="40s">40-49</option>
-                                    <option value="50s">50-59</option>
-                                    <option value="60+">60+</option>
-                                </select>
-                        
-                            </fieldset>
+                        <fieldset>
+                            <legend class="text-white font-weight-bold text-center">Your Details</legend>
                     
-                            <fieldset>
-                                <legend class="text-white">Destination</legend>
-                                <div>
-                                    <label for="fav-destinations" class="block-label text-white">What is your favourite destination?</label>
-                                    <br>
-                                    <input id="fav-destinations" list="destinations" name="fav-destinations">
-                                    <datalist id="coffees">
-                                        <option value="">
-                                        <option value="">
-                                        <option value="">
-                                        <option value="">
-                                        <option value="">
-                                    </datalist>
-                                </div>
-                            </fieldset>
-                    
-                            <fieldset>
-                                <label for="feedback" class="block-label text-white">Message / Feedback</label>
+                            <div class="form-details">
+                                <label for="name-field" class="block-label text-white">Full Name:</label>
                                 <br>
-                                <textarea id="feedback" rows="8" cols="77" name="feedback" placeholder="How did we do ? Give us your feedback let us know what we got right and where we can do better !"></textarea>
-                            </fieldset>
-
-                            <p>
-                                Would you like to subscribe to our mailing list and qualify for monthly discount rates and offers
-                                ?
-                            </p>
-                            <br>
-                            <input type="radio" id="opt-in" name="consent" value="no" required>
-                            <label for="opt-in" class="radio-label text-white">No Thanks</label>
-                            <input type="radio" id="opt-out" name="consent" value="yes" checked>
-                            <label for="opt-out" class="text-white">Count me in</label>
-
-                            <br>
-                            <button type="submit" class="btn form-button">Send Message</button>
-                        </form>
-                    </div>
-
-                    <div class="col-5">
-                        <div class="contact-panel" id="contact-panel-right">
-                            <h3>Find us</h3>
-                            <div id="location-map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1060.5891856360124!2d-57.217700286412885!3d74.58408341110247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNzTCsDM1JzAyLjciTiA1N8KwMTInNTQuNCJX!5e0!3m2!1sen!2snl!4v1681643862668!5m2!1sen!2snl" 
-                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                                </iframe>
+                                <input id="name-field" class="form-control" type="text" name="full_name" placeholder="Your Name" required>
                             </div>
-                            <p>
+                            <div>
+                                <label for="email-field" class="block-label text-white">Email Address:</label>
                                 <br>
-                                Avallon<br>
-                                Greenland<br>
-                                HQMM+JXJ Kullorsuaq, Greenland<br>
-                                Phone: +44 123 456 789<br>
-                                Email: avallon@deepspacetravel
-                            </p>
+                                <input id="email-field" class="form-control" type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                    
+                            <label for="age" class="block-label text-white form-details">Age</label>
+                            <br>
+                            <select id="age" name="age">
+                                <option value="under-20">Under 20</option>
+                                <option value="20s">20-29</option>
+                                <option value="30s">30-39</option>
+                                <option value="40s">40-49</option>
+                                <option value="50s">50-59</option>
+                                <option value="60+">60+</option>
+                            </select>
+                    
+                        </fieldset>
+                
+                        <fieldset>
+                            <div>
+                                <label for="fav-destinations" class="block-label text-white form-details">What is your favourite destination?</label>
+                                <br>
+                                <input id="fav-destinations" list="destinations" name="fav-destinations">
+                                <datalist id="coffees">
+                                    <option value="">
+                                    <option value="">
+                                    <option value="">
+                                    <option value="">
+                                    <option value="">
+                                </datalist>
+                            </div>
+                        </fieldset>
+                
+                        <fieldset class="form-details">
+                            <label for="feedback" class="block-label text-white">Message / Feedback</label>
+                            <br>
+                            <textarea id="feedback" rows="8" cols="87" name="feedback" placeholder="How did we do ? Give us your feedback let us know what we got right and where we can do better !"></textarea>
+                        </fieldset>
+
+                        <p>
+                            Would you subscribe to our newsletter and qualify for new offers, prices and destinations?
+                        </p>
+                        
+                        <input type="radio" id="opt-in" name="consent" value="no" required>
+                        <label for="opt-in" class="radio-label text-white">No Thanks</label>
+                        <input type="radio" id="opt-out" name="consent" value="yes" checked>
+                        <label for="opt-out" class="text-white">Count me in</label>
+
+                        <br>
+                        <button type="submit" class="btn modal-button">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="col-5">
+                    <div class="contact-panel" id="contact-panel-right">
+                        <h3 class="font-weight-bold text-center">Find us</h3>
+                        <div id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1060.5891856360124!2d-57.217700286412885!3d74.58408341110247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNzTCsDM1JzAyLjciTiA1N8KwMTInNTQuNCJX!5e0!3m2!1sen!2snl!4v1681643862668!5m2!1sen!2snl" 
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
                         </div>
+                        <p>
+                            <br>
+                            FIREFLY<br>
+                            Greenland<br>
+                            HQMM+JXJ Kullorsuaq, Greenland<br>
+                            Phone: +44 123 456 789<br>
+                            Email: avallon@deepspacetravel
+                        </p>
                     </div>
                 </div>
             </div>
@@ -298,23 +300,14 @@
                         </div>
                         <div class="form-group">
                             <label for="password">Password:</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <input type="password" class="form-control" id="password" aria-describedby="passwordHelp" placeholder="Password">
+                            <small id="passwordHelp" class="form-text text-muted">Password must be minimum 8 character.</small>
                         </div>
                         <div class="form-group">
                             <label for="repeatPassword">Repeat Password:</label>
                             <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
                         </div>
-                        <div class="form-group">
-                            <p class="black">
-                                Would you like to subscribe to our mailing list and qualify for monthly discount rates and offers?
-                            </p>
-                            <br>
-                            <input type="radio" id="opt-in" name="consent" value="no" required>
-                            <label for="opt-in" class="radio-label">No Thanks</label>
-                            <input type="radio" id="opt-out" name="consent" value="yes" checked>
-                            <label for="opt-out">Yes Please</label>
-                        </div>
-                        <button type="submit" class="btn modal-button">Submit</button>
+                        <button type="submit" class="btn modal-button">Subscribe</button>
                     </form>
                 </div>
             </div>
