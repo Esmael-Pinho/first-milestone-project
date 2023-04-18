@@ -25,10 +25,10 @@
                 </a>
                 <ul>
                     <li class="nav-item">
-                        <a class="nav-link" href="/docs/html/index.html">Home</a>
+                        <a class="nav-link" href="/docs/html/index.html"><i class="fas fa-home"></i> Home</a>
                     </li>
                     <li class="nav-item nav-active">
-                        <a class="nav-link" href="/docs/html/about.html">About Us</a>
+                        <a class="nav-link" href="/docs/html/about.html"><i class="far fa-id-card"></i> About Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropbtn" href="/docs/html/moons.html" id="nav-dropdown-list" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destination</a>
@@ -43,10 +43,10 @@
         </div>
     </header>
 
-    <section>
-        <div class="about-container container-fluid">
+    <section class="about-bg">
+        <div id="about-top" class="about-container container-fluid">
             <div class="row about-row justify-content-around">
-                <div class="col-4">
+                <div class="col-5">
                     <div class="row justify-content-center">
                         <div class="col-5">
                             <h3>Who are We <span class="red">?</span></h3>
@@ -55,19 +55,18 @@
                     <div id="about-text" class="row justify-content-center">
                         <div class="col-12">
                             <p>Founded in 500 B.C by Esmael Pinho<br>
-                                FIREFLY Space Travel<br>
-                                has provides immense possibilities for scientific advancement,<br>
-                                educational opportunities, economic growth<br> and exploration of the universe.<br>
-                                It satisfies the human urge to explore and travel<br> and even provide
-                                anwers to questions<br> that have been asked thousand times<br>
-                                <span class="red">"</span>Are we alone?<span class="red">"</span><br>
-                                <span class="red">"</span>What else is out there?<span class="red">"</span>
+                                <span class="red">"</span>Laying down, resting on a field, observing the night sky, a single fireflie<br>
+                                flew past witch made me wonder if there were any other places in space<br> 
+                                that I could also lay down and enjoy the starring sky.<span class="red">"</span><br>
+                                Now we're a team of 50.000, with 15 different ships<br>
+                                who allowed others to also enjoy the starring sky from 20 different worlds.<br>
+                                Some near by, others from far far away.
                             </p>
                         </div>
                     </div>
-                    <div id="about-heading-2" class="row justify-content-center ">
+                    <div id="about-heading-2" class="row justify-content-center">
                         <div class="col-5">
-                            <h3>Why Love Us <span class="red">?</span></h3>
+                            <h3>Why <i class="far fa-heart red"></i> Us <span class="red">?</span></h3>
                         </div>
                     </div>
                     <div id="about-text" class="row justify-content-center">
@@ -80,9 +79,9 @@
                     </div>
                 </div>
 
-                <div class="col-5">
+                <div class="col-4">
                     <div class="row justify-content-center">
-                        <div class="col-4">
+                        <div class="col-5">
                             <h3 class="history-heading">Our History</h3>
                         </div>
                     </div>
@@ -120,12 +119,20 @@
             </div>
             
             <div class="row about-row justify-content-center">
-                <div class="col-6">
-                    <h3>Our Mission</h3>
-                    <p id="about-text">To help you relax and enjoy your vaction, holidays on a new space<br>
-                        explore and discover our universe and our place in it.<br>
-                        Inspiring and encouraging by possibly  providing a new prespective.
-                    </p>
+                <div class="col-5">
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <h3>Our Mission</h3>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <p id="about-text">To help you relax and enjoy your vaction, holidays on a new space<br>
+                                explore and discover our universe and our place in it.<br>
+                                Inspiring and encouraging by possibly  providing a new prespective.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -133,16 +140,16 @@
         <div class="about-container container-fluid">
             <div class="row leave-comment justify-content-center">
                 <div class="col-8">
-                    <h4 class="h3-heading">Contact us</h4>
+                    <h3 class="h3-heading">Contact us</h3>
                 </div>
             </div>
 
             <div class="row justify-content-around">
-                <div class="col-5">
+                <div class="col-5 contact-us-bg">
                     <form action="" method="POST">
 
                         <fieldset>
-                            <legend class="text-white font-weight-bold text-center">Your Details</legend>
+                            <h4 class="text-white font-weight-bold text-center">Your Details</h4>
                     
                             <div class="form-details">
                                 <label for="name-field" class="block-label text-white">Full Name:</label>
@@ -167,19 +174,30 @@
                             </select>
                     
                         </fieldset>
-                
+
                         <fieldset>
                             <div>
-                                <label for="fav-destinations" class="block-label text-white form-details">What is your favourite destination?</label>
-                                <br>
-                                <input id="fav-destinations" list="destinations" name="fav-destinations">
-                                <datalist id="coffees">
-                                    <option value="">
-                                    <option value="">
-                                    <option value="">
-                                    <option value="">
-                                    <option value="">
-                                </datalist>
+                                <label for="destinations" class="block-label text-white form-details">What is your favourite destination ?</label>
+                                <select id="destinations" custom-select size="1">
+                                    <option selected>The Moon</option>
+                                    <option value="1">Venus</option>
+                                    <option value="2">Jupiter</option>
+                                    <option value="3">Neptune</option>
+                                    <option value="4">Pandora</option>
+                                    <option value="5">Titan</option>
+                                    <option value="6">The Moon</option>
+                                    <option value="7">Venus</option>
+                                    <option value="8">Jupiter</option>
+                                    <option value="9">Neptune</option>
+                                    <option value="10">Pandora</option>
+                                    <option value="11">Titan</option>
+                                    <option value="12">Titan</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="subject" class="block-label text-white form-details">What's your subject ?</label>
+                                
+                                <input id="subject" type="text" name="subject">
                             </div>
                         </fieldset>
                 
@@ -189,23 +207,14 @@
                             <textarea id="feedback" rows="8" cols="87" name="feedback" placeholder="How did we do ? Give us your feedback let us know what we got right and where we can do better !"></textarea>
                         </fieldset>
 
-                        <p>
-                            Would you subscribe to our newsletter and qualify for new offers, prices and destinations?
-                        </p>
-                        
-                        <input type="radio" id="opt-in" name="consent" value="no" required>
-                        <label for="opt-in" class="radio-label text-white">No Thanks</label>
-                        <input type="radio" id="opt-out" name="consent" value="yes" checked>
-                        <label for="opt-out" class="text-white">Count me in</label>
-
                         <br>
                         <button type="submit" class="btn modal-button">Send Message</button>
                     </form>
                 </div>
 
-                <div class="col-5">
+                <div class="col-5 contact-us-bg">
                     <div class="contact-panel" id="contact-panel-right">
-                        <h3 class="font-weight-bold text-center">Find us</h3>
+                        <h4 class="font-weight-bold text-center">Find us <i class="fas fa-search-location red"></i></h4>
                         <div id="map">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1060.5891856360124!2d-57.217700286412885!3d74.58408341110247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNzTCsDM1JzAyLjciTiA1N8KwMTInNTQuNCJX!5e0!3m2!1sen!2snl!4v1681643862668!5m2!1sen!2snl" 
                                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">

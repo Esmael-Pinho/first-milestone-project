@@ -21,7 +21,6 @@ body {
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
-    padding-top: 4rem;
 }
 
 h1,
@@ -35,7 +34,7 @@ h6, p {
 }
 
 h2 span {
-    color: #dc3545;
+    color: #DE3C4B;
 }
 
 .uppercase {
@@ -43,13 +42,14 @@ h2 span {
 }
 
 .red {
-    color: #dc3545;
+    color: #DE3C4B;
 }
-
 .black {
-    color: #000;
+    color: #040F0F;
 }
-
+.yellow {
+    color: #FFBA08;
+}
 
 /* -------------------------------------------------------------- NAVIGATION----------------------*/
 .nav-container {
@@ -70,7 +70,7 @@ nav {
     padding-top: 0px;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: #9c9a9a;
+    background-color: #8190a8;
 }
 
 nav > a {
@@ -83,7 +83,7 @@ nav a:hover {
 }
 
 .nav-active > a {
-    color: #dc3545;
+    color: #DE3C4B;
     font-weight: 600;
     font-size: 20px;
 }
@@ -103,7 +103,7 @@ nav ul li a {
 /* Nav list hover */
 
 nav ul li a:hover {
-    color: #dc3545;
+    color: #DE3C4B;
 }
 
 
@@ -135,7 +135,7 @@ nav ul li a:hover {
 }
 
 .dropdown-list a:hover {
-    color: #dc3545;
+    color: #DE3C4B;
     background-color: transparent;
 }
 
@@ -144,16 +144,16 @@ nav ul li a:hover {
 button {
     padding: 0;
     text-transform: uppercase;
-    color: #dc3545;
+    color: #DE3C4B;
 }
 
 .journey {
-    background-color: #dc3545;
+    background-color: #DE3C4B;
     color: #fff;
 }
 
 .journey:hover {
-    background-color: #ffc107;
+    background-color: #FFBA08;
 }
 
 
@@ -168,17 +168,21 @@ button {
 
 .intro-text {
     position: absolute;
-    width: 20rem;
-    background-color: #ffc107ce;
+    width: 25rem;
+    background-color: #FFBA08;
     top: 14%;
     right: 60%;
     left: 40%;
 }
 
+.intro-text h1 {
+    font-size: 50px;
+}
+
 .intro-text-bot {
     position: absolute;
     width: 20rem;
-    background-color: #ffc107ce;
+    background-color: #FFBA08;
     left: 10%;
     bottom: 30%;
 }
@@ -187,16 +191,9 @@ button {
     margin-top: .2rem;
 }
 .intro-btn:hover {
-    background-color: #8b8484;
+    background-color: #8D99AE;
 }
 
-
-.red {
-    color: #dc3545;
-}
-.yellow {
-    color: #ffc107;
-}
 
 .home-images1 {
     position: absolute;
@@ -237,9 +234,12 @@ button {
 
 
 
-/* ------------------------------------------------------------- Quotes -----------------------------*/
+/* ------------------------------------------------------------- Quotes / Comments -----------------------------*/
 
 /* side */
+#comment-section {
+    margin-bottom: 5.5rem;
+}
 
 .comments {
     margin-top: 6.5rem;
@@ -257,7 +257,7 @@ button {
     width: .2rem;
     height: 5rem;
     margin: 0 auto;
-    background-color: #dc3545;
+    background-color: #DE3C4B;
 }
 
 .sources img {
@@ -270,12 +270,12 @@ button {
 }
 
 .container {
-    background-color: #8b848445;
+    background-color: #cac4c445;
 }
 
 
 .arrow i {
-    color: #dc3545;
+    color: #DE3C4B;
     margin-bottom: 0;
 }
 
@@ -309,7 +309,7 @@ button {
 }
 
 .card-img-bg {
-    background-color: #dc3545;
+    background-color: #DE3C4B;
 }
 
 .card-img-bg2 {
@@ -318,19 +318,19 @@ button {
 
 
 .card-img img {
-    border: 2px solid #dc3545;
+    border: 2px solid #DE3C4B;
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
 
 .f-img img {
-    border: 2px solid #ffc107;
+    border: 2px solid #FFBA08;
 }
 
 
 .card-body {
-    background-color: #a8a8a8;
+    background-color: #8D99AE;
     margin-top: 0;
     padding: 2px auto;
     position: relative;
@@ -353,11 +353,11 @@ button {
 .card-socials a {
     font-size: 22px;
     margin: 0 auto;
-    color: #dc3545;
+    color: #DE3C4B;
 }
 
 .f-card-socials a {
-    color: #e6ad03;
+    color: #FFBA08;
 }
 
 .card-socials a:hover {
@@ -370,11 +370,12 @@ button {
 /* Moons */
 
 .moons-sec {
-    margin-top: 4.5rem;
+    margin-top: 8.5rem;
 }
 
 #moons {
     position: relative;
+    margin-bottom: 6.5rem;
 }
 
 
@@ -399,7 +400,7 @@ button {
 }
 
 .moons-tab ul li a:hover {
-    color: #dc3545;
+    color: #DE3C4B;
     border: none;
     text-decoration: none;
     border-right: 1px solid #fff;
@@ -411,7 +412,7 @@ button {
     padding: .5rem .75rem;
     margin-left: -1px;
     line-height: 1.25;
-    border-right: 1px solid #dc3545;
+    border-right: 1px solid #DE3C4B;
 }
 
 
@@ -429,8 +430,8 @@ button {
     top: 50%;
     left: 1rem;
     position: absolute;
-    background-color: #dc3545;
-    z-index: -1;
+    background-color: #DE3C4B;
+    z-index: 3;
 }
 
 .h3-heading::after {
@@ -441,8 +442,8 @@ button {
     top: 50%;
     right: 1rem;
     position: absolute;
-    background-color: #dc3545;
-    z-index: -1;
+    background-color: #DE3C4B;
+    z-index: 3;
 }
 
 
@@ -486,9 +487,8 @@ button {
 
 #back-top-btn button a:hover {
     text-decoration: none;
-    color: #dc3545;
+    color: #DE3C4B;
 }
-
 
 /* Planets */
 
@@ -499,15 +499,15 @@ button {
 
 /* -------------------------------------------------------------- ABOUT US------------------------------*/
 
-.about-container {
-    background-color: transparent;
-    margin-top: 5.5rem;
-}
+/* Who are we | Why love us */
 
 .about-row {
     margin-bottom: 3.5rem;
 }
-/* Who are we | Why love us */
+
+.about-container {
+    padding-bottom: 2.5rem;
+}
 
 #about-heading-2 {
     margin-top: 4.5rem;
@@ -517,6 +517,23 @@ button {
     padding-top: 2rem;
 }
 
+.about-bg {
+    background-color: #8f8d8d;
+    padding-top: 7.5rem;
+}
+
+#about-top h3 {
+    background-color: #00487C;
+    margin-top: 20px;
+}
+
+.contact-us-bg {
+    background-color: #00487C;
+}
+
+.contact-us-bg h4 {
+    padding: .8rem;
+}
 
 /* Our History */
 
@@ -532,7 +549,7 @@ button {
 .timeline-item {
     padding: 2.5em 1em 0em 1em;
     position: relative;
-    color: #ffc107;
+    color: #FFBA08;
     border-left: 2px solid #fff;
 }
 
@@ -563,7 +580,7 @@ button {
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: #dc3545;
+    background: #DE3C4B;
 }
 
 .history-items {
@@ -582,11 +599,11 @@ form p {
 }
 
 input:hover {
-    background-color: #c1c1c1;
+    background-color: #d3d3d3;
 }
 
 textarea:hover {
-    border: 1px solid #ffc107;
+    border: 1px solid #FFBA08;
 }
 
 
@@ -598,8 +615,7 @@ textarea:hover {
 /* Footer */
 
 footer {
-    background-color: #9c9a9a;
-    margin-top: 7.5rem;
+    background-color: #8190a8;
     line-height: .95rem;
 }
 
@@ -625,7 +641,7 @@ footer li {
     font-size: 50px;
 }
 footer a {
-    color: #dc3545;
+    color: #DE3C4B;
 }
 
 footer a:hover {
@@ -634,7 +650,7 @@ footer a:hover {
 }
 
 .about a:hover {
-    color: #ffc107;
+    color: #FFBA08;
 }
 
 .note {
@@ -647,14 +663,19 @@ footer a:hover {
     background-image: url("");
 }
 
+.modal-content {
+    background-color: #d2d2d2;
+}
+
 form label {
-    color: #ffc107;
+    color: #d49f00;
     padding-right: 10px;
 }
 
+
 .modal-button {
     border-radius: 4px;
-    background-color: #dc3545;
+    background-color: #DE3C4B;
     color: #fff;
     box-shadow: 3px 8px #430303;
     display: grid;
@@ -662,7 +683,7 @@ form label {
 }
 
 .modal-button:hover {
-    background-color: #ffc107;
-    box-shadow: 3px 8px #dc3545;
+    background-color: #FFBA08;
+    box-shadow: 3px 8px #DE3C4B;
     color: #fff;
 }
