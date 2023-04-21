@@ -6,7 +6,9 @@
     <title>FireFly | Space Travel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <!-- Google Font -->
@@ -16,67 +18,61 @@
 </head>
 
 <body>
-    <header> 
-        <div class="nav-container">
-            <nav id="home-nav">
-                <a class="uppercase text-white" href="/docs/html/index.html">
-                    <img src="/docs/images/Firefly.png" alt="Image of a fireflie"
-                        width="70" height="55" class="d-inline-block align-text-center">fire<span class="red">fly</span> <!--Image Source: https://www.pngall.com/wp-content/uploads/5/Firefly.png-->
+    <header>
+      
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand uppercase" href="#">
+                    <img src="/docs/images/Firefly.png" alt="Image of a fireflie" width="50" height="50" class="d-inline-block"> <!--Image Source: https://www.pngall.com/wp-content/uploads/5/Firefly.png-->
+                    fire<span class="red">fly</span>
                 </a>
-                <ul>
-                    <li class="nav-item nav-active">
-                        <a class="nav-link" href="/docs/html/index.html"><i class="fas fa-home"></i> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/docs/html/about.html"><i class="far fa-id-card"></i> About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropbtn" href="/docs/html/moons.html" id="nav-dropdown-list" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destination</a>
-                        <div class="dropdown-list" aria-labelledby="nav-dropdown-list">
-                            <a class="dropdown-item" href="/docs/html/moons.html">Moons</a>
-                            <a class="dropdown-item" href="/docs/html/planets.html">Planets</a>
-                        </div>
-                    </li>
-                </ul>
-                <button type="submit" class="btn journey" data-toggle="modal" data-target="#signUpModal">Subscribe</button>
-            </nav>
-        </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Destinations
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item  drp-item-1" href="#">Moons</a></li>
+                                <li><a class="dropdown-item  drp-item-2" href="#">Planets</a></li>
+                                <li><a class="dropdown-item  drp-item-3" href="#">Comets</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button type="submit" class="btn journey nav-btn" data-toggle="modal" data-target="#signUpModal">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+  
     </header>
-
-
-    <section id="home">
-
-    
-        <div class="home-container container-fluid">
-
-            <div class="intro-text">
-                <h1 class="text-center text-capitalize"><strong>Fancy a Space Adventure<span class="red"> ?</span></strong></h1>
-                <h3 class="text-center text-capitalize">We've got you covered</h3>
+  
+    <section>
+        <div id="hero-container" class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
             </div>
-
-            <div class="intro-text-bot">
-                <h5 class="text-center text-capitalize">
-                    <span class="red">"</span>A Galaxy far far away<span class="red">"</span> <br> now just few clicks away
-                    <br>
-                    <button type="submit" class="intro-btn btn journey justify-content-center" data-toggle="modal" data-target="#signUpModal">
-                        Subscribe
-                    </button>
-                </h5>
+            <div class="col-lg-6">
+                <h1 class="text-center display-5 fw-bold text-body-emphasis lh-1 mb-3">Fancy a Space Adventure<span class="red"> ?</span></h1>
+                <h4 class="text-center text-capitalize  fw-bold text-body-emphasis lh-1 mb-3">We've got you covered</h4>
+                <p class="text-center lead">Quickly pick your destination, from Moons, Planets and comets, with the world’s most popular space travel.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                <button type="submit" class="btn journey btn-lg px-4 me-md-2" data-toggle="modal" data-target="#signUpModal">Subscribe</button>
+                </div>
             </div>
-                
-            
-
-            <div class="home-images1">
-                <img src="/docs/images/home-planet1.png" alt="A Big Planet">  <!---Image from Google images https://i.pinimg.com/originals/f3/7b/52/f37b5273252024d60d9bb5c73bccd627.png-->
-            </div>
-        
-            <div class="home-images2">
-                <img src="/docs/images/space-ship.png" alt="A Space Ship going to a Planet">   <!---Image from Google images  https://pluspng.com/img-png/uss-enterprise-png--1767.png-->
-            </div>
-
-            <div class="home-images3">
-                <img src="/docs/images/home-planet2.png" alt="The moon of a Planet ">    <!---Image from Google images https://th.bing.com/th/id/R.fd6ed9c79220d84006fdd5baa643318b?rik=sgiZaenkjeOX9w&riu=http%3a%2f%2fcustom.swcombine.com%2fstatic%2f8%2f4%2f34-13715-1558966795-large.png&ehk=EXTrCEOG79ig7LgVHl5Az4ZU2CVifUzFK%2f9pq7ShBM4%3d&risl=&pid=ImgRaw&r=0-->
-            </div>
+          </div>
         </div>
     </section>
 
@@ -559,10 +555,11 @@
             </div>
         </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 </body>
 
 </html>

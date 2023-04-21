@@ -15,31 +15,43 @@
     <link rel="stylesheet" href="/docs/css/style.css" type="text/css" />
 </head>
 <body>
-    <header id="top2">
-        <div class="nav-container">
-            <nav>
-                <a class="uppercase text-white" href="/docs/html/index.html">
-                    <img src="/docs/images/Firefly.png" alt="Image of a fireflie" 
-                        width="70" height="55" class="d-inline-block align-text-center">fire<span class="red">fly</span> <!--Image Source: https://www.pngall.com/wp-content/uploads/5/Firefly.png-->
+    <header id="top-planet">
+      
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand uppercase" href="#">
+                    <img src="/docs/images/Firefly.png" alt="Image of a fireflie" width="50" height="50" class="d-inline-block"> <!--Image Source: https://www.pngall.com/wp-content/uploads/5/Firefly.png-->
+                    fire<span class="red">fly</span>
                 </a>
-                <ul>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/docs/html/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/docs/html/about.html">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown nav-active">
-                        <a class="nav-link dropbtn" href="/docs/html/moons.html" id="nav-dropdown-list" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destination</a>
-                        <div class="dropdown-list" aria-labelledby="nav-dropdown-list">
-                            <a class="dropdown-item" href="/docs/html/moons.html">Moons</a>
-                            <a class="dropdown-item" href="/docs/html/planets.html">Planets</a>
-                        </div>
-                    </li>
-                </ul>
-                <button type="submit" class="btn journey" data-toggle="modal" data-target="#signUpModal">Subscribe</button>
-            </nav>
-        </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Destinations
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item  drp-item-1" href="#">Moons</a></li>
+                                <li><a class="dropdown-item  drp-item-2" href="#">Planets</a></li>
+                                <li><a class="dropdown-item  drp-item-3" href="#">Comets</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button type="submit" class="btn journey nav-btn" data-toggle="modal" data-target="#signUpModal">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+  
     </header>
 
     <section class="moons-sec">
