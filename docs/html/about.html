@@ -1,316 +1,324 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-    <meta charset="utf-8">
-    <title>FireFly | Space Travel</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <!-- External CSS -->
-    <link rel="stylesheet" href="/docs/css/style.css" type="text/css" />
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>DragonFly - Space Travel</title>
+        <link rel="icon" type="image/x-icon" href="/docs/images/logo-img.png" /> <!--Image Source: https://www.pinclipart.com/picdir/big/243-2434585_dragonfly-clipart-png-download.png-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <!-- External CSS -->
+        <link rel="stylesheet" href="/docs/css/style.css" type="text/css"/>
+    </head>
 
-<body>
-    <header>
-      
-        <nav class="navbar fixed-top navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand uppercase" href="#">
-                    <img src="/docs/images/Firefly.png" alt="Image of a fireflie" width="50" height="50" class="d-inline-block"> <!--Image Source: https://www.pngall.com/wp-content/uploads/5/Firefly.png-->
-                    fire<span class="red">fly</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Destinations
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item  drp-item-1" href="#">Moons</a></li>
-                                <li><a class="dropdown-item  drp-item-2" href="#">Planets</a></li>
-                                <li><a class="dropdown-item  drp-item-3" href="#">Comets</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <button type="submit" class="btn journey nav-btn" data-toggle="modal" data-target="#signUpModal">Subscribe</button>
-                    </form>
+    <body>
+        <header> 
+            <nav class="navbar fixed-top navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand uppercase" href="/docs/html/index.html">
+                        <img src="/docs/images/logo-img.png" alt="Image of a dragonfly" width="50" height="50" class="d-inline-block"> <!--Image Source: https://www.pinclipart.com/picdir/big/243-2434585_dragonfly-clipart-png-download.png-->
+                        dragon<span class="blue">fly</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/docs/html/index.html"><i class="fas fa-home"></i> Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/docs/html/about.html"><i class="fa fa-address-card"></i> About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-space-shuttle" aria-hidden="true"></i> Destinations
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item  drp-item-1" href="/docs/html/moons.html">Moons</a></li>
+                                    <li><a class="dropdown-item  drp-item-2" href="/docs/html/planets.html">Planets</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <button type="button" class="btn nav-btn btn-md px-4 me-md-2" data-bs-toggle="modal" data-bs-target="#modal">
+                                Sign up
+                            </button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </nav>
-  
-    </header>
+            </nav>
+        </header>
 
-    <section class="about-bg">
-        <div id="about-top" class="about-container container-fluid">
-            <div class="row about-row justify-content-around">
-                <div class="col-5">
-                    <div class="row justify-content-center">
-                        <div class="col-5">
-                            <h3>Who are We <span class="red">?</span></h3>
+        <section class="about-section">
+            <div id="about-top" class="about-container container-fluid">
+                <div class="row leave-comment justify-content-center">
+                    <div class="col-10">
+                        <h2 class="h3-heading">About Us</h2>
+                    </div>
+                </div>
+                <div class="row about-row justify-content-around">
+                    <div class="col-5">
+                        <div class="row justify-content-center">
+                            <div class="col-5">
+                                <h4 class="text-highlight">Who are We <span class="red">?</span></h4>
+                            </div>
+                        </div>
+                        <div id="about-text" class="row justify-content-center">
+                            <div class="col-12">
+                                <p>Founded in 500 B.C by Esmael Pinho<br>
+                                    <span class="red">"</span>Laying down, resting on a field, observing the night sky, a single fireflie<br>
+                                    flew past past, making me wonder if there were any other places in space<br> 
+                                    that I could also lay down and enjoy the starring sky.<span class="red">"</span><br>
+                                    And that short story is how we came to be. Now we're a team of 50.000<br>
+                                    who allow others to enjoy the starring sky from different worlds.<br>
+                                    Some near by, others from far far away.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="about-heading-2" class="row justify-content-center">
+                            <div class="col-5">
+                                <h4 class="text-highlight">Why <i class="far fa-heart red"></i> Us <span class="red">?</span></h4>
+                            </div>
+                        </div>
+                        <div id="about-text" class="row justify-content-center">
+                            <div class="col-12">
+                                <p>With an emphasis on customer satisfaction we match our quality<br>
+                                    with the best prices and a great range of destinations to ensure our<br>
+                                customers have a safe, fast and smooth, safe journey experience with us.<br>
+                            </p>
+                            </div>
                         </div>
                     </div>
-                    <div id="about-text" class="row justify-content-center">
-                        <div class="col-12">
-                            <p>Founded in 500 B.C by Esmael Pinho<br>
-                                <span class="red">"</span>Laying down, resting on a field, observing the night sky, a single fireflie<br>
-                                flew past witch made me wonder if there were any other places in space<br> 
-                                that I could also lay down and enjoy the starring sky.<span class="red">"</span><br>
-                                Now we're a team of 50.000, with 15 different ships<br>
-                                who allowed others to also enjoy the starring sky from 20 different worlds.<br>
-                                Some near by, others from far far away.
+
+                    <div class="col-4">
+                        <div class="row justify-content-center">
+                            <div class="col-5">
+                                <h4 class="history-heading text-highlight">Our History</h4>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-8">
+                                <div class="history-items">
+                                    <div class="timeline-item yellow" data-dates="500 B.C">
+                                        <h5>Founded by Esmael Pinho</h5>
+                                        <p><span class="red">"</span>Is the sky still the limit ?<span class="red">"</span></p>
+                                    </div>
+                                    <div class="timeline-item yellow" data-dates="250 B.C">
+                                        <h5>First Journey</h5>
+                                        <p>250 women amazed to give their first step
+                                            <br>on the surface of the moon.
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item yellow" data-dates="150 B.C">
+                                        <h5>Full Solar System exploration</h5>
+                                        <p><span class="red">"</span>Magnificent<span class="red">"</span></p>
+                                    </div>
+                                    <div class="timeline-item yellow" data-dates="60 B.C">
+                                        <h5>Hyper Speed Unlocked</h5>
+                                        <p><span class="red">"</span>How can we stop now ?<span class="red">"</span></p>
+                                    </div>
+                                    <div class="timeline-item yellow" data-dates="20 B.C - Present">
+                                        <h5>Galaxy exploration</h5>
+                                        <p>Galaxys and amazing new Worlds discoverd<br>
+                                            <span class="red">"</span>Seems we not alone<span class="red">"</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row about-row justify-content-center">
+                    <div class="col-5">
+                        <div class="row justify-content-center">
+                            <div class="col-4">
+                                <h4 class="text-highlight">Our Mission</h4>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <p id="about-text">Spreading joy, wow moments, help you relax and enjoy your vacation, holidays on a new space<br>
+                                    explore and discover our universe and maybe our place in it.<br>
+                                    Inspiring and encouraging by possibly providing a new prespective.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="about-contact" class="about-container container-fluid">
+                <div class="row leave-comment justify-content-center">
+                    <div class="col-10">
+                        <h2 class="h3-heading">Contact us</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-around">
+                    <div class="col-5 contact-us-bg">
+                        <form action="" method="POST">
+
+                            <fieldset>
+                                <h4 class="text-white font-weight-bold text-center">Your Details</h4>
+
+
+                                <div class="details">
+                                    <label class="text-white">Title:</label>
+                                    <input type="radio" name="consent" value="no" required>
+                                    <label for="opt-in" class="radio-label black">Mr</label>
+                                    <input type="radio" name="consent" value="no" required>
+                                    <label for="opt-out" class="black">Ms</label>
+                                    <input type="radio" name="consent" value="yes" checked>
+                                    <label for="opt-out" class="radio-label black">Doctor</label>
+                                </div>
+                                <div class="details">
+                                    <label for="name-field" class="block-label text-white">Full Name:</label>
+                                    <br>
+                                    <input id="name-field" class="form-control" type="text" name="full_name" placeholder="Your Name" required>
+                                </div>
+                                <div class="details">
+                                    <label for="email-field" class="block-label text-white">Email Address:</label>
+                                    <br>
+                                    <input id="email-field" class="form-control" type="email" name="email" placeholder="Your Email" required>
+                                </div>
+                        
+                                <label for="age" class="block-label text-white form-details">Age</label>
+                                <br>
+                                <select id="age" name="age">
+                                    <option value="under-20">Under 20</option>
+                                    <option value="20s">20-29</option>
+                                    <option value="30s">30-39</option>
+                                    <option value="40s">40-49</option>
+                                    <option value="50s">50-59</option>
+                                    <option value="60+">60+</option>
+                                </select>
+
+                                
+                                <label class="text-white mobile-nbr">Mobile Number:</label>
+                                <input id="mobile-number-field" type="number" name="mobile-number" placeholder="123 456 6789">
+                                
+                            </fieldset>
+
+                            <fieldset>
+                                <div>
+                                    <label for="enquiry" class="block-label text-white details">Nature of Enquiry?</label>
+                                    <select id="enquiry" custom-select size="1">
+                                        <option selected>Apreciation</option>
+                                        <option value="1">Design Notes</option>
+                                        <option value="2">Content Tips</option>
+                                        <option value="3">Curiosity</option>
+                                        <option value="4">Other</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+                    
+                            <fieldset class="details">
+                                <label for="feedback" class="block-label text-white">Message*</label>
+                                <br>
+                                <textarea id="feedback" rows="8" cols="87" name="feedback" placeholder="How did we do ? Give us your feedback let us know what we got right and where we can do better !"></textarea>
+                            </fieldset>
+
+                            <br>
+                            <button type="submit" class="btn modal-button">Submit</button>
+                        </form>
+                    </div>
+
+                    <div class="col-5 contact-us-bg">
+                        <div class="contact-panel" id="contact-panel-right">
+                            <h4 class="font-weight-bold text-center">Find us <i class="fas fa-search-location red"></i></h4>
+                            <div id="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1060.5891856360124!2d-57.217700286412885!3d74.58408341110247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNzTCsDM1JzAyLjciTiA1N8KwMTInNTQuNCJX!5e0!3m2!1sen!2snl!4v1681643862668!5m2!1sen!2snl" 
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                            <p> <strong>Address:</strong>
+                                <br>
+                                <small>Greenland<br>
+                                    HQMM+JXJ Kullorsuaq, Greenland<br>
+                                    Phone: +44 123 456 789<br>
+                                    Email: firefly@deepspacetravel
+                                </small><br>
                             </p>
                         </div>
                     </div>
-                    <div id="about-heading-2" class="row justify-content-center">
-                        <div class="col-5">
-                            <h3>Why <i class="far fa-heart red"></i> Us <span class="red">?</span></h3>
-                        </div>
-                    </div>
-                    <div id="about-text" class="row justify-content-center">
-                        <div class="col-12">
-                            <p>With an emphasis on customer satisfaction we match our quality<br>
-                                with the best prices and a great range of destinations to ensure our<br>
-                               customers have a safe, fast and smooth journey experience with us.<br>
-                           </p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div id="footer-details" class="py-3 container-fluid row">
+                <div class="about col-4">
+                    <h5 class="uppercase"><strong>About Us:</strong></h5>
+                    <p class="inline-block footer-info">
+                        Since 500 B.C focused on bringing you <br>the best, fastest, safest deep space travel.
+                        <br>
+                        Find more
+                        <a href="/docs/html/about.html">
+                            <i class="fa fa-info-circle" aria-hidden="true"></i>
+                            <span class="sr-only">Find more about Firefly</span>
+                        </a>
+                    </p>  
+                </div>
+
+                <div class="col-4">
+                    <div>
+                        <div class="copyright">
+                            <p class="m-0 font-italic">
+                                &copy; Dragonfly 2023
+                                <br>
+                                All rights reserved
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-4">
-                    <div class="row justify-content-center">
-                        <div class="col-5">
-                            <h3 class="history-heading">Our History</h3>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-8">
-                            <div class="history-items">
-                                <div class="timeline-item yellow" data-dates="500 B.C">
-                                    <h5>Founded by Esmael Pinho</h5>
-                                    <p><span class="red">"</span>Is the sky still the limit ?<span class="red">"</span></p>
-                                </div>
-                                <div class="timeline-item yellow" data-dates="250 B.C">
-                                    <h5>First Journey</h5>
-                                    <p>250 women amazed to give their first step
-                                        <br>on the surface of the moon.
-                                    </p>
-                                </div>
-                                <div class="timeline-item yellow" data-dates="150 B.C">
-                                    <h5>Full Solar System exploration</h5>
-                                    <p><span class="red">"</span>Magnificent<span class="red">"</span></p>
-                                </div>
-                                <div class="timeline-item yellow" data-dates="60 B.C">
-                                    <h5>Hyper Speed Unlocked</h5>
-                                    <p><span class="red">"</span>How can we stop now ?<span class="red">"</span></p>
-                                </div>
-                                <div class="timeline-item yellow" data-dates="20 B.C - Present">
-                                    <h5>Galaxy exploration</h5>
-                                    <p>Galaxys and amazing new Worlds discoverd<br>
-                                        <span class="red">"</span>Seems we not alone<span class="red">"</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
+                    <h5 class="uppercase"><strong>Stay in Touch:</strong></h5>
+                    <ul class="socials">
+                        <li>
+                            <a id="facebook-icon" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="twitter-icon" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="youtube-icon" href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="instagram-icon" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+                <small class="text-white note"><i>*This website is fictional and for educational purposes only</i></small>
             </div>
-            
-            <div class="row about-row justify-content-center">
-                <div class="col-5">
-                    <div class="row justify-content-center">
-                        <div class="col-4">
-                            <h3>Our Mission</h3>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-12">
-                            <p id="about-text">To help you relax and enjoy your vaction, holidays on a new space<br>
-                                explore and discover our universe and our place in it.<br>
-                                Inspiring and encouraging by possibly  providing a new prespective.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="about-container container-fluid">
-            <div class="row leave-comment justify-content-center">
-                <div class="col-8">
-                    <h3 class="h3-heading">Contact us</h3>
-                </div>
-            </div>
-
-            <div class="row justify-content-around">
-                <div class="col-5 contact-us-bg">
-                    <form action="" method="POST">
-
-                        <fieldset>
-                            <h4 class="text-white font-weight-bold text-center">Your Details</h4>
-                    
-                            <div class="form-details">
-                                <label for="name-field" class="block-label text-white">Full Name:</label>
-                                <br>
-                                <input id="name-field" class="form-control" type="text" name="full_name" placeholder="Your Name" required>
-                            </div>
-                            <div>
-                                <label for="email-field" class="block-label text-white">Email Address:</label>
-                                <br>
-                                <input id="email-field" class="form-control" type="email" name="email" placeholder="Your Email" required>
-                            </div>
-                    
-                            <label for="age" class="block-label text-white form-details">Age</label>
-                            <br>
-                            <select id="age" name="age">
-                                <option value="under-20">Under 20</option>
-                                <option value="20s">20-29</option>
-                                <option value="30s">30-39</option>
-                                <option value="40s">40-49</option>
-                                <option value="50s">50-59</option>
-                                <option value="60+">60+</option>
-                            </select>
-                    
-                        </fieldset>
-
-                        <fieldset>
-                            <div>
-                                <label for="destinations" class="block-label text-white form-details">What is your favourite destination ?</label>
-                                <select id="destinations" custom-select size="1">
-                                    <option selected>The Moon</option>
-                                    <option value="1">Venus</option>
-                                    <option value="2">Jupiter</option>
-                                    <option value="3">Neptune</option>
-                                    <option value="4">Pandora</option>
-                                    <option value="5">Titan</option>
-                                    <option value="6">The Moon</option>
-                                    <option value="7">Venus</option>
-                                    <option value="8">Jupiter</option>
-                                    <option value="9">Neptune</option>
-                                    <option value="10">Pandora</option>
-                                    <option value="11">Titan</option>
-                                    <option value="12">Titan</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label for="subject" class="block-label text-white form-details">What's your subject ?</label>
-                                
-                                <input id="subject" type="text" name="subject">
-                            </div>
-                        </fieldset>
-                
-                        <fieldset class="form-details">
-                            <label for="feedback" class="block-label text-white">Message / Feedback</label>
-                            <br>
-                            <textarea id="feedback" rows="8" cols="87" name="feedback" placeholder="How did we do ? Give us your feedback let us know what we got right and where we can do better !"></textarea>
-                        </fieldset>
-
-                        <br>
-                        <button type="submit" class="btn modal-button">Send Message</button>
-                    </form>
-                </div>
-
-                <div class="col-5 contact-us-bg">
-                    <div class="contact-panel" id="contact-panel-right">
-                        <h4 class="font-weight-bold text-center">Find us <i class="fas fa-search-location red"></i></h4>
-                        <div id="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1060.5891856360124!2d-57.217700286412885!3d74.58408341110247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNzTCsDM1JzAyLjciTiA1N8KwMTInNTQuNCJX!5e0!3m2!1sen!2snl!4v1681643862668!5m2!1sen!2snl" 
-                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
-                        </div>
-                        <p>
-                            <br>
-                            FIREFLY<br>
-                            Greenland<br>
-                            HQMM+JXJ Kullorsuaq, Greenland<br>
-                            Phone: +44 123 456 789<br>
-                            Email: avallon@deepspacetravel
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div id="footer-details" class="py-3 container-fluid row">
-            <div class="about col-4">
-                <h5 class="uppercase"><strong>About Us:</strong></h5>
-                <p class="inline-block footer-info">
-                    Since 500 B.C focused on bringing you <br>the best, fastest, safest deep space travel.
-                    <br>
-                    Find more
-                    <a href="/docs/html/about.html">
-                        <i class="fa fa-info-circle" aria-hidden="true"></i>
-                        <span class="sr-only">Find more about Firefly</span>
-                    </a>
-                </p>  
-            </div>
-
-            <div class="col-4">
-                <div>
-                    <div class="copyright">
-                        <p class="m-0 font-italic">&copy; Firefly 2023</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-4">
-                <h5 class="uppercase"><strong>Stay in Touch:</strong></h5>
-                <ul class="socials">
-                    <li>
-                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i>
-                        <span class="sr-only">Youtube</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <small class="text-white note"><i>*This website is fictional and for educational purposes only</i></small>
-        </div>
-    </footer>
+        </footer>
 
 
-    <!-- Modal Bootstrap -->
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
+        <!-- Modal Bootstrap -->
+
+        <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="black">Subscribe! </h5>
-                    <p class="black"> * To stay inside new Worlds journeys. </p>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    <h5 class="black">Sign up for free </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -328,16 +336,29 @@
                             <label for="repeatPassword">Repeat Password:</label>
                             <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
                         </div>
-                        <button type="submit" class="btn modal-button">Subscribe</button>
+                        <div class="form-group">
+                            <p class="black">
+                                Would you subscribe to our newsletter and qualify for new offers, prices and destinations?
+                            </p>
+                            
+                            <input type="radio" id="radio-btn-1" name="consent" value="no" required>
+                            <label for="opt-in" class="radio-label black">No Thanks</label>
+                            <input type="radio" id="radio-btn-2" name="consent" value="yes" checked>
+                            <label for="opt-out" class="black">Count me in</label>
+                        </div>
                     </form>
                 </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn modal-button">sign me up</button>
+                </div>
+            </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+        <!-- Script Bootstrap -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    </body>
 
 </html>

@@ -16,7 +16,7 @@
 
 /* -------------------------------------------------------------- BODY----------------------*/
 body {
-    background: url("/docs/images/pexels-alexandre-p-junior-7736052.jpg") no-repeat center center fixed;    /* Image from Pexels by alexandre junior*/
+    background-color: rgb(172, 173, 174);
 }
 
 h1,
@@ -33,6 +33,10 @@ h2 span {
     color: #DE3C4B;
 }
 
+.text-body-emphasis {
+    color: #fff !important;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -46,24 +50,44 @@ h2 span {
 .yellow {
     color: #FFBA08;
 }
+.blue {
+    color: #0062E2;
+}
+.columbia-blue {
+    color: #C4E3F8;
+}
+.light-purple {
+    color: #827FEC;
+}
 
 /* -------------------------------------------------------------- NAVIGATION----------------------*/
 nav {
-    background-color: #8190a8;
+    background-color: #BDA0D6;
     line-height: 1.5rem;
+    box-shadow: 2px 3px #d0c0df;
+}
+
+nav .container-fluid {
+    margin: 0;
+    padding: 0 1.5rem;
 }
 
 .navbar-collapse {
     flex-grow: 0;
 }
 
-.navbar-brand {
-    font-weight: bolder;
-    font-size: 40px;
+nav a:hover{
+    color: #fff;
 }
 
-.nav-lists {
-    margin-right: 4rem;
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
 }
 
 .nav-link {
@@ -72,32 +96,29 @@ nav {
 }  
 
 .navbar .nav-link.active, .navbar .nav-link.show {
-    color: #e6ad03;
+    color: #C4E3F8;
 }
 
 .navbar-nav .nav-link.active {
-    color: #DE3C4B;
-    font-weight: bold;
-    font-size: 21px;
+    color: #0062E2;
+    font-weight: bolder;
+    font-size: 18px;
 }
-
-
-
 
 /* Nav list hover */
 
 .nav-link:hover {
-    color: #e6ad03;
+    color: #C4E3F8;
 }
 
 nav form {
-    margin: 0 2.5rem;
+    margin: 0 1.5rem;
 }
 
 /* Dropdown content */
 
 .dropdown-menu {
-    background-color: #8190a8;
+    background-color: #BDA0D6;
 }
 
 .dropdown-item {
@@ -106,85 +127,213 @@ nav form {
 
 .dropdown-menu .dropdown-item:hover {
     color: #fff;
-    background-color: #e6ad03;
+    background-color: #C4E3F8;
 }
 
-
 /* Subscribe Button */
-
 button {
     padding: 0;
     text-transform: uppercase;
 }
 
+.nav-btn {
+    background-color: #C4E3F8;
+    color: #0062E2;
+}
+.nav-btn:hover {
+    background-color: #0062E2;
+    color: #fff;
+}
+
+
+
+
+
+/* -------------------------------------------------------------- Carousel | HERO----------------------*/
+
+/* ---- Start Hero Container | Carousel ----*/
+
+#carousel-container {
+    margin-top: 5rem;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#hero-container {
+    height: 90vh;
+}
+
+.hero-img-1 {
+    background: url("/docs/images/carousel-hero-img-1.jpg") no-repeat center center; /*Image Source: https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80 */
+}
+
+.hero-img-2 {
+    background: url("/docs/images/carousel-hero-img-2.jpg") no-repeat center center; /*Image source: https://images.unsplash.com/photo-1658457459792-f4dfe37407ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80 */
+}
+
+.hero-img-3 {
+    background: url("/docs/images/carousel-hero-img-3.jpg") no-repeat center center; /*Image Source: https://allears.net/wp-content/uploads/2019/12/Space-220-Space-Elevator.jpg */
+}
+
+.hero-img-4 {
+    background: url("/docs/images/carousel-hero-img-4.png") no-repeat center center; /*Image Source: https://www.saxonweald.com/images/content/getting-in-touch-1614955509.jpg */
+}
+
+/* Buttons Inside Carousel */
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 50%;
+    background-color: #0062E2;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    background-color: #0062E2;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: #0062E2;
+    opacity: 1;
+}
+
+.button {
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.button span {
+    transition: all 0.5s;
+}
+
+.button:hover {
+    /* background-color: #d49f00; */
+    border: 1px solid #fff;
+    padding-right: 35px;
+}
+
+/* Carousel Buttons */
 .journey {
-    background-color: #DE3C4B;
+    background-color: #0062E2;
     color: #fff;
 }
 
 .journey:hover {
-    background-color: #e6ad03;
+    background-color: #C4E3F8;
     color: #fff;
-    border: 1px solid #DE3C4B;
+    border: 1px solid #fff;
 } 
 
 
-
-/* -------------------------------------------------------------- HERO----------------------*/
-
-/* Hero Container */
-
-#hero-container {
-    background: url("/docs/images/hero-img.jpeg") no-repeat center center;
-    margin-top: 5.5rem;
+/* Code from BOTB Button */
+.button-arrow {
+    position: absolute;
+    margin-left: 10px;
+    display: none;
+    width: 10px;
+    height: 10px;
+    background: url("/docs/images/arrow-effect.png") no-repeat center center transparent;
+    background-size: 10px 10px;
+    top: 18px;
+    transition: all 0.2s;
+    -webkit-animation-name: arrow-effect-reverse;
+    animation-name: arrow-effect-reverse;
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
 
 
+.button:hover .button-arrow {
+    -webkit-animation-name: arrow-effect;
+    animation-name: arrow-effect;
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    display: inline-block;
+}
+
+@keyframes arrow-effect-reverse {
+    0% {
+        margin-left: 17px;
+    }
+
+    100% {
+        margin-left: 10px;
+    }
+}
+
+@keyframes arrow-effect {
+    0% {
+        margin-left: 10px;
+    }
+
+    100% {
+        margin-left: 17px;
+    }
+}
+/* End Buttons Inside Carousel */
+/* End of Code from BOTB Button */
+
+/* ---- End Hero Container | Carousel ----*/
+
 /* ------------------------------------------------------------- Quotes / Comments -----------------------------*/
 
-/* side */
+/* Coment-Images */
+.coments-img-container {
+    outline: 5px solid hotpink;
+    padding: 1rem;
+}
+.coments-img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.coments-img-wrapper > * {
+    flex: 1;
+}
+
+
+.dragonfly-text-left {
+    float: right;
+}
+.dragonfly-text-right {
+    float: left;
+}
+.col-1 .fa-arrow-left {
+    float: right;
+    font-size: 35px;
+    color: #C4E3F8;
+}
+.col-1 .fa-arrow-right {
+    float: left;
+    font-size: 35px;
+    color: #C4E3F8;
+}
+.col-1 hr {
+    height: 2px;
+    border: 2px dotted #040F0F;
+}
+
 #comment-section {
     margin-bottom: 5.5rem;
 }
 
 .comments {
     margin-top: 6.5rem;
-}
-
-.side-text {
-    margin-top: 2.5rem;
-}
-
-.side-text-bot {
-    margin-bottom: 3.5rem;
-}
-
-.vert-line {
-    width: .2rem;
-    height: 5rem;
-    margin: 0 auto;
-    background-color: #DE3C4B;
-}
-
-.sources img {
-    width: 110px;
-    height: 60px;
-}
-
-.sponsors {
-    margin-bottom: 10px;
-}
-
-
-
-
-.arrow i {
-    color: #DE3C4B;
-    margin-bottom: 0;
-}
-
-.align-items-end h6 {
-    margin-top: .5rem;
 }
 
 /* Cards */
@@ -196,58 +345,55 @@ button {
 .card-body {
     position: relative;
 }
+
+.card-name i {
+    color: #FFBA08;
+}
+
 .card-img {
     padding: 0;
-    width: 100px;
-    height: 260px;
+    width: 200px;
+    height: 200px;
     border: 5px solid #fff;
     border-radius: 50%;
     position: relative;
 }
 
-.ratings {
-    position: absolute;
-    left: auto;
-    right: auto;
-    z-index: 3;
-}
 
 .card-img-bg {
-    background-color: #DE3C4B;
+    background-color: #0062E2;
 }
 
 .card-img-bg2 {
-    background-color: #e6ad03;
+    background-color: #BDA0D6;
 }
 
 
 .card-img img {
-    border: 2px solid #DE3C4B;
+    border: 2px solid #0062E2;
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
 
-.f-img img {
-    border: 2px solid #FFBA08;
+.female-img img {
+    border: 2px solid #BDA0D6;
 }
 
 
 .card-body {
     background-color: #8D99AE;
-    margin-top: 0;
     padding: 2px auto;
     position: relative;
 }
 
 
 .card-name {
-    margin-top: 0;
     margin-bottom: .5rem;
 }
 
 .card-text {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 
 .card-socials {
@@ -257,16 +403,80 @@ button {
 .card-socials a {
     font-size: 22px;
     margin: 0 auto;
-    color: #DE3C4B;
+    color: #0062E2;
+    text-decoration: none;
 }
 
-.f-card-socials a {
-    color: #FFBA08;
+.female-card-socials a {
+    color: #BDA0D6;
 }
 
 .card-socials a:hover {
     color: #fff;
-    text-decoration: none;
+}
+
+
+/* Email-subscribe */
+
+#email-subscribe-section {
+    background: url("/docs/images/section-subscribe-image.webp") no-repeat center center;
+    margin-bottom: 3.5rem;
+}
+
+.email-subscribe-wrapper {
+    margin: auto 4rem;
+    border-radius: 15px;
+}
+
+.email-subscribe-left,
+.email-subscribe-right {
+    margin: 30px auto;
+}
+
+.email-subscribe-right {
+    background-color: hsla(219, 9%, 71%, 0.2);
+    border-radius: 10px;
+}
+
+.email-subscribe-title h2 {
+    font-size: 55px;
+}
+.email-subscribe-title h3 {
+    font-size: 35px;
+}
+
+.email-subscribe-input-box-title {
+    margin-top: 1.5rem;
+}
+
+.email-subscribe-right form {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: 2rem 1.5rem;
+}
+
+.email-subscribe-right form input {
+    border: none;
+    width: 70%;
+    height: 40px;
+}
+
+.email-subscribe-right form input:hover {
+    background: #fff;
+}
+
+.email-subscribe-right form button {
+    position: absolute;
+    height: 40px;
+    right: 13.9%;
+    background-color: #0062E2;
+}
+
+.email-subscribe-right form button:hover {
+    border: 1px solid #0062E2;
+    background-color: #C4E3F8;
+    color: #0062E2;
 }
 
 
@@ -334,7 +544,7 @@ button {
     top: 50%;
     left: 1rem;
     position: absolute;
-    background-color: #DE3C4B;
+    background-color: #0062E2;
     z-index: 3;
 }
 
@@ -346,7 +556,7 @@ button {
     top: 50%;
     right: 1rem;
     position: absolute;
-    background-color: #DE3C4B;
+    background-color: #0062E2;
     z-index: 3;
 }
 
@@ -405,7 +615,13 @@ button {
 
 /* Who are we | Why love us */
 
+.about-section {
+    background-color: #8f8d8d;
+    padding-top: 7.5rem;
+}
+
 .about-row {
+    margin-top: 2.5rem;
     margin-bottom: 3.5rem;
 }
 
@@ -421,10 +637,15 @@ button {
     padding-top: 2rem;
 }
 
-.about-bg {
-    background-color: #8f8d8d;
-    padding-top: 7.5rem;
-}
+.text-highlight {
+    border-radius: 1.5em 0 2em 0;
+    background-image: linear-gradient(
+      -100deg,
+      rgba(0, 20, 255, 0.3),
+      rgba(0, 20, 255, 0.7) 95%,
+      rgba(0, 20, 255, 0.1)
+    );
+  }
 
 #about-top h3 {
     background-color: #00487C;
@@ -453,7 +674,7 @@ button {
 .timeline-item {
     padding: 2.5em 1em 0em 1em;
     position: relative;
-    color: #FFBA08;
+    color: #FFC43D;
     border-left: 2px solid #fff;
 }
 
@@ -494,14 +715,19 @@ button {
 
 /* Form */
 
-.form-details {
+.details {
     margin-top: 10px;
 }
 
 form p {
     margin-top: 25px;
 }
-
+#age {
+    padding-right: 10px;
+}
+.mobile-nbr {
+    margin-left: 100px;
+}
 input:hover {
     background-color: #d3d3d3;
 }
@@ -531,12 +757,10 @@ footer h5,p {
 footer div h5, p {
     text-align: center;
 }
-footer .copyright p {
-    padding: 50px 0;
-    text-align: center;
+.copyright {
+    padding-top: 40px;
 }
-
-
+/* Footer Links */
 footer li {
     list-style: none;
     display: inline;
@@ -545,20 +769,29 @@ footer li {
     font-size: 50px;
 }
 footer a {
-    color: #DE3C4B;
+    color: #fff;
+    text-decoration: none;
 }
 
-footer a:hover {
-    text-decoration: none;
-    color: #fff;
+#facebook-icon:hover {
+    color: #0062E2;
+}
+#twitter-icon:hover {
+    color: #C4E3F8;
+}
+#youtube-icon:hover {
+    color: #DE3C4B;
+}
+#instagram-icon:hover {
+    color: #8d0b8d;
 }
 
 .about a:hover {
-    color: #FFBA08;
+    color: #0062E2;
 }
 
 .note {
-    margin: auto;
+    text-align: center;
 }
 
 /* -------------------------------------------------------------- MODAL----------------------*/
@@ -567,28 +800,32 @@ footer a:hover {
     background-image: url("");
 }
 
+.modal-header h5 {
+    margin-left: auto;
+}
+
 .modal-content {
-    background-color: #d2d2d2;
+    background-color: #BDA0D6;
 }
 
 form label {
-    color: #d49f00;
+    color: #fff;
     padding-right: 10px;
 }
 
 
 .modal-button {
     border-radius: 4px;
-    background-color: #DE3C4B;
+    background-color: #C4E3F8;
     color: #fff;
-    box-shadow: 3px 8px #430303;
+    box-shadow: 3px 8px #0062E2;
     display: grid;
     margin: 30px auto;
 }
 
 .modal-button:hover {
-    background-color: #FFBA08;
-    box-shadow: 3px 8px #DE3C4B;
+    background-color: #0062E2;
+    box-shadow: 3px 8px #C4E3F8;
     color: #fff;
 }
 

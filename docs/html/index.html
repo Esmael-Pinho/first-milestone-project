@@ -1,453 +1,145 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-    <meta charset="utf-8">
-    <title>FireFly | Space Travel</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
+    <head>
+        <meta charset="utf-8">
+        <title>DragonFly - Space Travel</title>
+        <link rel="icon" type="image/x-icon" href="/docs/images/logo-img.png" /> <!--Image Source: https://www.pinclipart.com/picdir/big/243-2434585_dragonfly-clipart-png-download.png-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <!-- External CSS -->
+        <link rel="stylesheet" href="/docs/css/style.css" type="text/css"/>
+    </head>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <!-- External CSS -->
-    <link rel="stylesheet" href="/docs/css/style.css" type="text/css" />
-</head>
-
-<body>
-    <header>
-      
-        <nav class="navbar fixed-top navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand uppercase" href="#">
-                    <img src="/docs/images/Firefly.png" alt="Image of a fireflie" width="50" height="50" class="d-inline-block"> <!--Image Source: https://www.pngall.com/wp-content/uploads/5/Firefly.png-->
-                    fire<span class="red">fly</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Destinations
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item  drp-item-1" href="#">Moons</a></li>
-                                <li><a class="dropdown-item  drp-item-2" href="#">Planets</a></li>
-                                <li><a class="dropdown-item  drp-item-3" href="#">Comets</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <button type="submit" class="btn journey nav-btn" data-toggle="modal" data-target="#signUpModal">Subscribe</button>
-                    </form>
+    <body>
+        <header> 
+        
+            <nav class="navbar fixed-top navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand uppercase" href="/docs/html/index.html">
+                        <img src="/docs/images/logo-img.png" alt="Image of a dragonfly" width="50" height="50" class="d-inline-block"> <!--Image Source: https://www.pinclipart.com/picdir/big/243-2434585_dragonfly-clipart-png-download.png-->
+                        dragon<span class="blue">fly</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/docs/html/index.html"><i class="fas fa-home"></i> Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/docs/html/about.html"><i class="fa fa-address-card"></i> About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-space-shuttle" aria-hidden="true"></i> Destinations
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item  drp-item-1" href="/docs/html/moons.html"> Moons</a></li>
+                                    <li><a class="dropdown-item  drp-item-2" href="/docs/html/planets.html"><i class="fa fa-earth-europe"></i> Planets</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <button type="button" class="btn nav-btn btn-md px-4 me-md-2" data-bs-toggle="modal" data-bs-target="#modal">
+                                Sign up
+                            </button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </nav>
-  
-    </header>
-  
-    <section>
-        <div id="hero-container" class="container col-xxl-8 px-4 py-5">
-          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-                <h1 class="text-center display-5 fw-bold text-body-emphasis lh-1 mb-3">Fancy a Space Adventure<span class="red"> ?</span></h1>
-                <h4 class="text-center text-capitalize  fw-bold text-body-emphasis lh-1 mb-3">We've got you covered</h4>
-                <p class="text-center lead">Quickly pick your destination, from Moons, Planets and comets, with the world’s most popular space travel.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                <button type="submit" class="btn journey btn-lg px-4 me-md-2" data-toggle="modal" data-target="#signUpModal">Subscribe</button>
-                </div>
-            </div>
-          </div>
-        </div>
-    </section>
+            </nav>
 
+        </header>
+    
+        <section id="carousel-container">
 
-    <section id="comment-section">
-        <div class="container-fluid">
-            <div class="justify-content-center">
-                <h3 class="h3-heading"><span class="red">What</span> They've Said<span class="red"> ?</span></h3>
-            </div>
-
-            <div class="comments row justify-content-center">
-
-                <div class="col-3">
-                    <!--Review section-->
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                        </ol>
+            <div class="row justify-content-center">
+                <div class="col-11">
+                    <div id="carousel-hero" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="d-block w-100">
-                                    <div class="card">
-                                        <div class="row justify-content-center card-img-bg">
-                                            <div class="col-5 card-img">
-                                                <img src="/docs/images/card-image-1.jpg" class="card-img-top" alt="foto of the male commentator (Noah White)"> <!--Image Source Pexels: https://images.pexels.com/photos/1334945/pexels-photo-1334945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="row justify-content-center card-body">
-                                            <span class="ratings"><img src="/docs/images/rating.png" width="100" height="80"></span>
-                                            <div class="col-12 card-name">
-                                                <h5 class="text-center">Noah White</h5>
-                                            </div>
-                                            <div class="col-12 card-text">
-                                                <p>
-                                                    <span class="red">"</span>I met someone thanks to you Firefly,<br>
-                                                     althought scary a safe journey<br>
-                                                     #Pandora
-                                                    <span class="red">"</span> 
-                                                </p>
-                                            </div>
-                                            <div class="col-4 card-socials">
-                                                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
-                                                        <span class="sr-only">Facebook</span>
+                                <div id="hero-container" class="hero-img-1 container col-xxl-8 px-4 py-5 d-block w-100">
+                                    <div class="row flex-lg-row-reverse justify-content-center g-1 py-5">
+                                        <div class="col-lg-4">
+                                            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Space Travel<span class="blue"> ?</span></h1>
+                                            <h3 class="text-capitalize  fw-bold text-body-emphasis lh-1 mb-3">We've got you covered</h3>
+                                            <p class=" lead">A well earned vacation, some exploration, or simply to get<br>
+                                                a wow moment. Pick your destination, from<br>
+                                                Moons and Planets with the world’s most popular space travel company.</p>
+                                            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                                <button type="button" class="btn button journey btn-lg" data-bs-toggle="modal" data-bs-target="#modal">
+                                                    <a>
+                                                        <span>Sign up<span class="button-arrow"></span></span>
                                                     </a>
-                                                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
-                                                        <span class="sr-only">Instagram</span>
-                                                    </a>
-                                                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                                                        <span class="sr-only">Twitter</span>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
-                                                        <span class="sr-only">LinkedIn</span>
-                                                    </a>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="carousel-item">
-                                <div class="d-block w-100">
-                                    <div class="card">
-                                        <div class="row justify-content-center card-img-bg2">
-                                            <div class="col-5 card-img f-img">
-                                                <img src="/docs/images/card-image-2.jpg" class="card-img-top" alt="foto of the female commentator (Ava Glade)"> <!--Image Source Pexels: https://images.pexels.com/photos/1486055/pexels-photo-1486055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="row justify-content-center card-body">
-                                            <span class="ratings"><img src="/docs/images/rating.png" width="100" height="80"></span>
-                                            <div class="col-12 card-name">
-                                                <h5 class="text-center">Ava Glade</h5>
-                                            </div>
-                                            <div class="col-12 card-text">
-                                                <p>
-                                                    <span class="red">"</span>I shoud have brought  <br>
-                                                    my bikini, no faster way to get a tan <br>
-                                                    #Venus<span class="red">"</span> 
-                                                </p>
-                                            </div>
-                                            <div class="col-4 card-socials f-card-socials">
-                                                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
-                                                        <span class="sr-only">Facebook</span>
+                                <div id="hero-container" class="hero-img-2 container col-xxl-8 px-4 py-5 d-block w-100">
+                                    <div class="row flex-lg-row-reverse justify-content-center g-5 py-5">
+                                        <div class="col-lg-4">
+                                            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Destinations</h1>
+                                            <p class=" lead">From gas giants, to small rocky<br>
+                                                From burning hot surfaces, to icy oceans
+                                                <br>Choose your adventure</p>
+                                            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                                <button type="button" class="btn button journey btn-lg">
+                                                    <a href="/docs/html/moons.html">
+                                                        <span>Choose<span class="button-arrow"></span></span>
                                                     </a>
-                                                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
-                                                        <span class="sr-only">Instagram</span>
-                                                    </a>
-                                                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                                                        <span class="sr-only">Twitter</span>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
-                                                        <span class="sr-only">LinkedIn</span>
-                                                    </a>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="carousel-item">
-                                <div class="d-block w-100">
-                                    <div class="card">
-                                        <div class="row justify-content-center card-img-bg">
-                                            <div class="col-5 card-img">
-                                                <img src="/docs/images/card-image-3.jpg" class="card-img-top" alt="foto of the male commentator (Teo Benny)"> <!--Image Source Pexels: https://images.pexels.com/photos/2083937/pexels-photo-2083937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="row justify-content-center card-body">
-                                            <span class="ratings"><img src="/docs/images/rating.png" width="100" height="80"></span>
-                                            <div class="col-12 card-name">
-                                                <h5 class="text-center">Teo Benny</h5>
-                                            </div>
-                                            <div class="col-12 card-text">
-                                                <p>
-                                                    <span class="red">"</span>That's it, simple, fast, mind blowing<br>
-                                                    all that cloud be expexted <br>
-                                                    #BluePeople<span class="red">"</span> 
-                                                </p>
-                                            </div>
-                                            <div class="col-4 card-socials">
-                                                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
-                                                        <span class="sr-only">Facebook</span>
+                                <div id="hero-container" class="hero-img-3 container col-xxl-8 px-4 py-5 d-block w-100">
+                                    <div class="row flex-lg-row-reverse justify-content-center g-5 py-5">
+                                        <div class="col-lg-4">
+                                            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About Firefly</h1>
+                                            <p class=" lead">Learn more about us,<br>discover what we represent<br>and our mission.</p>
+                                            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                                <button type="button" class="btn button journey btn-lg">
+                                                    <a href="/docs/html/about.html">
+                                                        <span>Find More<span class="button-arrow"></span></span>
                                                     </a>
-                                                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
-                                                        <span class="sr-only">Instagram</span>
-                                                    </a>
-                                                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                                                        <span class="sr-only">Twitter</span>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
-                                                        <span class="sr-only">LinkedIn</span>
-                                                    </a>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="carousel-item">
-                                <div class="d-block w-100">
-                                    <div class="card">
-                                        <div class="row justify-content-center card-img-bg2">
-                                            <div class="col-5 card-img f-img">
-                                                <img src="/docs/images/card-image-4.jpg" class="card-img-top" alt="foto of the female commentator (Lilly Rose)"> <!--Image Source Pexels: https://images.pexels.com/photos/3696351/pexels-photo-3696351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
+                                <div id="hero-container" class="hero-img-4 container col-xxl-8 px-4 py-5 d-block w-100">
+                                    <div class="row flex-lg-row-reverse justify-content-center g-5 py-5">
+                                        <div class="col-lg-4">
+                                            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Get In Touch</h1>
+                                            <p class=" lead">Have a question, or just want to say hello.<br>
+                                                Our team of friendly staff are waiting to hear from you.</p>
+                                            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                                <button type="button" class="btn button journey btn-lg">
+                                                    <a href="#about-contact">
+                                                        <span>Contact Us<span class="button-arrow"></span></span>
+                                                    </a>
+                                                </button>
                                             </div>
                                         </div>
-                                        
-                                        <div class="row justify-content-center card-body">
-                                            <span class="ratings"><img src="/docs/images/rating.png" width="100" height="80"></span>
-                                            <div class="col-12 card-name">
-                                                <h5 class="text-center">Lilly Rose</h5>
-                                            </div>
-                                            <div class="col-12 card-text">
-                                                <p>
-                                                    <span class="red">"</span>No picture is worth more<br>
-                                                    Whow Whow Whow Whow<br>
-                                                    #Jupiter<span class="red">"</span> 
-                                                </p>
-                                            </div>
-                                            <div class="col-4 card-socials f-card-socials">
-                                                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
-                                                        <span class="sr-only">Facebook</span>
-                                                    </a>
-                                                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
-                                                        <span class="sr-only">Instagram</span>
-                                                    </a>
-                                                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                                                        <span class="sr-only">Twitter</span>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
-                                                        <span class="sr-only">LinkedIn</span>
-                                                    </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="d-block w-100">
-                                    <div class="card">
-                                        <div class="row justify-content-center card-img-bg">
-                                            <div class="col-5 card-img">
-                                                <img src="/docs/images/card-image-5.jpg" class="card-img-top" alt="foto of the male commentator (Leo Glee)"> <!--Image Source Pexels: https://images.pexels.com/photos/2907240/pexels-photo-2907240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="row justify-content-center card-body">
-                                            <span class="ratings"><img src="/docs/images/rating.png" width="100" height="80"></span>
-                                            <div class="col-12 card-name">
-                                                <h5 class="text-center">Leo Glee</h5>
-                                            </div>
-                                            <div class="col-12 card-text">
-                                                <p>
-                                                    <span class="red">"</span>Thank you for this opportunity <br>
-                                                    i'll take my cat as well next time <br>
-                                                    #Pandora<span class="red">"</span> 
-                                                </p>
-                                            </div>
-                                            <div class="col-4 card-socials">
-                                                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
-                                                        <span class="sr-only">Facebook</span>
-                                                    </a>
-                                                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
-                                                        <span class="sr-only">Instagram</span>
-                                                    </a>
-                                                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                                                        <span class="sr-only">Twitter</span>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
-                                                        <span class="sr-only">LinkedIn</span>
-                                                    </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="d-block w-100">
-                                    <div class="card">
-                                        <div class="row justify-content-center card-img-bg2">
-                                            <div class="col-5 card-img f-img">
-                                                <img src="/docs/images/card-image-6.jpg" class="card-img-top" alt="foto of the female commentator (Olivia Smith)"> <!--Image Source Pexels: https://images.pexels.com/photos/3030332/pexels-photo-3030332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="row justify-content-center card-body">
-                                            <span class="ratings"><img src="/docs/images/rating.png" width="100" height="80"></span>
-                                            <div class="col-5 card-name">
-                                                <h5 class="text-center">Olivia Smith</h5>
-                                            </div>
-                                            <div class="col-12 card-text">
-                                                <p>
-                                                    <span class="red">"</span>My eyes did't know where to look <br>
-                                                    my mind did't know what to think <br>
-                                                    I want moreeee!<span class="red">"</span> 
-                                                </p>
-                                            </div>
-                                            <div class="col-4 card-socials f-card-socials">
-                                                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
-                                                        <span class="sr-only">Facebook</span>
-                                                    </a>
-                                                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
-                                                        <span class="sr-only">Instagram</span>
-                                                    </a>
-                                                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                                                        <span class="sr-only">Twitter</span>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
-                                                        <span class="sr-only">LinkedIn</span>
-                                                    </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class=" col-4 order-last">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-6 side-text">
-                                <P class="text-center text-white">
-                                    <i><span class="red">"</span>The Journey<br> is as important<br> as the destination<span class="red">"</span></i>
-                                </P>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="arrow text-center col-6">
-                                <i class="fa fa-arrow-up"></i>
-                                <div class="vert-line"></div>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-2">
-                                <h5>
-                                    <img src="/docs/images/Firefly.png" alt="Image of a fireflie" width="50" height="35" title="FIREFLY">
-                                </h5>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="arrow text-center col-6">
-                                <div class="vert-line"></div>
-                                <i class="fa fa-arrow-down"></i>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-6 side-text-bot">
-                                <P class="text-center text-white">
-                                    <i><span class="red">"</span>Don't just listen<br>to what they say<br>Go Find Out<span class="red">"</span></i>
-                                </P>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-4 order-first">
-                    <div class="container sources">
-                        <div class="row justify-content-center sponsors">
-                            <div class="col-4">
-                                <h4>Our Sponsors</h4>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-6">
-                                <div class="row justify-content-center">
-                                    <div class="col-12">
-                                        <img src="/docs/images/quotes-sponsor-1.png" title="The Sponsor 'A' logo" alt="The Sponsor 'A' logo"> <!--Image Source: https://pngimg.com/uploads/letter_a/letter_a_PNG19884.png-->
-                                        <P class="text-center text-white">
-                                            <i><span class="red">"</span>It feels good<br>to be lost in the right<br>adventure!<span class="red">"</span></i>
-                                        </P>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="row justify-content-center">
-                                    <div class="col-12">
-                                        <img src="/docs/images/quotes-sponsor-2.png" title="The Sponsor 'B' logo" alt="The Sponsor 'B' logo"> <!--Image source: https://th.bing.com/th/id/R.0266c53b3cd67cf2626e993313e651c6?rik=GjtgcyKQ6E5HlA&riu=http%3a%2f%2fpngimg.com%2fuploads%2fletter_b%2fletter_b_PNG53.png&ehk=Cf2zdZG0te9KpvrQ84udfF2cgu2zbYj%2bWxdpaxX2m%2fA%3d&risl=&pid=ImgRaw&r=0-->
-                                        <P class="text-center text-white">
-                                            <i><span class="red">"</span>Go somewhere<br>New.<span class="red">"</span></i>
-                                        </P>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-6">
-                                <img src="/docs/images/quotes-sponsor-3.png" title="The Sponsor 'C' logo" alt="The Sponsor 'C' logo"> <!--Image Source: https://th.bing.com/th/id/R.d3d5b0b99aec8a55df6d0a9645a930b4?rik=1DcST%2fz%2bncFqrA&riu=http%3a%2f%2fwww.pngplay.com%2fwp-content%2fuploads%2f1%2fLetter-C-PNG-Photo.png&ehk=dEmWV0vv%2fVMDOaDpRqhULkWrXjXmIm%2bQwlDyhHrthUI%3d&risl=&pid=ImgRaw&r=0-->
-                                <P class="text-center text-white">
-                                    <i><span class="red">"</span>Do not wait,<br>because the adventure awaits.<span class="red">"</span></i>
-                                </P>
-                            </div>
-                            <div class="col-6">
-                                <img src="/docs/images/quotes-sponsor-4.png" title="The Sponsor 'D' logo" alt="The Sponsor 'D' logo"> <!--Image Source: https://www.shareicon.net/data/2016/10/20/846450_blue_512x512.png-->
-                                <P class="text-center text-white">
-                                    <i><span class="red">"</span>Much of who we<br>are is where we<br>have been.<br>Who are you?<span class="red">"</span></i>
-                                </P>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-6">
-                                <div class="row justify-content-center">
-                                    <div class="col-12">
-                                        <img src="/docs/images/quotes-sponsor-5.png" title="The Sponsor 'E' logo" alt="The Sponsor logo"> <!--Image Source: https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/letter_E_blue-1024.png-->
-                                        <P class="text-center text-white">
-                                            <i><span class="red">"</span>The antidote to boredom<br>is travelling<span class="red">"</span></i>
-                                        </P>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="row justify-content-center">
-                                    <div class="col-12">
-                                        <img src="/docs/images/quotes-sponsor-6.png" title="The Sponsor 'F' logo" alt="The Sponsor logo"> <!--Image Source: https://pngimg.com/uploads/letter_f/letter_f_PNG17.png-->
-                                        <P class="text-center text-white">
-                                            <i><span class="red">"</span>You can't control the past<br>but you can control<br>where to go next!<span class="red">"</span></i>
-                                        </P>
                                     </div>
                                 </div>
                             </div>
@@ -455,73 +147,498 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-        
-    <!-- Footer -->
-    <footer>
-        <div id="footer-details" class="py-3 container-fluid row">
-            <div class="about col-4">
-                <h5 class="uppercase"><strong>About Us:</strong></h5>
-                <p class="inline-block footer-info">
-                    Since 500 B.C focused on bringing you <br>the best, fastest, safest deep space travel.
-                    <br>
-                    Find more
-                    <a href="/docs/html/about.html">
-                        <i class="fa fa-info-circle" aria-hidden="true"></i>
-                        <span class="sr-only">Find more about Firefly</span>
-                    </a>
-                </p>  
-            </div>
+            
+        </section>
 
-            <div class="col-4">
-                <div>
+
+        <section id="comment-section">
+            <div class="container-fluid">
+                <div class="justify-content-center">
+                    <h3 class="h3-heading"><span class="blue">What</span> They've Said<span class="blue"> ?</span></h3>
+                </div>
+
+                <div class="row dragonfly-quotes justify-content-center comments">
+                    <div class="col-3">
+                        <P class="text-white dragonfly-text-left">
+                            <i><span class="red">"</span>The Journey<br> is as important<br> as the destination<span class="red">"</span></i>
+                        </P>
+                    </div>
+                    <div class="col-1">
+                        <i class="fa fa-arrow-left"></i>
+                    </div>
+                    <div class="col-1">
+                        <hr>
+                    </div>
+                    <div class="col-1">
+                        <h5>
+                            <img src="/docs/images/logo-img.png" alt="Image of a dragonfly" width="50" height="35" title="Dragonfly"> <!--Image Source: https://www.pinclipart.com/picdir/big/243-2434585_dragonfly-clipart-png-download.png-->
+                        </h5>
+                    </div>
+                    <div class="col-1">
+                        <hr>
+                    </div>
+                    <div class="col-1">
+                        <i class="fa fa-arrow-right"></i>
+                    </div>
+                    <div class="col-3">
+                        <P class="text-white dragonfly-text-right">
+                            <i><span class="red">"</span>Don't just listen<br>to what they say<br>Go Find Out<span class="red">"</span></i>
+                        </P>
+                    </div>
+                </div>
+                
+                
+                <!--User Quotes-->
+                <div class="comments row justify-content-center">
+                    <div class="col-3">
+                        <div id="carousel-quotes" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-block w-100">
+                                        <div class="card">
+                                            <div class="row justify-content-center card-img-bg">
+                                                <div class="col-5 card-img">
+                                                    <img src="/docs/images/card-image-10.jpg" class="card-img-top" alt="foto of the male commentator (Noah White)"> <!--Image Source Pexels: https://images.pexels.com/photos/1334945/pexels-photo-1334945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row justify-content-center card-body">
+                                                <div class="col-12 card-name">
+                                                    <h5 class="text-center">
+                                                        Noah White
+                                                        <br>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <span class="sr-only">5 out of 5 stars</span>
+                                                    </h5>
+                                                </div>
+                                                <div class="col-12 card-text">
+                                                    <p>
+                                                        <span class="red">"</span>I met someone thanks to you Firefly,<br>
+                                                        althought scary a safe journey<br>
+                                                        #Mars
+                                                        <span class="red">"</span> 
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 card-socials">
+                                                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                                            <span class="sr-only">Facebook</span>
+                                                        </a>
+                                                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                                            <span class="sr-only">Instagram</span>
+                                                        </a>
+                                                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                                            <span class="sr-only">Twitter</span>
+                                                        </a>
+                                                        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
+                                                            <span class="sr-only">LinkedIn</span>
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="card">
+                                            <div class="row justify-content-center card-img-bg2">
+                                                <div class="col-5 card-img female-img">
+                                                    <img src="/docs/images/card-image-2.jpg" class="card-img-top" alt="foto of the female commentator (Ava Glade)"> <!--Image Source Pexels: https://images.pexels.com/photos/1486055/pexels-photo-1486055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row justify-content-center card-body">
+                                                <div class="col-12 card-name">
+                                                    <h5 class="text-center">
+                                                        Ava Glade
+                                                        <br>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <span class="sr-only">5 out of 5 stars</span>
+                                                    </h5>
+                                                </div>
+                                                <div class="col-12 card-text">
+                                                    <p>
+                                                        <span class="red">"</span>I shoud have brought  <br>
+                                                        my bikini, no faster way to get a tan <br>
+                                                        #Venus<span class="red">"</span> 
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 card-socials female-card-socials">
+                                                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                                            <span class="sr-only">Facebook</span>
+                                                        </a>
+                                                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                                            <span class="sr-only">Instagram</span>
+                                                        </a>
+                                                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                                            <span class="sr-only">Twitter</span>
+                                                        </a>
+                                                        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
+                                                            <span class="sr-only">LinkedIn</span>
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="card">
+                                            <div class="row justify-content-center card-img-bg">
+                                                <div class="col-5 card-img">
+                                                    <img src="/docs/images/card-image-3.jpg" class="card-img-top" alt="foto of the male commentator (Teo Benny)"> <!--Image Source Pexels: https://images.pexels.com/photos/2083937/pexels-photo-2083937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row justify-content-center card-body">
+                                                <div class="col-12 card-name">
+                                                    <h5 class="text-center">
+                                                        Teo Benny
+                                                        <br>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                        <span class="sr-only">4.5 out of 5 stars</span>
+                                                    </h5>
+                                                </div>
+                                                <div class="col-12 card-text">
+                                                    <p>
+                                                        <span class="red">"</span>That's it, simple, fast, mind blowing<br>
+                                                        all that cloud be expexted <br>
+                                                        #Neptune<span class="red">"</span> 
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 card-socials">
+                                                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                                            <span class="sr-only">Facebook</span>
+                                                        </a>
+                                                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                                            <span class="sr-only">Instagram</span>
+                                                        </a>
+                                                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                                            <span class="sr-only">Twitter</span>
+                                                        </a>
+                                                        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
+                                                            <span class="sr-only">LinkedIn</span>
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="card">
+                                            <div class="row justify-content-center card-img-bg2">
+                                                <div class="col-5 card-img female-img">
+                                                    <img src="/docs/images/card-image-4.jpg" class="card-img-top" alt="foto of the female commentator (Lilly Rose)"> <!--Image Source Pexels: https://images.pexels.com/photos/3696351/pexels-photo-3696351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row justify-content-center card-body">
+                                                <div class="col-12 card-name">
+                                                    <h5 class="text-center">
+                                                        Lilly Rose
+                                                        <br>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <span class="sr-only">4.5 out of 5 stars</span>
+                                                    </h5>
+                                                </div>
+                                                <div class="col-12 card-text">
+                                                    <p>
+                                                        <span class="red">"</span>No picture is worth more<br>
+                                                        Whow Whow Whow Whow<br>
+                                                        #Jupiter<span class="red">"</span> 
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 card-socials female-card-socials">
+                                                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                                            <span class="sr-only">Facebook</span>
+                                                        </a>
+                                                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                                            <span class="sr-only">Instagram</span>
+                                                        </a>
+                                                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                                            <span class="sr-only">Twitter</span>
+                                                        </a>
+                                                        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
+                                                            <span class="sr-only">LinkedIn</span>
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="card">
+                                            <div class="row justify-content-center card-img-bg">
+                                                <div class="col-5 card-img">
+                                                    <img src="/docs/images/card-image-5.jpg" class="card-img-top" alt="foto of the male commentator (Leo Glee)"> <!--Image Source Pexels: https://images.pexels.com/photos/2907240/pexels-photo-2907240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row justify-content-center card-body">
+                                                <div class="col-12 card-name">
+                                                    <h5 class="text-center">
+                                                        Leo Glee
+                                                        <br>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <span class="sr-only">5 out of 5 stars</span>
+                                                    </h5>
+                                                </div>
+                                                <div class="col-12 card-text">
+                                                    <p>
+                                                        <span class="red">"</span>Thank you for this opportunity <br>
+                                                        i'll take my cat as well next time <br>
+                                                        #Titan<span class="red">"</span> 
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 card-socials">
+                                                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                                            <span class="sr-only">Facebook</span>
+                                                        </a>
+                                                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                                            <span class="sr-only">Instagram</span>
+                                                        </a>
+                                                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                                            <span class="sr-only">Twitter</span>
+                                                        </a>
+                                                        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
+                                                            <span class="sr-only">LinkedIn</span>
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="card">
+                                            <div class="row justify-content-center card-img-bg2">
+                                                <div class="col-5 card-img female-img">
+                                                    <img src="/docs/images/card-image-6.jpg" class="card-img-top" alt="foto of the female commentator (Olivia Smith)"> <!--Image Source Pexels: https://images.pexels.com/photos/3030332/pexels-photo-3030332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2-->
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row justify-content-center card-body">
+                                                <div class="col-5 card-name">
+                                                    <h5 class="text-center">
+                                                        Olivia Smith
+                                                        <br>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                        <span class="sr-only">4.5 out of 5 stars</span>
+                                                    </h5>
+                                                </div>
+                                                <div class="col-12 card-text">
+                                                    <p>
+                                                        <span class="red">"</span>My eyes did't know where to look <br>
+                                                        my mind did't know what to think <br>
+                                                        I want moreeee!<span class="red">"</span> 
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 card-socials female-card-socials">
+                                                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                                            <span class="sr-only">Facebook</span>
+                                                        </a>
+                                                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                                            <span class="sr-only">Instagram</span>
+                                                        </a>
+                                                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                                            <span class="sr-only">Twitter</span>
+                                                        </a>
+                                                        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
+                                                            <span class="sr-only">LinkedIn</span>
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel-quotes" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-quotes" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 order-last">
+                        <div class="coments-img-container">
+                            <div class="coments-img-wrapper">
+                                <div class="coments-img-right">
+                                    coments-img-right-1
+                                </div>
+                                <div class="coments-img-right">
+                                    coments-img-right-2
+                                </div>
+                                <div class="coments-img-right">
+                                    coments-img-right-3
+                                </div>
+                                <div class="coments-img-right">
+                                    coments-img-right-4
+                                </div>
+                                <div class="coments-img-right">
+                                    coments-img-right-5
+                                </div>
+                                <div class="coments-img-right">
+                                    coments-img-right-6
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 order-first">
+                        <div class="coments-img-container">
+                            <div class="coments-img-wrapper">
+                                <div class="coments-img-left">
+                                    coments-img-left-1
+                                </div>
+                                <div class="coments-img-left">
+                                    coments-img-left-2
+                                </div>
+                                <div class="coments-img-left">
+                                    coments-img-left-3
+                                </div>
+                                <div class="coments-img-left">
+                                    coments-img-left-4
+                                </div>
+                                <div class="coments-img-left">
+                                    coments-img-left-5
+                                </div>
+                                <div class="coments-img-left">
+                                    coments-img-left-6
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="email-subscribe-section" class="container">
+                <div class="email-subscribe-wrapper">
+                    <div class="email-subscribe-content row justify-content-around">
+                        <div class="email-subscribe-left col-6">
+                            <div class="email-subscribe-title">
+                                <h3 class="uppercase">subscribe to get</h3>
+                                <h2 class="uppercase">disconts and updates</h2>
+                                <h3 class="uppercase">to your inbox</h3>
+                            </div>
+                        </div>
+                        <div class="email-subscribe-right col-4">
+                            <div class="email-subscribe-input-box">
+                                <div class="email-subscribe-input-box-title">
+                                    <h5>Subscribe for our emails now !</h5>
+                                </div>
+                                <div class="email-subscribe-input-box-subtitle">
+                                    <p>Get discounts, destinations updates and inspiration straight to your inbox.</p>
+                                </div>
+                                <form>
+                                    <input id="email-subscribe" type="email" name="email-subscribe" placeholder=" Enter your email address">
+                                    <button type="submit" class="btn journey btn-md">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        <!-- Footer -->
+
+        <footer>
+            <div id="footer-details" class="py-3 container-fluid row">
+                <div class="about col-4">
+                    <h5 class="uppercase"><strong>About Us:</strong></h5>
+                    <p class="inline-block footer-info">
+                        Since 500 B.C focused on bringing you <br>the best, fastest, safest deep space travel.
+                        <br>
+                        Find more
+                        <a href="/docs/html/about.html">
+                            <i class="fa fa-info-circle" aria-hidden="true"></i>
+                            <span class="sr-only">Find more about Firefly</span>
+                        </a>
+                    </p>  
+                </div>
+
+                <div class="col-4">
                     <div class="copyright">
-                        <p class="m-0 font-italic">&copy; Firefly 2023</p>
+                        <p class="m-0 font-italic">
+                            &copy; Dragonfly 2023
+                            <br>
+                            All rights reserved
+                        </p>
                     </div>
                 </div>
+
+                <div class="col-4">
+                    <h5 class="uppercase"><strong>Stay in Touch:</strong></h5>
+                    <ul class="socials">
+                        <li>
+                            <a id="facebook-icon" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="twitter-icon" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="youtube-icon" href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="instagram-icon" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <small class="text-white note"><i>*This website is fictional and for educational purposes only</i></small>
             </div>
-
-            <div class="col-4">
-                <h5 class="uppercase"><strong>Stay in Touch:</strong></h5>
-                <ul class="socials">
-                    <li>
-                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i>
-                        <span class="sr-only">Youtube</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <small class="text-white note"><i>*This website is fictional and for educational purposes only</i></small>
-        </div>
-    </footer>
+        </footer>
 
 
-    <!-- Modal Bootstrap -->
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
+        <!-- Modal Bootstrap -->
+
+        <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="black">Subscribe! </h5>
-                    <p class="black"> * To stay inside new Worlds journeys. </p>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    <h5 class="black">Sign up for free </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -549,17 +666,19 @@
                             <input type="radio" id="radio-btn-2" name="consent" value="yes" checked>
                             <label for="opt-out" class="black">Count me in</label>
                         </div>
-                        <button type="submit" class="btn modal-button">Subscribe</button>
                     </form>
                 </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn modal-button">sign me up</button>
+                </div>
+            </div>
             </div>
         </div>
-    </div>
-    <!-- Bootstrap Script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
-</body>
+
+        <!-- Bootstrap Script -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    </body>
 
 </html>
