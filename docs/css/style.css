@@ -1,5 +1,4 @@
 /* ------------------------------------------------RESETS */
-
 *,
 *::before,
 *::after {
@@ -16,7 +15,9 @@
 
 /* -------------------------------------------------------------- BODY----------------------*/
 body {
-    background-color: rgb(172, 173, 174);
+    background: rgba(34,34,34,.9) url("/docs/images/background-body-img.jpg") no-repeat center center fixed; /*Image Source: https://www.bing.com/th?id=OHR.JTNPMilkyWay_EN-GB5660603519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50*/
+    width: 100%;
+    height: 100%;
 }
 
 h1,
@@ -131,6 +132,7 @@ nav form {
 }
 
 /* Subscribe Button */
+
 button {
     padding: 0;
     text-transform: uppercase;
@@ -144,10 +146,6 @@ button {
     background-color: #0062E2;
     color: #fff;
 }
-
-
-
-
 
 /* -------------------------------------------------------------- Carousel | HERO----------------------*/
 
@@ -234,7 +232,7 @@ button {
 } 
 
 
-/* Code from BOTB Button */
+/* Code from BOTB Button  to make animation on carousel buttons*/
 .button-arrow {
     position: absolute;
     margin-left: 10px;
@@ -252,7 +250,6 @@ button {
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
-
 
 .button:hover .button-arrow {
     -webkit-animation-name: arrow-effect;
@@ -292,21 +289,15 @@ button {
 
 /* ------------------------------------------------------------- Quotes / Comments -----------------------------*/
 
-/* Coment-Images */
-.coments-img-container {
-    outline: 5px solid hotpink;
-    padding: 1rem;
-}
-.coments-img-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-.coments-img-wrapper > * {
-    flex: 1;
+#comment-section {
+    margin-bottom: 5.5rem;
 }
 
+.comments {
+    margin-top: 6.5rem;
+}
 
+/* Dragonfly Coment */
 .dragonfly-text-left {
     float: right;
 }
@@ -324,19 +315,163 @@ button {
     color: #C4E3F8;
 }
 .col-1 hr {
-    height: 2px;
-    border: 2px dotted #040F0F;
+    width: 100%;
+    height: 3px;
+    background-color: #0062E2;
+    border: 4px solid #00487C;
 }
 
-#comment-section {
-    margin-bottom: 5.5rem;
+/* Coment-Images */
+.coments-img-container {
+    /* outline: 5px solid hotpink; */
+    padding: 1rem;
+    border-radius: 15px;
+    position: relative;
+}
+.coments-img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-.comments {
-    margin-top: 6.5rem;
+.coments-img-wrapper img {
+    border-radius: 15px;
+}
+
+.coments-img-wrapper > * {
+    flex: 1;
+}
+.coments-img {
+    position: relative;
+    display: inline-block;
+}
+.coments-img-hover {
+    cursor: auto;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    border-radius: 15px;
+    border: 3px solid #fff;
+}
+.coments-img-hover p{
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.coments-img-hover a {
+    text-decoration: none;
+    color: #0062E2;
+}
+
+.coments-img:hover .img-1 {
+    display: block;
+    top: 25%;
+    left: 15%;
+}
+.coments-img:hover .img-2 {
+    display: block;
+    top: 25%;
+    right: 15%;
+}
+.coments-img:hover .img-3 {
+    display: block;
+    top: 25%;
+    left: 15%;
+}
+.coments-img:hover .img-4 {
+    display: block;
+    top: 25%;
+    left: -45%;
+}
+.coments-img:hover .img-5 {
+    display: block;
+    top: 25%;
+    right: 5%;
+}
+.coments-img:hover .img-6 {
+    display: block;
+    bottom: 25%;
+    left: 15%;
+}
+.coments-img:hover .img-7 {
+    display: block;
+    bottom: 25%;
+    right: 15%;
+}
+
+/* Coments Image Right */
+
+#img-right-1 {
+    background: url("/docs/images/quotes-img-right-1.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-right-2 {
+    background: url("/docs/images/quotes-img-right-2.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-right-3 {
+    background: url("/docs/images/quotes-img-right-3.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-right-4 {
+    background: url("/docs/images/quotes-img-right-4.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-right-5 {
+    background: url("/docs/images/quotes-img-right-5.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-right-6 {
+    background: url("/docs/images/quotes-img-right-6.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-right-7 {
+    background: url("/docs/images/quotes-img-right-7.jpeg")no-repeat center center;
+    background-size: cover;
+}
+
+/* Coments Image Left */
+
+#img-left-1 {
+    background: url("/docs/images/quotes-img-left-1.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-left-2 {
+    background: url("/docs/images/quotes-img-left-2.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-left-3 {
+    background: url("/docs/images/quotes-img-left-3.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-left-4 {
+    background: url("/docs/images/quotes-img-left-4.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-left-5 {
+    background: url("/docs/images/quotes-img-left-5.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-left-6 {
+    background: url("/docs/images/quotes-img-left-6.jpeg")no-repeat center center;
+    background-size: cover;
+}
+#img-left-7 {
+    background: url("/docs/images/quotes-img-left-7.jpeg")no-repeat center center;
+    background-size: cover;
 }
 
 /* Cards */
+
+#carousel-quotes .carousel-inner{
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
 .card {
     background: transparent;
 }
@@ -359,7 +494,6 @@ button {
     position: relative;
 }
 
-
 .card-img-bg {
     background-color: #0062E2;
 }
@@ -367,7 +501,6 @@ button {
 .card-img-bg2 {
     background-color: #BDA0D6;
 }
-
 
 .card-img img {
     border: 2px solid #0062E2;
@@ -380,15 +513,14 @@ button {
     border: 2px solid #BDA0D6;
 }
 
-
 .card-body {
     background-color: #8D99AE;
     padding: 2px auto;
     position: relative;
 }
 
-
 .card-name {
+    margin-top: .5rem;
     margin-bottom: .5rem;
 }
 
@@ -402,7 +534,6 @@ button {
 
 .card-socials a {
     font-size: 22px;
-    margin: 0 auto;
     color: #0062E2;
     text-decoration: none;
 }
@@ -415,12 +546,13 @@ button {
     color: #fff;
 }
 
-
 /* Email-subscribe */
 
 #email-subscribe-section {
     background: url("/docs/images/section-subscribe-image.webp") no-repeat center center;
+    background-size: cover;
     margin-bottom: 3.5rem;
+    border-radius: 15px;
 }
 
 .email-subscribe-wrapper {
@@ -479,55 +611,88 @@ button {
     color: #0062E2;
 }
 
-
 /* -------------------------------------------------------------- DESTINATIONS----------------------*/
 /* Moons */
 
-.moons-sec {
-    margin-top: 8.5rem;
+.destination-container {
+    margin: 5.5rem auto;
+    width: 100%;
 }
 
-#moons {
-    position: relative;
-    margin-bottom: 6.5rem;
+.destination-container h2 {
+    margin-bottom: 1.5rem;
+}
+.destination-container .row {
+    margin-bottom: 2rem;
+}
+.destination-container .col-3 {
+    margin-right: 1.5rem;
+}
+/* Code from W3Schols to flip card */
+.flip-card {
+    /* background-color: transparent; */
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+}
+  
+.flip-card-inner {
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.6s;
+transform-style: preserve-3d;
+background-color: rgba(4, 15, 15, 0.4);
+border: 2px solid #C4E3F8;
+border-radius: 20px;
+box-shadow: 5px 10px 0 5px rgba(107, 200, 234, 0.5);
 }
 
+.flip-card:hover .flip-card-inner {
+box-shadow: -5px 10px 0 5px rgba(0, 98, 226, 0.5);
+transform: rotateY(180deg);
+}
 
-.title {
-    text-align: center;
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.flip-card-front {
+color: black;
+border-radius: 20px;
+}
+
+.flip-card-back {
+background-color: #95b6cb;
+color: white;
+border-radius: 15px;
+transform: rotateY(180deg);
+}
+.flip-card-front p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.flip-card-back p {
+    margin-top: 1.5rem;
+}
+
+.flip-card-back button {
     margin-top: 2.5rem;
 }
 
+/* Moons informations */
 
-.moons-tab {
-    background-color: transparent;
-    margin-top: 4.5rem;
+.title {
+    text-align: center;
+    margin-top: .5rem;
 }
 
-.moons-tab ul li {
-    padding: 0;
-}
-
-
-.moons-tab ul li a {
-    color: #fff;
-}
-
-.moons-tab ul li a:hover {
-    color: #DE3C4B;
-    border: none;
-    text-decoration: none;
-    border-right: 1px solid #fff;
-}
-
-.moons-tab-link {
-    position: relative;
-    display: block;
-    padding: .5rem .75rem;
-    margin-left: -1px;
-    line-height: 1.25;
-    border-right: 1px solid #DE3C4B;
-}
 
 
 .h3-heading {
@@ -617,7 +782,8 @@ button {
 
 .about-section {
     background-color: #8f8d8d;
-    padding-top: 7.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .about-row {
@@ -712,6 +878,9 @@ button {
     margin-bottom: .8rem;
 }
 
+#about-contact h2{
+    margin-bottom: 4.5rem;
+}
 
 /* Form */
 
@@ -733,9 +902,8 @@ input:hover {
 }
 
 textarea:hover {
-    border: 1px solid #FFBA08;
+    border: 1px solid #DE3C4B;
 }
-
 
 #map {
     margin: 2.5rem 2.5rem;
@@ -745,14 +913,13 @@ textarea:hover {
 /* Footer */
 
 footer {
-    background-color: #8190a8;
+    background-color: #BDA0D6;
     line-height: .95rem;
 }
 
 footer h5,p {
     color: #fff;
 }
-
 
 footer div h5, p {
     text-align: center;
@@ -761,6 +928,7 @@ footer div h5, p {
     padding-top: 40px;
 }
 /* Footer Links */
+
 footer li {
     list-style: none;
     display: inline;
@@ -813,7 +981,6 @@ form label {
     padding-right: 10px;
 }
 
-
 .modal-button {
     border-radius: 4px;
     background-color: #C4E3F8;
@@ -828,10 +995,6 @@ form label {
     box-shadow: 3px 8px #C4E3F8;
     color: #fff;
 }
-
-
-
-
 
 /* ----------------------------------------@MEDIA-------------------------------------------------------*/
 
