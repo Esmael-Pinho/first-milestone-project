@@ -65,7 +65,7 @@ h2 span {
 nav {
     background-color: #BDA0D6;
     line-height: 1.5rem;
-    box-shadow: 2px 3px #d0c0df;
+    box-shadow: 0 2px 3px 2px #d0c0df;
 }
 
 nav .container-fluid {
@@ -152,7 +152,7 @@ button {
 /* ---- Start Hero Container | Carousel ----*/
 
 #carousel-container {
-    margin-top: 5rem;
+    margin-top: .2rem;
     height: 100vh;
     overflow: hidden;
 }
@@ -615,11 +615,11 @@ button {
 /* Moons */
 
 .destination-container {
-    margin: 5.5rem auto;
-    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: 3.5rem;
 }
 
-.destination-container h2 {
+.destination-container h1 {
     margin-bottom: 1.5rem;
 }
 .destination-container .row {
@@ -675,15 +675,15 @@ transform: rotateY(180deg);
 }
 .flip-card-front p {
     margin-top: 0;
-    padding-top: 0;
+    margin-bottom: 0;
 }
 
-.flip-card-back p {
-    margin-top: 1.5rem;
+.flip-card-back span {
+    margin-top: .5rem;
 }
 
 .flip-card-back button {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
 }
 
 /* Moons informations */
@@ -693,10 +693,8 @@ transform: rotateY(180deg);
     margin-top: .5rem;
 }
 
-
-
 .h3-heading {
-    margin: 3.5rem;
+    margin-top: 2.5rem;
     text-align: center;
     position: relative;
 }
@@ -726,31 +724,19 @@ transform: rotateY(180deg);
 }
 
 
-#moons-img-container img {
-    height: 200px;
-    width: 40%;
-}
-
-#moons-img-container .moons-img {
-    margin: 0 auto;
-}
-
-.container-fluid .model-3d {
-    margin: 0 auto;
-}
-
 /* Back Top Button */
-
 #back-top-btn {
     position: absolute;
     margin: 4.5rem auto;
     text-align: center;
     width: 50px;
     height: 50px;
-    left: 2.5%;
+    left: 2%;
     bottom: 14%;
     position: fixed;
     border-radius: 50%;
+    display: none;
+    z-index: 100;
 }
 
 #back-top-btn a {
@@ -766,29 +752,31 @@ transform: rotateY(180deg);
 
 #back-top-btn button a:hover {
     text-decoration: none;
-    color: #DE3C4B;
+    color: #BDA0D6;
 }
 
 /* Planets */
+#planet-page-top {
+    margin-bottom: 3.5rem;
+}
 
-.planets-sec {
-    margin-top: 4.5rem;
+.destination-container h4 {
+    margin-bottom: 5.5rem;
 }
 
 
 /* -------------------------------------------------------------- ABOUT US------------------------------*/
 
 /* Who are we | Why love us */
-
 .about-section {
     background-color: #8f8d8d;
-    padding-top: 3.5rem;
+    padding-top: .5rem;
     padding-bottom: 3.5rem;
 }
 
 .about-row {
     margin-top: 2.5rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2rem;
 }
 
 .about-container {
@@ -827,7 +815,6 @@ transform: rotateY(180deg);
 }
 
 /* Our History */
-
 .history-heading {
     color: #fff;
     margin-bottom: 30px;
@@ -879,11 +866,11 @@ transform: rotateY(180deg);
 }
 
 #about-contact h2{
+    margin-top: 1rem;
     margin-bottom: 4.5rem;
 }
 
 /* Form */
-
 .details {
     margin-top: 10px;
 }
@@ -911,7 +898,6 @@ textarea:hover {
 
 /* -------------------------------------------------------------- FOOTER----------------------*/
 /* Footer */
-
 footer {
     background-color: #BDA0D6;
     line-height: .95rem;
@@ -928,7 +914,6 @@ footer div h5, p {
     padding-top: 40px;
 }
 /* Footer Links */
-
 footer li {
     list-style: none;
     display: inline;
@@ -1000,7 +985,6 @@ form label {
 
 
 /* Larger Screen */
-
 @media (min-width: 1400px) {
     .col-xxl-8 {
         width: 95%;
