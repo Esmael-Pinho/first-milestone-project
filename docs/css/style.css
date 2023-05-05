@@ -12,7 +12,6 @@
 /* -------------------------------------------------------------- IMPORTS----------------------*/
 
 
-
 /* -------------------------------------------------------------- BODY----------------------*/
 body {
     background: url("/docs/images/background-body-img.jpg") no-repeat center center fixed; /*--Image Source: https://www.bing.com/th?id=OHR.JTNPMilkyWay_EN-GB5660603519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50--*/
@@ -48,8 +47,11 @@ h2 span {
 .black {
     color: #040F0F;
 }
-.yellow {
-    color: #FFBA08;
+.aureolin {
+    color: #F9E900;
+}
+.egg-blue {
+    color: #68d2d9;
 }
 .blue {
     color: #0062E2;
@@ -628,7 +630,8 @@ button {
 #destination-info {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-    background-color: #003566;
+    background-color: rgba(0, 53, 102, 0.7); /*Still to decide*/
+    /* background-color: rgba(20, 29, 41, 0.8); */
     border-radius: 15px;
 }
 
@@ -668,11 +671,11 @@ transform-style: preserve-3d;
 background-color: rgba(4, 15, 15, 0.4);
 border: 2px solid #C4E3F8;
 border-radius: 20px;
-box-shadow: 5px 10px 0 5px rgba(107, 200, 234, 0.5);
+box-shadow: 5px 10px 0 5px rgba(0, 98, 226, 0.7);
 }
 
 .flip-card:hover .flip-card-inner {
-box-shadow: -5px 10px 0 5px rgba(0, 98, 226, 0.5);
+box-shadow: -5px 10px 0 5px rgba(107, 200, 234, 0.7);
 transform: rotateY(180deg);
 }
 
@@ -690,7 +693,7 @@ border-radius: 20px;
 }
 
 .flip-card-back {
-background-color: #95b6cb;
+background-color: #0062E2;
 color: white;
 border-radius: 15px;
 transform: rotateY(180deg);
@@ -720,16 +723,18 @@ transform: rotateY(180deg);
 .info-btn:hover {
     background-color: #BDA0D6;
 }
+/*Destination Cards Book Trip button*/
+.book-btn {
+    background-color: darkblue;
+}
+.book-btn:hover {
+    background-color: #47a0df;
+}
 
 /* Moons informations */
 .destination-info-img-container {
     margin-left: 5rem;
     margin-bottom: 1rem;
-}
-
-.title {
-    text-align: center;
-    margin-top: .5rem;
 }
 
 .heading {
@@ -928,7 +933,10 @@ transform: rotateY(180deg);
 .details {
     margin-top: 10px;
 }
-
+.details label {
+    color: #fff;
+    padding-right: 10px;
+}
 form p {
     margin-top: 25px;
 }
@@ -1014,10 +1022,16 @@ footer a {
 .modal-content {
     background-color: #BDA0D6;
 }
-
-form label {
-    color: #fff;
-    padding-right: 10px;
+.form-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-names-input {
+    width: 30%;
+    display: inline-block;
+}
+.l-name {
+    padding-left: 13px;
 }
 
 .modal-button {
