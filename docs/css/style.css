@@ -40,7 +40,9 @@ h2 span {
 .uppercase {
     text-transform: uppercase;
 }
-
+.white {
+    color: #fff;
+}
 .red {
     color: #DE3C4B;
 }
@@ -61,6 +63,9 @@ h2 span {
 }
 .columbia-blue {
     color: #C4E3F8;
+}
+.wisteria {
+    color: #BDA0D6;
 }
 .light-purple {
     color: #827FEC;
@@ -536,6 +541,12 @@ button {
 .card-text {
     margin-top: 2.5rem;
 }
+.card-text a {
+    text-decoration: none;
+}
+.quotes-a-link:hover {
+    color: #fff;
+}
 
 .card-socials {
     margin-bottom: 2.5rem ;
@@ -546,11 +557,9 @@ button {
     color: #0062E2;
     text-decoration: none;
 }
-
 .female-card-socials a {
     color: #BDA0D6;
 }
-
 .card-socials a:hover {
     color: #fff;
 }
@@ -598,9 +607,9 @@ button {
 
 .email-subscribe-right form input {
     border: none;
-    width: 63.5%;
+    width: 60%;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .email-subscribe-right form input:hover {
@@ -613,11 +622,12 @@ button {
     right: 13.9%;
     background-color: #0062E2;
     z-index: 1;
+    border-radius: 8px;
 }
 
 .email-subscribe-right form button:hover {
     border: 1px solid #0062E2;
-    background-color: #C4E3F8;
+    background-color: #fff;
     color: #0062E2;
 }
 
@@ -630,13 +640,16 @@ button {
 #destination-info {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-    background-color: rgba(0, 53, 102, 0.7); /*Still to decide*/
-    /* background-color: rgba(20, 29, 41, 0.8); */
+}
+#destination-info .destination-container{
+    background-color: rgba(1, 44, 85, 0.9);
     border-radius: 15px;
 }
-
 .destination-container h1 {
     margin-bottom: 1.5rem;
+}
+.destinations-info-text {
+    margin-top: 4.5rem;
 }
 .destination-container .row {
     margin-bottom: 2rem;
@@ -655,7 +668,6 @@ button {
 
 /* Code from W3Schols to flip card */
 .flip-card {
-    /* background-color: transparent; */
     width: 400px;
     height: 300px;
     perspective: 1000px;
@@ -773,6 +785,9 @@ transform: rotateY(180deg);
 .destination-info-heading::after {
     background-color: #8d0b8d;
 }
+.container-iframe {
+    padding-bottom: 4rem;
+}
 
 
 /* Back Top Button */
@@ -782,7 +797,7 @@ transform: rotateY(180deg);
     text-align: center;
     width: 50px;
     height: 50px;
-    left: 2%;
+    left: 1%;
     bottom: 10%;
     position: fixed;
     border-radius: 50%;
@@ -809,19 +824,6 @@ transform: rotateY(180deg);
 /* Planets */
 .destination-container h4 {
     margin-bottom: 5.5rem;
-}
-
-/* destination email subscribe */
-.destination-email-subscribe {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.destination-email-subscribe h2, h3 {
-    font-size: 45px;
-}
-.destination-email-subscribe form input {
-    width: 60%;
 }
 
 /* -------------------------------------------------------------- ABOUT US------------------------------*/
