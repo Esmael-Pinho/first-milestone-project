@@ -11,7 +11,8 @@
        <!-- Fontawesome -->
        <script src="https://kit.fontawesome.com/524826ac04.js" crossorigin="anonymous"></script>
         <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Oswald:wght@500&family=Roboto+Mono&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
         <!-- External CSS -->
         <link rel="stylesheet" href="/docs/css/style.css" type="text/css"/>
         <!-- External JavaScript -->
@@ -77,9 +78,9 @@
                                     <span class="red">"</span>Laying down, resting on a field, observing the night sky, a single fireflie<br>
                                     flew past past, making me wonder if there were any other places in space<br> 
                                     that I could also lay down and enjoy the starring sky.<span class="red">"</span><br>
-                                    And that short story is how we came to be. Now we're a team of 50.000<br>
-                                    who allow others to enjoy the starring sky from different worlds.<br>
-                                    Some near by, others from far far away.
+                                    And that short story is how we came to be. From one big dreamer,<br>
+                                    now we're a team of 50.000 strong, commited, who allow others to enjoy the<br> 
+                                    starring sky from different worlds. Some near by, others from far far away.
                                 </p>
                             </div>
                         </div>
@@ -113,7 +114,7 @@
                                     </div>
                                     <div class="timeline-item yellow" data-dates="250 B.C">
                                         <h5>First Journey</h5>
-                                        <p>250 women amazed to give their first step
+                                        <p>250 lucky ones amazed to give their first step
                                             <br>on the surface of the moon.
                                         </p>
                                     </div>
@@ -165,7 +166,7 @@
 
                 <div class="row justify-content-around">
                     <div class="col-5 contact-us-bg">
-                        <form action="" method="POST">
+                        <form action="" method="post">
 
                             <fieldset>
                                 <h4 class="text-white font-weight-bold text-center">Your Details <i class="fa fa-address-card"></i></h4>
@@ -211,7 +212,7 @@
                             <fieldset>
                                 <div>
                                     <label for="enquiry" class="block-label text-white details">Nature of Enquiry?</label>
-                                    <select id="enquiry" custom-select size="1">
+                                    <select id="enquiry" custom-select size="1" required>
                                         <option selected>Thank You so Much</option>
                                         <option value="1">Design Notes</option>
                                         <option value="2">Content Tips</option>
@@ -224,11 +225,13 @@
                             <fieldset class="details">
                                 <label for="feedback" class="block-label text-white">Message*</label>
                                 <br>
-                                <textarea id="feedback" rows="8" cols="87" name="feedback" placeholder="How did we do ? Give us your feedback let us know what we got right and where we can do better !"></textarea>
+                                <textarea id="feedback" rows="8" cols="81" name="feedback" placeholder="How did we do ? Give us your feedback let us know what we got right and where we can do better !" required></textarea>
                             </fieldset>
 
                             <br>
-                            <button type="submit" class="btn modal-button">Submit</button>
+                            <button type="submit" class="btn modal-button" data-bs-toggle="modal" data-bs-target="#messageSubmitModal">
+                                Submit
+                            </button>
                         </form>
                     </div>
 
@@ -245,7 +248,7 @@
                                 <small>Greenland<br>
                                     HQMM+JXJ Kullorsuaq, Greenland<br>
                                     Phone: +44 123 456 789<br>
-                                    Email: firefly@deepspacetravel
+                                    Email: dragonfly@deepspacetravel
                                 </small><br>
                             </p>
                         </div>
@@ -258,7 +261,7 @@
         <footer>
             <div id="footer-details" class="py-3 container-fluid row">
                 <div class="about col-4">
-                    <h5 class="uppercase"><strong>About Us:</strong></h5>
+                    <h5 class="uppercase"><strong>About <span class="blue">Us</span></strong></h5>
                     <p class="inline-block footer-info">
                         Since 500 B.C focused on bringing you <br>the best, fastest, safest deep space travel.
                         <br>
@@ -283,7 +286,7 @@
                 </div>
 
                 <div class="col-4">
-                    <h5 class="uppercase"><strong>Stay <span class="blue">in</span> Touch:</strong></h5>
+                    <h5 class="uppercase"><strong>Stay <span class="blue">in</span> Touch</strong></h5>
                     <ul class="socials">
                         <li>
                             <a id="facebook-icon" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
@@ -316,7 +319,7 @@
             <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="black">Sign up for free </h5>
+                    <h2 class="black">Sign up for free </h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -347,22 +350,42 @@
                             <input type="password" class="form-control" id="repeatPassword" aria-describedby="passwordRepeat" placeholder="Repeat Password" required>
                             <small id="passwordRepeat" class="form-text text-muted">Make sure your passwords match</small>
                         </div>
-                        <!-- <div class="form-group">
+                        <div class="form-group text-center">
                             <p class="black">
-                                Would you subscribe to our newsletter and qualify for new offers, prices and destinations?
+                                Save sign up details?
                             </p>
-                            
                             <input type="radio" id="radio-btn-1" name="consent" value="no" required>
                             <label for="opt-in" class="radio-label black">No Thanks</label>
                             <input type="radio" id="radio-btn-2" name="consent" value="yes" checked>
-                            <label for="opt-out" class="black">Count me in</label>
-                        </div> -->
+                            <label for="opt-out" class="black">Yes Please</label>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="submit" class="btn modal-button">sign me up</button>
+                        </div>
                     </form>
                 </div>
-                <div class="modal-footer">
-                    <button type="submit" class="btn modal-button">sign me up</button>
-                </div>
             </div>
+            </div>
+        </div>
+
+        <!-- Modal Bootstrap for interactive message submit button -->
+        <div class="modal fade" id="messageSubmitModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="messageSubmitModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title uppercase text-center fs-5" id="staticBackdropLabel">Thank you</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <p>We've successfully received your message<br> 
+                        keep an eye on your email,<br>
+                        we'll get back to you as soon as possible.
+                    </p>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
             </div>
         </div>
 

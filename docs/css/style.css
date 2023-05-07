@@ -10,13 +10,14 @@
     margin: 0;
 }
 /* -------------------------------------------------------------- IMPORTS----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Oswald:wght@500&family=Roboto+Mono&family=Ubuntu:wght@400;700&display=swap');
 
 
 /* -------------------------------------------------------------- BODY----------------------*/
 body {
     background: url("/docs/images/background-body-img.jpg") no-repeat center center fixed; /*--Image Source: https://www.bing.com/th?id=OHR.JTNPMilkyWay_EN-GB5660603519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50--*/
     width: 100%;
-    height: 100%;
+    font-family: 'Ubuntu', 'Roboto Mono', sans-serif;
 }
 
 h1,
@@ -27,14 +28,6 @@ h5,
 h6, p {
     color: #fff;
     text-align: center;
-}
-
-h2 span {
-    color: #DE3C4B;
-}
-
-.text-body-emphasis {
-    color: #fff !important;
 }
 
 .uppercase {
@@ -96,6 +89,7 @@ nav a:hover{
 }
 
 .navbar-brand {
+    font-family: 'Bruno Ace SC', 'Robolo Mono', sans-serif;
     font-weight: bold;
     font-size: 30px;
     color: #fff;
@@ -141,9 +135,10 @@ nav form {
     background-color: #C4E3F8;
 }
 
-/* Subscribe Button */
+/* Sign up Button */
 
 button {
+    font-family: 'Oswald', 'Roboto Mono', sans-serif;
     padding: 0;
     text-transform: uppercase;
 }
@@ -157,6 +152,10 @@ button {
     color: #fff;
 }
 
+/* Body-Section */
+.body-section {
+    background-color: rgba(4, 15, 15, 0.5);
+}
 /* -------------------------------------------------------------- Carousel | HERO----------------------*/
 
 /* ---- Start Hero Container | Carousel ----*/
@@ -169,6 +168,9 @@ button {
 
 #hero-container {
     height: 90vh;
+}
+#hero-container h1 {
+    font-weight: 700;
 }
 
 .hero-img-1 {
@@ -224,7 +226,6 @@ button {
 }
 
 .button:hover {
-    /* background-color: #d49f00; */
     border: 1px solid #fff;
     padding-right: 35px;
 }
@@ -300,7 +301,7 @@ button {
 /* ------------------------------------------------------------- Quotes / Comments -----------------------------*/
 
 #comment-section {
-    margin-bottom: 5.5rem;
+    padding-bottom: 5.5rem;
 }
 #comment-section .heading::before{
     width: 35%;
@@ -310,7 +311,7 @@ button {
 }
 
 .comments {
-    margin-top: 6.5rem;
+    margin-top: 5rem;
 }
 
 /* Dragonfly Coment */
@@ -566,9 +567,12 @@ button {
 
 /* Email-subscribe */
 #email-subscribe-section {
+    margin-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+#email-subscribe {
     background: url("/docs/images/section-subscribe-image.webp") no-repeat center center;
     background-size: cover;
-    margin-bottom: 3.5rem;
     border-radius: 15px;
 }
 
@@ -613,7 +617,7 @@ button {
 }
 
 .email-subscribe-right form input:hover {
-    background: #fff;
+    background: #d3d3d3;
 }
 
 .email-subscribe-right form button {
@@ -624,10 +628,17 @@ button {
     z-index: 1;
     border-radius: 8px;
 }
-
 .email-subscribe-right form button:hover {
-    border: 1px solid #0062E2;
+    border: 2px solid #0062E2;
     background-color: #fff;
+    color: #0062E2;
+    border-radius: 8px;
+}
+.email-subscribe-right form button a {
+    text-decoration: none;
+    color: #fff;
+}
+.email-subscribe-right form button:hover a {
     color: #0062E2;
 }
 
@@ -642,7 +653,8 @@ button {
     margin-right: 2.5rem;
 }
 #destination-info .destination-container{
-    background-color: rgba(1, 44, 85, 0.9);
+    /* background-color: rgba(1, 44, 85, 0.9); */
+    background-color: rgba(4, 15, 15, 0.9);
     border-radius: 15px;
 }
 .destination-container h1 {
@@ -674,41 +686,41 @@ button {
 }
   
 .flip-card-inner {
-position: relative;
-width: 100%;
-height: 100%;
-text-align: center;
-transition: transform 0.6s;
-transform-style: preserve-3d;
-background-color: rgba(4, 15, 15, 0.4);
-border: 2px solid #C4E3F8;
-border-radius: 20px;
-box-shadow: 5px 10px 0 5px rgba(0, 98, 226, 0.7);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    background-color: rgba(4, 15, 15, 0.9);
+    border: 3px solid #C4E3F8;
+    border-radius: 20px;
+    box-shadow: 5px 10px 0 5px rgba(0, 98, 226, 0.9);
 }
 
 .flip-card:hover .flip-card-inner {
-box-shadow: -5px 10px 0 5px rgba(107, 200, 234, 0.7);
-transform: rotateY(180deg);
+    box-shadow: -5px 10px 0 5px rgba(4, 15, 15, 0.9);
+    transform: rotateY(180deg);
+
 }
 
 .flip-card-front, .flip-card-back {
-position: absolute;
-width: 100%;
-height: 100%;
--webkit-backface-visibility: hidden;
-backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .flip-card-front {
-color: black;
-border-radius: 20px;
+    border-radius: 20px;
 }
 
 .flip-card-back {
-background-color: #0062E2;
-color: white;
-border-radius: 15px;
-transform: rotateY(180deg);
+    background-color: #0062E2;
+    color: white;
+    border-radius: 15px;
+    transform: rotateY(180deg);
 }
 .flip-card-front p {
     margin-top: 0;
@@ -733,14 +745,14 @@ transform: rotateY(180deg);
     background-color: #8d0b8d;
 }
 .info-btn:hover {
-    background-color: #BDA0D6;
+    background-color: #df0fdf;
 }
 /*Destination Cards Book Trip button*/
 .book-btn {
-    background-color: darkblue;
+    background-color: #033870;
 }
 .book-btn:hover {
-    background-color: #47a0df;
+    background-color: #11a7e7;
 }
 
 /* Moons informations */
@@ -798,7 +810,7 @@ transform: rotateY(180deg);
     width: 50px;
     height: 50px;
     left: 1%;
-    bottom: 10%;
+    bottom: 11%;
     position: fixed;
     border-radius: 50%;
     display: none;
@@ -825,12 +837,19 @@ transform: rotateY(180deg);
 .destination-container h4 {
     margin-bottom: 5.5rem;
 }
+/* List from both moons and planets */
+ul {
+    margin-top: 15px;
+}
+ul li {
+    list-style-type: none;
+}
 
 /* -------------------------------------------------------------- ABOUT US------------------------------*/
 
 /* Who are we | Why love us */
 .about-section {
-    background-color: #8f8d8d;
+    background-color: rgba(4, 15, 15, 0.9);
     padding-top: .5rem;
     padding-bottom: 3.5rem;
 }
@@ -1017,7 +1036,7 @@ footer a {
     background-image: url("");
 }
 
-.modal-header h5 {
+.modal-header h2 {
     margin-left: auto;
 }
 
@@ -1033,7 +1052,10 @@ footer a {
     display: inline-block;
 }
 .l-name {
-    padding-left: 13px;
+    padding-left: 10px;
+}
+.radio-label {
+    padding-right: 10px;
 }
 
 .modal-button {
@@ -1042,7 +1064,7 @@ footer a {
     color: #fff;
     box-shadow: 3px 8px #0062E2;
     display: grid;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 .modal-button:hover {
@@ -1052,8 +1074,6 @@ footer a {
 }
 
 /* ----------------------------------------@MEDIA-------------------------------------------------------*/
-
-
 /* Larger Screen */
 @media (min-width: 1400px) {
     .col-xxl-8 {
