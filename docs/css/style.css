@@ -79,25 +79,24 @@ nav .container-fluid {
 .navbar-collapse {
     flex-grow: 0;
 }
-
-nav a:hover{
-    color: #fff;
-}
-
-.navbar-brand:hover {
-    color: #fff;
-}
-
 .navbar-brand {
     font-family: 'Bruno Ace SC', 'Robolo Mono', sans-serif;
     font-weight: bold;
     font-size: 30px;
+    color: #fff;
+    padding-top: 15px;
+}
+.navbar-brand:hover {
+    color: #fff;
+}
+nav a:hover{
     color: #fff;
 }
 
 .nav-link {
     color: white;
     font-weight: bold;
+    padding-bottom: 20px;
 }  
 
 .navbar .nav-link.active, .navbar .nav-link.show {
@@ -168,7 +167,21 @@ button {
 
 #hero-container {
     height: 90vh;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+/* animation from code Institute Love Running Project Walkthrough */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.09);
+    }
+}
+
 #hero-container h1 {
     font-weight: 700;
 }
@@ -340,7 +353,6 @@ button {
 
 /* Coment-Images */
 .coments-img-container {
-    /* outline: 5px solid hotpink; */
     padding: 1rem;
     border-radius: 15px;
     position: relative;
@@ -1074,14 +1086,62 @@ footer a {
 }
 
 /* ----------------------------------------@MEDIA-------------------------------------------------------*/
-/* Larger Screen */
+/* Small Screens */
+@media (min-width: 320px) {
+    .navbar-brand {
+        padding-left: 0;
+        margin-left: 0;
+        font-size: 25px;
+    }
+
+    button.navbar-toggler.collapsed {
+        margin: auto;
+    }
+
+    button.navbar-toggler {
+        margin: auto;
+    }
+
+    nav form {
+        margin: 0;
+    }
+
+    #hero-container {
+        animation: none;
+    }
+
+    #hero-container.hero-img {
+        background-size: cover;
+    }
+
+    .hero-img-2, .hero-img-4 {
+        background-position: right;
+    }
+
+    /* Modal */
+    .form-names-input {
+        width: 100%;
+        display: block;
+    }
+
+    /* Comments section */
+    .heading::before {
+        display: none;
+    }
+    
+    .heading::after {
+        display: none;
+    }
+}
+
+
+
+/* Larger Screens */
 @media (min-width: 1400px) {
     .col-xxl-8 {
         width: 95%;
     }
-}
 
-@media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1600px;
     }
