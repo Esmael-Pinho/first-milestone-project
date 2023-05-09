@@ -713,7 +713,6 @@ button {
 .flip-card:hover .flip-card-inner {
     box-shadow: -5px 10px 0 5px rgba(4, 15, 15, 0.9);
     transform: rotateY(180deg);
-
 }
 
 .flip-card-front, .flip-card-back {
@@ -768,10 +767,10 @@ button {
 }
 
 /* Moons informations */
-.destination-info-img-container {
+/* .destination-info-img-container {
     margin-left: 5rem;
     margin-bottom: 1rem;
-}
+} */
 
 .heading {
     margin-top: 2.5rem;
@@ -982,13 +981,27 @@ form p {
 input:hover {
     background-color: #d3d3d3;
 }
-
+textarea {
+    width: 100%;
+    height: 8rem;
+    padding: 0.3125rem;
+    letter-spacing: 0.1245rem;
+}
 textarea:hover {
     border: 1px solid #DE3C4B;
 }
 
 #map {
+    width: 100%;
+    height: 25rem;
     margin: 2.5rem 2.5rem;
+}
+#mapIframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    /* scroll-behavior: unset; */
+    margin: 0;
 }
 
 /* -------------------------------------------------------------- FOOTER----------------------*/
@@ -1105,25 +1118,22 @@ footer a {
     nav form {
         margin: 0;
     }
-
+    /* Carousel container */
     #hero-container {
         animation: none;
     }
 
-    #hero-container.hero-img {
+    .hero-img {
         background-size: cover;
     }
 
     .hero-img-2, .hero-img-4 {
         background-position: right;
     }
-
-    /* Modal */
-    .form-names-input {
-        width: 100%;
-        display: block;
+    #hero-container .button {
+        margin: auto;
+        width: 50%;
     }
-
     /* Comments section */
     .heading::before {
         display: none;
@@ -1132,12 +1142,105 @@ footer a {
     .heading::after {
         display: none;
     }
+    .dragonfly-quotes {
+        display: none;
+    }
+    .memories {
+        display: none;
+    }
+    /* Email Subscribe */
+    .email-subscribe-title h3,
+    .email-subscribe-title h2 {
+        font-size: 25px;
+        margin-top: 65px;
+    }
+    .email-subscribe-left {
+        margin-left: 0;
+    }
+    .email-subscribe-right {
+        margin-right: 0;
+    }
+    #emailSubscribe {
+        width: 90%;
+        display: block;
+    }
+    .email-subscribe-right form{
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    .email-subscribe-right form button{
+        position: static;
+    }
+    /* About us */
+    .history-heading {
+        margin-top: 1.5rem;
+    }
+    .contact-panel h4 {
+        margin-top: 1.5rem;
+    }
+    #contact-panel-left, #contact-panel-right {
+        width: 20rem;
+        height: 41.25rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #map {
+        margin: 0;
+    }
+    #contact-panel-right p {
+        margin-top: 1rem;
+    }
+    /* -----Destinations-----*/
+    /* Moons and Planets*/
+    .main-heading {
+        margin-top: 3rem;
+    }
+    .flip-card {
+        width: auto;
+        margin-top: 3rem;
+    }
+    .flip-card-inner {
+        box-shadow: none;
+    }
+    .flip-card:hover .flip-card-inner {
+        box-shadow: none;
+    }
+    .destination-info-img-container {
+        display: none;
+    }
+    #iframeDiv {
+        display: none;
+    }
+    #small-back-top-btn {
+        display: none;
+    }
+    /* Footer */
+    footer ul {
+        margin: auto;
+    }
+    footer li {
+        font-size: 2.5rem;
+        padding-left: .254rem;
+        margin-top: 1rem;
+    }
+    footer h5 {
+        margin-top: .5rem;
+    }
+    .copyright {
+        margin-bottom: 2rem;
+    }
+    .note {
+        margin-top: 1.5rem;
+    }
+    /* Modal */
+    .form-names-input {
+        width: 100%;
+        display: block;
+    }
 }
 
-
-
 /* Larger Screens */
-@media (min-width: 1400px) {
+/* @media (min-width: 1400px) {
     .col-xxl-8 {
         width: 95%;
     }
@@ -1145,4 +1248,4 @@ footer a {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1600px;
     }
-}
+} */
