@@ -14,7 +14,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Oswald:wght@500&family=Roboto+Mono&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
         <!-- External CSS -->
-        <link rel="stylesheet" href="/docs/css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="..style.css" type="text/css"/>
     </head>
 
     <body id="moon-page-top">
@@ -60,7 +60,8 @@
             <div class="container">
                 <h1 class="main-heading">Destination:<span class="blue"> Moons</span></h1>
                 <div class="row justify-content-center">
-                    <div class="col-sm-12 col-lg-3">
+                    <!-- The Moon Card-->
+                    <div class="col-sm-12 col-md-6 col-xl-4">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                               <div class="flip-card-front img-2">
@@ -87,7 +88,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-3">
+                    <!-- Io Card-->
+                    <div class="col-sm-12 col-md-6 col-xl-4">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                               <div class="flip-card-front moon-card-img">
@@ -114,7 +116,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-3">
+                    <!-- Europa Card-->
+                    <div class="col-sm-12 col-md-6 col-xl-4">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                               <div class="flip-card-front moon-card-img">
@@ -141,10 +144,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                
-                <div class="row justify-content-center">
-                    <div class="col-sm-12 col-lg-3">
+                    <!-- Callisto Card-->
+                    <div class="col-sm-12 col-md-6 col-xl-4">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                               <div class="flip-card-front moon-card-img">
@@ -171,7 +172,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-3">
+                    <!-- Titan Card-->
+                    <div class="col-sm-12 col-md-6 col-xl-4">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                               <div class="flip-card-front moon-card-img">
@@ -198,7 +200,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-3">
+                    <!-- Lapetus Card-->
+                    <div class="col-sm-12 col-md-6 col-xl-4">
                         <div class="flip-card">
                             <div class="flip-card-inner">
                               <div class="flip-card-front moon-card-img">
@@ -235,12 +238,12 @@
             <div id="theMoon" class="container destination-container">
                 <h4 class="heading destination-info-heading">The Moon</h4>
                 <div class="row justify-content-center">
-                    <div class="col-sm-12 col-lg-5">
+                    <div class="d-none d-xl-block col-xl-5">
                         <div class="destination-info-img-container">
                             <img src="/docs/images/earth_moon.png" width="100%" height="450px" alt="The Moon">
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-6">
+                    <div class="col-sm-12 col-lg-10 col-xl-6">
                         <div class="destinations-info-text">
                             <p>The brightest and largest object in our night sky, 
                                 the Moon makes Earth a more livable planet by moderating
@@ -280,7 +283,7 @@
                     </div>
                 </div>
                 <div id="iframeDiv" class="row justify-content-center container-iframe">
-                    <div class="col-6 text-center">
+                    <div class="d-none d-lg-block col-lg-6 text-center">
                         <div>
                             <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2366&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
                         </div>
@@ -293,7 +296,7 @@
             <div id="io" class="container destination-container">
                 <h4 class="heading destination-info-heading">Io</h4>
                 <div class="row justify-content-center">
-                    <div class="col-sm-12 col-lg-6">
+                    <div class="col-sm-12 col-lg-10 col-xl-6">
                         <div class="destinations-info-text">
                             <p>Jupiter's moon Io is the most volcanically active world in the Solar System,
                                 with hundreds of volcanoes, some erupting lava fountains
@@ -322,14 +325,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-5">
+                    <div class="d-none d-xl-block col-xl-5">
                         <div class="destination-info-img-container">
                             <img src="/docs/images/moon-card-img-io.png" width="100%" height="450px" alt="Jupiter's Moon Io">
                         </div>
                     </div>
                 </div>
                 <div id="iframeDiv" class="row justify-content-center container-iframe">
-                    <div class="col-6 text-center">
+                    <div class="d-none d-lg-block col-lg-6 text-center">
                         <div>
                             <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2379&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
                         </div>
@@ -342,12 +345,12 @@
             <div id="europa" class="container destination-container">
                 <h4 class="heading destination-info-heading">Europa</h4>
                 <div class="row justify-content-center">
-                    <div class="col-sm-12 col-lg-5">
+                    <div class="d-none d-xl-block col-xl-5">
                         <div class="destination-info-img-container">
                             <img src="/docs/images/moon-card-img-europa.png" width="100%" height="450px" alt="Jupiter's Moon Europa">
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-6">
+                    <div class="col-sm-12 col-lg-10 col-xl-6">
                         <div class="destinations-info-text">
                             <p>Europa may be the most promising place in our solar system
                                 to find present-day environments<br> suitable for some form of life beyond Earth.
@@ -374,7 +377,7 @@
                     </div>
                 </div>
                 <div id="iframeDiv" class="row justify-content-center container-iframe">
-                    <div class="col-6 text-center">
+                    <div class="d-none d-lg-block col-lg-6 text-center">
                         <div>
                             <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2388&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
                         </div>
@@ -387,7 +390,7 @@
             <div id="callisto" class="container destination-container">
                 <h4 class="heading destination-info-heading">Callisto</h4>
                 <div class="row justify-content-center">
-                    <div class="col-sm-12 col-lg-6">
+                    <div class="col-sm-12 col-lg-10 col-xl-6">
                         <div class="destinations-info-text">
                             <p>Callisto is Jupiter’s second largest moon and the third largest moon in our solar system. 
                                 Its surface is the most heavily cratered of any object in our solar system. 
@@ -414,14 +417,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-5">
+                    <div class="d-none d-xl-block col-xl-5">
                         <div class="destination-info-img-container">
                             <img src="/docs/images/moon-card-img-callisto.png" width="100%" height="450px" alt="Jupiter's Moon Callisto">
                         </div>
                     </div>
                 </div>
                 <div id="iframeDiv" class="row justify-content-center container-iframe">
-                    <div class="col-6 text-center">
+                    <div class="d-none d-lg-block col-lg-6 text-center">
                         <div>
                             <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2402&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
                         </div>
@@ -434,12 +437,12 @@
             <div id="titan" class="container destination-container">
                 <h4 class="heading destination-info-heading">Titan</h4>
                 <div class="row justify-content-center">
-                    <div class="col-sm-12 col-lg-5">
+                    <div class="d-none d-xl-block col-xl-5">
                         <div class="destination-info-img-container">
                             <img src="/docs/images/moon-card-img-titan.png" width="100%" height="450px" alt="Saturn's Moon Titan">
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-6">
+                    <div class="col-sm-12 col-lg-10 col-xl-6">
                         <div class="destinations-info-text">
                             <p>Saturn’s largest moon Titan is an extraordinary and exceptional world. 
                                 Among our solar system’s more than 150 known moons, Titan is the only one 
@@ -469,7 +472,7 @@
                     </div>
                 </div>
                 <div id="iframeDiv" class="row justify-content-center container-iframe">
-                    <div class="col-6 text-center">
+                    <div class="d-none d-lg-block col-lg-6 text-center">
                         <div>
                             <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2349&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
                         </div>
@@ -482,7 +485,7 @@
             <div id="lapetus" class="container destination-container">
                 <h4 class="heading destination-info-heading">Lapetus</h4>
                 <div class="row justify-content-center">
-                    <div class="col-sm-12 col-lg-6">
+                    <div class="col-sm-12 col-lg-10 col-xl-6">
                         <div class="destinations-info-text">
                             <p>The name lapetus comes from the Greek god (or Titan) lapetus, 
                                 who is a son of Uranus and Gaia, a brother to Kronus and the 
@@ -510,14 +513,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-5">
+                    <div class="d-none d-xl-block col-xl-5">
                         <div class="destination-info-img-container">
                             <img src="/docs/images/moon-card-img-lapetus.png" width="100%" height="450px" alt="Saturn's Moon Lapetus">
                         </div>
                     </div>
                 </div>
                 <div id="iframeDiv" class="row justify-content-center container-iframe">
-                    <div class="col-6 text-center">
+                    <div class="d-none d-lg-block col-lg-6 text-center">
                         <div>
                             <iframe &lt;iframe src="https://solarsystem.nasa.gov/gltf_embed/2381&#39"; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;></iframe>
                         </div>
@@ -540,7 +543,7 @@
         <!-- Footer -->
         <footer>
             <div id="footer-details" class="py-3 container-fluid row">
-                <div class="about col-sm-12col-lg-4">
+                <div class="about col-sm-12 col-lg-4">
                     <h5 class="uppercase"><strong>About Us:</strong></h5>
                     <p class="inline-block footer-info">
                         Since 500 B.C focused on bringing you <br>the best, fastest, safest deep space travel.
@@ -568,7 +571,7 @@
                 <div class="col-sm-12 col-lg-4">
                     <h5 class="uppercase"><strong>Stay <span class="blue">in</span> Touch:</strong></h5>
                     <div class="row justify-content-center">
-                        <div class="col-12">
+                        <div class="col-12 text-center">
                             <ul class="socials">
                                 <li>
                                     <a id="facebook-icon" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>

@@ -158,13 +158,11 @@ button {
 /* -------------------------------------------------------------- Carousel | HERO----------------------*/
 
 /* ---- Start Hero Container | Carousel ----*/
-
 #carousel-container {
     margin-top: .2rem;
     height: 100vh;
     overflow: hidden;
 }
-
 #hero-container {
     height: 90vh;
 
@@ -203,7 +201,6 @@ button {
 }
 
 /* Buttons Inside Carousel */
-
 .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
@@ -212,32 +209,26 @@ button {
     border-radius: 50%;
     background-color: #0062E2;
 }
-
 .carousel-indicators [data-bs-target]:hover {
     background-color: #0062E2;
     opacity: 1;
 }
-
 .carousel-indicators .active {
     background-color: #0062E2;
     opacity: 1;
 }
-
 .button {
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-
 .button a {
     color: #fff;
     text-decoration: none;
 }
-
 .button span {
     transition: all 0.5s;
 }
-
 .button:hover {
     border: 1px solid #fff;
     padding-right: 35px;
@@ -254,7 +245,6 @@ button {
     color: #fff;
     border: 1px solid #fff;
 } 
-
 
 /* Code from BOTB Button  to make animation on carousel buttons*/
 .button-arrow {
@@ -296,7 +286,6 @@ button {
         margin-left: 10px;
     }
 }
-
 @keyframes arrow-effect {
     0% {
         margin-left: 10px;
@@ -322,7 +311,6 @@ button {
 #comment-section .heading::after{
     width: 35%;
 }
-
 .comments {
     margin-top: 5rem;
 }
@@ -334,21 +322,15 @@ button {
 .dragonfly-text-right {
     float: left;
 }
-.col-1 .fa-arrow-left {
+.fa-arrow-left {
     float: right;
     font-size: 35px;
     color: #00487C;
 }
-.col-1 .fa-arrow-right {
+.fa-arrow-right {
     float: left;
     font-size: 35px;
     color: #00487C;
-}
-.col-1 hr {
-    width: 100%;
-    height: 3px;
-    background-color: #0062E2;
-    border: 4px solid #00487C;
 }
 
 /* Coment-Images */
@@ -463,7 +445,6 @@ button {
 }
 
 /* Coments Image Left */
-
 #img-left-1 {
     background: url("/docs/images/quotes-img-left-1.jpeg")no-repeat center center;
     background-size: cover;
@@ -758,7 +739,7 @@ button {
 .info-btn:hover {
     background-color: #df0fdf;
 }
-/*Destination Cards Book Trip button*/
+/*Destination-Cards Book Trip button*/
 .book-btn {
     background-color: #033870;
 }
@@ -766,12 +747,7 @@ button {
     background-color: #11a7e7;
 }
 
-/* Moons informations */
-/* .destination-info-img-container {
-    margin-left: 5rem;
-    margin-bottom: 1rem;
-} */
-
+/* Moons informations */ 
 .heading {
     margin-top: 2.5rem;
     text-align: center;
@@ -914,6 +890,7 @@ ul li {
 .history-p {
     margin: auto;
 }
+
 /* Timeline from Code Institue Walkthrought Project Resume */
 .timeline-item {
     padding: 2.5em 1em 0em 1em;
@@ -1000,7 +977,6 @@ textarea:hover {
     width: 100%;
     height: 100%;
     border: none;
-    /* scroll-behavior: unset; */
     margin: 0;
 }
 
@@ -1021,6 +997,7 @@ footer div h5, p {
 .copyright {
     padding-top: 40px;
 }
+
 /* Footer Links */
 footer li {
     list-style: none;
@@ -1056,11 +1033,6 @@ footer a {
 }
 
 /* -------------------------------------------------------------- MODAL----------------------*/
-
-.modal {
-    background-image: url("");
-}
-
 .modal-header h2 {
     margin-left: auto;
 }
@@ -1099,34 +1071,31 @@ footer a {
 }
 
 /* ----------------------------------------@MEDIA-------------------------------------------------------*/
-/* Small Screens */
+
+/* -----------------Small Screens 320px----------------- */
+
 @media (min-width: 320px) {
     .navbar-brand {
         padding-left: 0;
         margin-left: 0;
         font-size: 25px;
     }
-
     button.navbar-toggler.collapsed {
         margin: auto;
     }
-
     button.navbar-toggler {
         margin: auto;
     }
-
     nav form {
         margin: 0;
     }
     /* Carousel container */
     #hero-container {
-        animation: none;
+        animation-play-state: paused;
     }
-
     .hero-img {
         background-size: cover;
     }
-
     .hero-img-2, .hero-img-4 {
         background-position: right;
     }
@@ -1138,38 +1107,13 @@ footer a {
     .heading::before {
         display: none;
     }
-    
     .heading::after {
         display: none;
     }
-    .dragonfly-quotes {
-        display: none;
-    }
-    .memories {
-        display: none;
-    }
-    /* Email Subscribe */
-    .email-subscribe-title h3,
-    .email-subscribe-title h2 {
+    /* Subscribe Section */
+    .email-subscribe-title h2, 
+    h3 {
         font-size: 25px;
-        margin-top: 65px;
-    }
-    .email-subscribe-left {
-        margin-left: 0;
-    }
-    .email-subscribe-right {
-        margin-right: 0;
-    }
-    #emailSubscribe {
-        width: 90%;
-        display: block;
-    }
-    .email-subscribe-right form{
-        margin-left: .5rem;
-        margin-right: .5rem;
-    }
-    .email-subscribe-right form button{
-        position: static;
     }
     /* About us */
     .history-heading {
@@ -1178,11 +1122,8 @@ footer a {
     .contact-panel h4 {
         margin-top: 1.5rem;
     }
-    #contact-panel-left, #contact-panel-right {
-        width: 20rem;
-        height: 41.25rem;
-        margin-left: auto;
-        margin-right: auto;
+    #contactRight {
+        margin-top: 2.5rem;
     }
     #map {
         margin: 0;
@@ -1204,12 +1145,6 @@ footer a {
     }
     .flip-card:hover .flip-card-inner {
         box-shadow: none;
-    }
-    .destination-info-img-container {
-        display: none;
-    }
-    #iframeDiv {
-        display: none;
     }
     #small-back-top-btn {
         display: none;
@@ -1238,14 +1173,118 @@ footer a {
         display: block;
     }
 }
+/* /End Small screens */
 
-/* Larger Screens */
-/* @media (min-width: 1400px) {
-    .col-xxl-8 {
-        width: 95%;
+/* -----------------------Large Screens 992px---------------------------*/
+
+@media (min-width: 992px) {
+    /* Carousel container*/
+    #hero-container {
+        animation-play-state: running;
+    }
+    .hero-img-2, .hero-img-4 {
+        background-position: center;
+    }
+    #hero-container .button {
+        width: 60%;
     }
 
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1600px;
+    /* Subscribe Section */
+    .email-subscribe-title h2 {
+        font-size: 35px;
     }
-} */
+    /* -----Destinations-----*/
+    /* About-us */
+    .history-heading {
+        margin-top: 0;
+    }
+    #contactRight {
+        margin-top: 0;
+    }
+    /* Moons and Planets*/
+    .flip-card {
+        margin-top: 1.5rem;
+    }
+    /* Modal */
+    .form-names-input {
+        width: 30%;
+        display: inline-block;
+    }
+}
+/* /End Large Screens */
+
+/* ------------Larger Screens 1200px ---------*/
+@media (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 35px;
+    }
+    /* Carousel container */
+    #hero-container .button {
+        width: initial;
+    }
+
+    /* Subscribe Section */
+    .email-subscribe-title h2 {
+        font-size: 55px;
+    }
+    .email-subscribe-title h3 {
+        font-size: 35px;
+    }
+    /* About us */
+    .history-heading {
+        margin-top: 1.5rem;
+    }
+    .contact-panel h4 {
+        margin-top: 1.5rem;
+    }
+    #contactRight {
+        margin-top: 2.5rem;
+    }
+    #map {
+        margin: 0;
+    }
+    #contact-panel-right p {
+        margin-top: 1rem;
+    }
+    /* -----Destinations-----*/
+    /* Moons and Planets*/
+    .main-heading {
+        margin-top: 3rem;
+    }
+    .flip-card {
+        width: auto;
+        margin-top: 3rem;
+    }
+    .flip-card-inner {
+        box-shadow: none;
+    }
+    .flip-card:hover .flip-card-inner {
+        box-shadow: none;
+    }
+    #small-back-top-btn {
+        display: none;
+    }
+    /* Footer */
+    footer ul {
+        margin: auto;
+    }
+    footer li {
+        font-size: 2.5rem;
+        padding-left: .254rem;
+        margin-top: 1rem;
+    }
+    footer h5 {
+        margin-top: .5rem;
+    }
+    .copyright {
+        margin-bottom: 2rem;
+    }
+    .note {
+        margin-top: 1.5rem;
+    }
+    /* Modal */
+    .form-names-input {
+        width: 100%;
+        display: block;
+    }
+}
