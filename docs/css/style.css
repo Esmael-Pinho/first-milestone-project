@@ -33,33 +33,44 @@ h6, p {
 .uppercase {
     text-transform: uppercase;
 }
+
+/* ----------Colors-------- */
 .white {
     color: #fff;
 }
+
 .red {
     color: #DE3C4B;
 }
+
 .black {
     color: #040F0F;
 }
+
 .aureolin {
     color: #F9E900;
 }
+
 .egg-blue {
     color: #68d2d9;
 }
+
 .blue {
     color: #0062E2;
 }
+
 .dark-blue {
     color: #00487C;
 }
+
 .columbia-blue {
     color: #C4E3F8;
 }
+
 .wisteria {
     color: #BDA0D6;
 }
+
 .light-purple {
     color: #827FEC;
 }
@@ -79,6 +90,7 @@ nav .container-fluid {
 .navbar-collapse {
     flex-grow: 0;
 }
+
 .navbar-brand {
     font-family: 'Bruno Ace SC', 'Robolo Mono', sans-serif;
     font-weight: bold;
@@ -89,6 +101,7 @@ nav .container-fluid {
 .navbar-brand:hover {
     color: #fff;
 }
+
 nav a:hover{
     color: #fff;
 }
@@ -110,7 +123,6 @@ nav a:hover{
 }
 
 /* Nav list hover */
-
 .nav-link:hover {
     color: #C4E3F8;
 }
@@ -120,7 +132,6 @@ nav form {
 }
 
 /* Dropdown content */
-
 .dropdown-menu {
     background-color: #BDA0D6;
 }
@@ -135,7 +146,6 @@ nav form {
 }
 
 /* Sign up Button */
-
 button {
     font-family: 'Oswald', 'Roboto Mono', sans-serif;
     padding: 0;
@@ -146,6 +156,7 @@ button {
     background-color: #C4E3F8;
     color: #0062E2;
 }
+
 .nav-btn:hover {
     background-color: #0062E2;
     color: #fff;
@@ -163,6 +174,7 @@ button {
     height: 100vh;
     overflow: hidden;
 }
+
 #hero-container {
     height: 90vh;
 
@@ -170,6 +182,7 @@ button {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 /* animation from code Institute Love Running Project Walkthrough */
 @keyframes hero-zoom {
     from{
@@ -209,26 +222,32 @@ button {
     border-radius: 50%;
     background-color: #0062E2;
 }
+
 .carousel-indicators [data-bs-target]:hover {
     background-color: #0062E2;
     opacity: 1;
 }
+
 .carousel-indicators .active {
     background-color: #0062E2;
     opacity: 1;
 }
+
 .button {
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+
 .button a {
     color: #fff;
     text-decoration: none;
 }
+
 .button span {
     transition: all 0.5s;
 }
+
 .button:hover {
     border: 1px solid #fff;
     padding-right: 35px;
@@ -305,12 +324,15 @@ button {
 #comment-section {
     padding-bottom: 5.5rem;
 }
+
 #comment-section .heading::before{
     width: 35%;
 }
+
 #comment-section .heading::after{
     width: 35%;
 }
+
 .comments {
     margin-top: 5rem;
 }
@@ -319,14 +341,17 @@ button {
 .dragonfly-text-left {
     float: right;
 }
+
 .dragonfly-text-right {
     float: left;
 }
+
 .fa-arrow-left {
     float: right;
     font-size: 35px;
     color: #00487C;
 }
+
 .fa-arrow-right {
     float: left;
     font-size: 35px;
@@ -342,7 +367,7 @@ button {
 .coments-img-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 .coments-img-wrapper img {
@@ -351,11 +376,12 @@ button {
 
 .coments-img-wrapper > * {
     flex: 1;
-}
+} 
 .coments-img {
     position: relative;
-    display: inline-block;
+    display: inline;
 }
+
 .coments-img-hover {
     cursor: auto;
     display: none;
@@ -367,12 +393,14 @@ button {
     border-radius: 15px;
     border: 3px solid #fff;
 }
+
 .coments-img-hover p{
     background-color: #fff;
     width: 50%;
     margin: 0 auto;
     border-radius: 15px;
 }
+
 .coments-img-hover a {
     text-decoration: none;
     color: #0062E2;
@@ -383,31 +411,37 @@ button {
     top: 25%;
     left: 15%;
 }
+
 .coments-img:hover .img-2 {
     display: block;
     top: 25%;
     right: 15%;
 }
+
 .coments-img:hover .img-3 {
     display: block;
     top: 25%;
     left: 15%;
 }
+
 .coments-img:hover .img-4 {
     display: block;
     top: 25%;
     left: -45%;
 }
+
 .coments-img:hover .img-5 {
     display: block;
     top: 25%;
     right: 5%;
 }
+
 .coments-img:hover .img-6 {
     display: block;
     bottom: 25%;
     left: 15%;
 }
+
 .coments-img:hover .img-7 {
     display: block;
     bottom: 25%;
@@ -419,26 +453,32 @@ button {
     background: url("/docs/images/quotes-img-right-1.jpeg")no-repeat center center;
     background-size: cover;
 }
+
 #img-right-2 {
     background: url("/docs/images/quotes-img-right-2.jpeg")no-repeat center center;
     background-size: cover;
 }
+
 #img-right-3 {
     background: url("/docs/images/quotes-img-right-3.jpeg")no-repeat center center;
     background-size: cover;
 }
+
 #img-right-4 {
     background: url("/docs/images/quotes-img-right-4.jpeg")no-repeat center center;
     background-size: cover;
 }
+
 #img-right-5 {
     background: url("/docs/images/quotes-img-right-5.jpeg")no-repeat center center;
     background-size: cover;
 }
+
 #img-right-6 {
     background: url("/docs/images/quotes-img-right-6.jpeg")no-repeat center center;
     background-size: cover;
 }
+
 #img-right-7 {
     background: url("/docs/images/quotes-img-right-7.jpeg")no-repeat center center;
     background-size: cover;
@@ -449,6 +489,7 @@ button {
     background: url("/docs/images/quotes-img-left-1.jpeg")no-repeat center center;
     background-size: cover;
 }
+
 #img-left-2 {
     background: url("/docs/images/quotes-img-left-2.jpeg")no-repeat center center;
     background-size: cover;
@@ -457,18 +498,22 @@ button {
     background: url("/docs/images/quotes-img-left-3.jpeg")no-repeat center center;
     background-size: cover;
 }
+
 #img-left-4 {
     background: url("/docs/images/quotes-img-left-4.jpeg")no-repeat center center;
     background-size: cover;
 }
+
 #img-left-5 {
     background: url("/docs/images/quotes-img-left-5.jpeg")no-repeat center center;
     background-size: cover;
 }
+
 #img-left-6 {
     background: url("/docs/images/quotes-img-left-6.jpeg")no-repeat center center;
     background-size: cover;
 }
+
 #img-left-7 {
     background: url("/docs/images/quotes-img-left-7.jpeg")no-repeat center center;
     background-size: cover;
@@ -535,9 +580,11 @@ button {
 .card-text {
     margin-top: 2.5rem;
 }
+
 .card-text a {
     text-decoration: none;
 }
+
 .quotes-a-link:hover {
     color: #fff;
 }
@@ -551,9 +598,11 @@ button {
     color: #0062E2;
     text-decoration: none;
 }
+
 .female-card-socials a {
     color: #BDA0D6;
 }
+
 .card-socials a:hover {
     color: #fff;
 }
@@ -563,6 +612,7 @@ button {
     margin-top: 5.5rem;
     padding-bottom: 5.5rem;
 }
+
 #email-subscribe {
     background: url("/docs/images/section-subscribe-image.webp") no-repeat center center;
     background-size: cover;
@@ -587,6 +637,7 @@ button {
 .email-subscribe-title h2 {
     font-size: 55px;
 }
+
 .email-subscribe-title h3 {
     font-size: 35px;
 }
@@ -601,7 +652,6 @@ button {
     display: block;
     margin: 2rem 1.5rem;
 }
-
 .email-subscribe-right form input {
     border: none;
     width: 60%;
@@ -621,16 +671,19 @@ button {
     z-index: 1;
     border-radius: 8px;
 }
+
 .email-subscribe-right form button:hover {
     border: 2px solid #0062E2;
     background-color: #fff;
     color: #0062E2;
     border-radius: 8px;
 }
+
 .email-subscribe-right form button a {
     text-decoration: none;
     color: #fff;
 }
+
 .email-subscribe-right form button:hover a {
     color: #0062E2;
 }
@@ -641,24 +694,29 @@ button {
     margin-top: .5rem;
     margin-bottom: 3.5rem;
 }
+
 #destination-info {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
 }
+
 #destination-info .destination-container{
-    /* background-color: rgba(1, 44, 85, 0.9); */
     background-color: rgba(4, 15, 15, 0.9);
     border-radius: 15px;
 }
+
 .destination-container h1 {
     margin-bottom: 1.5rem;
 }
+
 .destinations-info-text {
     margin-top: 4.5rem;
 }
+
 .destination-container .row {
     margin-bottom: 2rem;
 }
+
 .destination-container .col-3 {
     margin-right: 1.5rem;
 }
@@ -667,6 +725,7 @@ button {
     padding-top: 15px;
     margin-bottom: 0;
 }
+
 .moon-card-img h4 {
     margin-top: 1rem;
 }
@@ -677,7 +736,7 @@ button {
     height: 300px;
     perspective: 1000px;
 }
-  
+
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -714,6 +773,7 @@ button {
     border-radius: 15px;
     transform: rotateY(180deg);
 }
+
 .flip-card-front p {
     margin-top: 0;
     margin-bottom: 0;
@@ -736,13 +796,16 @@ button {
 .info-btn {
     background-color: #8d0b8d;
 }
+
 .info-btn:hover {
     background-color: #df0fdf;
 }
+
 /*Destination-Cards Book Trip button*/
 .book-btn {
     background-color: #033870;
 }
+
 .book-btn:hover {
     background-color: #11a7e7;
 }
@@ -781,13 +844,14 @@ button {
 .destination-info-heading::before {
     background-color: #8d0b8d;
 }
+
 .destination-info-heading::after {
     background-color: #8d0b8d;
 }
+
 .container-iframe {
     padding-bottom: 4rem;
 }
-
 
 /* Back Top Button */
 #back-top-btn {
@@ -824,10 +888,12 @@ button {
 .destination-container h4 {
     margin-bottom: 5.5rem;
 }
+
 /* List from both moons and planets */
 ul {
     margin-top: 15px;
 }
+
 ul li {
     list-style-type: none;
 }
@@ -942,28 +1008,35 @@ ul li {
 .details {
     margin-top: 10px;
 }
+
 .details label {
     color: #fff;
     padding-right: 10px;
 }
+
 form p {
     margin-top: 25px;
 }
+
 #age {
     padding-right: 10px;
 }
+
 .mobile-nbr {
     margin-left: 100px;
 }
+
 input:hover {
     background-color: #d3d3d3;
 }
+
 textarea {
     width: 100%;
     height: 8rem;
     padding: 0.3125rem;
     letter-spacing: 0.1245rem;
 }
+
 textarea:hover {
     border: 1px solid #DE3C4B;
 }
@@ -973,6 +1046,7 @@ textarea:hover {
     height: 25rem;
     margin: 2.5rem 2.5rem;
 }
+
 #mapIframe {
     width: 100%;
     height: 100%;
@@ -994,6 +1068,7 @@ footer h5,p {
 footer div h5, p {
     text-align: center;
 }
+
 .copyright {
     padding-top: 40px;
 }
@@ -1006,6 +1081,7 @@ footer li {
     padding-left: 50px;
     font-size: 50px;
 }
+
 footer a {
     color: #fff;
     text-decoration: none;
@@ -1014,12 +1090,15 @@ footer a {
 #facebook-icon:hover {
     color: #0062E2;
 }
+
 #twitter-icon:hover {
     color: #C4E3F8;
 }
+
 #youtube-icon:hover {
     color: #DE3C4B;
 }
+
 #instagram-icon:hover {
     color: #8d0b8d;
 }
@@ -1040,17 +1119,21 @@ footer a {
 .modal-content {
     background-color: #BDA0D6;
 }
+
 .form-group {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .form-names-input {
     width: 30%;
     display: inline-block;
 }
+
 .l-name {
     padding-left: 10px;
 }
+
 .radio-label {
     padding-right: 10px;
 }
@@ -1080,93 +1163,119 @@ footer a {
         margin-left: 0;
         font-size: 25px;
     }
+
     button.navbar-toggler.collapsed {
         margin: auto;
     }
+
     button.navbar-toggler {
         margin: auto;
     }
+
     nav form {
         margin: 0;
     }
+
     /* Carousel container */
     #hero-container {
         animation-play-state: paused;
     }
+
     .hero-img {
         background-size: cover;
     }
+
     .hero-img-2, .hero-img-4 {
         background-position: right;
     }
+
     #hero-container .button {
         margin: auto;
         width: 50%;
     }
+
     /* Comments section */
     .heading::before {
         display: none;
     }
+
     .heading::after {
         display: none;
     }
+
     /* Subscribe Section */
     .email-subscribe-title h2, 
     h3 {
         font-size: 25px;
     }
+
     /* About us */
     .history-heading {
         margin-top: 1.5rem;
     }
+
     .contact-panel h4 {
         margin-top: 1.5rem;
     }
+
     #contactRight {
         margin-top: 2.5rem;
     }
+
     #map {
         margin: 0;
     }
+
     #contact-panel-right p {
         margin-top: 1rem;
     }
+
     /* -----Destinations-----*/
     /* Moons and Planets*/
     .main-heading {
         margin-top: 3rem;
     }
+
     .flip-card {
         width: auto;
         margin-top: 3rem;
     }
+
     .flip-card-inner {
         box-shadow: none;
     }
+
     .flip-card:hover .flip-card-inner {
         box-shadow: none;
     }
+
     #small-back-top-btn {
         display: none;
     }
+
     /* Footer */
     footer ul {
         margin: auto;
     }
+
     footer li {
         font-size: 2.5rem;
         padding-left: .254rem;
         margin-top: 1rem;
     }
+
     footer h5 {
         margin-top: .5rem;
     }
+
     .copyright {
         margin-bottom: 2rem;
     }
+
     .note {
         margin-top: 1.5rem;
     }
+
     /* Modal */
     .form-names-input {
         width: 100%;
@@ -1175,36 +1284,114 @@ footer a {
 }
 /* /End Small screens */
 
+/* ------------Meddium Screens 576px ---------*/
+
+@media (min-width: 576px) {
+    /* Destinations / About Us / Comments section */
+    .heading::before {
+        display: block;
+    }
+
+    .heading::after {
+        display: block;
+    }
+
+    #comment-section .heading::before{
+        width: 25%;
+    }
+
+    #comment-section .heading::after{
+        width: 25%;
+    }
+
+    #about-page-top .heading::before {
+        width: 30%;
+    }
+
+    #about-page-top .heading::after {
+        width: 30%;
+    }
+
+    .long-heading::before {
+        width: 33%;
+    }
+
+    .long-heading::after {
+        width: 33%;
+    }
+}
+
 /* -----------------------Large Screens 992px---------------------------*/
 
 @media (min-width: 992px) {
+    /* Nav Sign up button/form */
+    nav form {
+        margin-left: 1rem;
+    }
+    
     /* Carousel container*/
     #hero-container {
         animation-play-state: running;
     }
+
     .hero-img-2, .hero-img-4 {
         background-position: center;
     }
+
     #hero-container .button {
         width: 60%;
+    }
+
+    /* Quotes / comments */
+    #carousel-quotes-bot .carousel-inner{
+        border-radius: 15px;
+        margin-top: 15px;
+    }
+
+    #comment-section .heading::before{
+        width: 35%;
+    }
+
+    #comment-section .heading::after{
+        width: 35%;
+    }
+
+    #about-page-top .heading::before {
+        width: 38%;
+    }
+
+    #about-page-top .heading::after {
+        width: 38%;
+    }
+
+    .long-heading::before {
+        width: 40%;
+    }
+
+    .long-heading::after {
+        width: 40%;
     }
 
     /* Subscribe Section */
     .email-subscribe-title h2 {
         font-size: 35px;
     }
+
     /* -----Destinations-----*/
     /* About-us */
     .history-heading {
         margin-top: 0;
     }
+
     #contactRight {
         margin-top: 0;
     }
+
     /* Moons and Planets*/
     .flip-card {
         margin-top: 1.5rem;
     }
+
     /* Modal */
     .form-names-input {
         width: 30%;
@@ -1214,77 +1401,107 @@ footer a {
 /* /End Large Screens */
 
 /* ------------Larger Screens 1200px ---------*/
+
 @media (min-width: 1200px) {
+    /* Navbar */
     .navbar-brand {
         font-size: 35px;
     }
+
     /* Carousel container */
     #hero-container .button {
         width: initial;
+    }
+
+    /* Quotes / Comments-img */
+    #comment-section .heading::before {
+        width: 38%;
+    }
+
+    #comment-section .heading::after {
+        width: 38%;
+    }
+
+    #about-page-top .heading::before {
+        width: 40%;
+    }
+    #about-page-top .heading::after {
+        width: 40%;
+    }
+
+    .coments-img-wrapper > * {
+        flex: 0;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 10%;
     }
 
     /* Subscribe Section */
     .email-subscribe-title h2 {
         font-size: 55px;
     }
+
     .email-subscribe-title h3 {
         font-size: 35px;
     }
-    /* About us */
-    .history-heading {
-        margin-top: 1.5rem;
-    }
-    .contact-panel h4 {
-        margin-top: 1.5rem;
-    }
-    #contactRight {
-        margin-top: 2.5rem;
-    }
-    #map {
-        margin: 0;
-    }
-    #contact-panel-right p {
-        margin-top: 1rem;
-    }
+
     /* -----Destinations-----*/
     /* Moons and Planets*/
     .main-heading {
-        margin-top: 3rem;
+        margin-top: .75rem;
     }
-    .flip-card {
-        width: auto;
-        margin-top: 3rem;
+    .destination-container h1 {
+        margin-bottom: 0;
     }
     .flip-card-inner {
-        box-shadow: none;
+        box-shadow: 5px 10px 0 5px rgba(0, 98, 226, 0.9);
     }
     .flip-card:hover .flip-card-inner {
-        box-shadow: none;
+        box-shadow: -5px 10px 0 5px rgba(4, 15, 15, 0.9);
     }
-    #small-back-top-btn {
-        display: none;
+    /* Back top button */
+    .back-top-button {
+        margin-top: 0;
+        margin-bottom: 2.5rem;
     }
-    /* Footer */
-    footer ul {
-        margin: auto;
+    .back-top-btn {
+        background-color: #8d0b8d;
     }
-    footer li {
-        font-size: 2.5rem;
-        padding-left: .254rem;
-        margin-top: 1rem;
+    .back-top-btn a {
+        color: #fff;
+        text-decoration: none;
     }
-    footer h5 {
-        margin-top: .5rem;
-    }
-    .copyright {
-        margin-bottom: 2rem;
-    }
-    .note {
-        margin-top: 1.5rem;
-    }
-    /* Modal */
-    .form-names-input {
-        width: 100%;
-        display: block;
+    .back-top-btn:hover {
+        border: 1px solid #fff;
+        background-color: #8d0b8d;
     }
 }
+/* /End Larger Screens */
+
+/* ------------Extra Larger Screens 1400px ---------*/
+
+@media (min-width: 1400px) {
+    /* Qoutes / Comments */
+    .dragonfly-text-left {
+        margin-top: 16rem;
+        margin-right: 5rem;
+    }
+
+    .dragonfly-text-right {
+        margin-top: 16rem;
+        margin-left: 5rem;
+    }
+
+    /*--- Destinations ---*/
+    /* Back to top Button */
+    #small-back-top-btn {
+        display: contents;
+    }
+    
+    #back-top-btn {
+        left: 0;
+        bottom: 15%;
+    }
+}
+/* /End Extra Larger screens */
