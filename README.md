@@ -1,18 +1,22 @@
-# Silver Spoon
+# DragonFly
 
-## Milestone Project 1 - 
-
-<h2 align="center"><img src="gather/static/readme/images/gather-mockup.jpg"></h2>
-
-* Silver Spoon is a website which allows users to learn about the variety of ice cream options, flavours and to buy if they so choose to.
-
-* This is my Milestone Project 1. My website uses  technologies that I have learnt including HTML, CSS.
 
 [image of web on different devices]()
+
+* DragonFly is a space travel website that allows users to book trips, destinations, to Moons and/or Planets.
+The website design is responsive so it can be used on any device.
+
+* This is my Milestone Project 1. This website uses technologies that I have learned including HTML, CSS.
 
 ## Live Project
 
 [View the live project here.]()
+
+![GitHub last commit]()
+![GitHub contributors]()
+![GitHub language count]()
+![GitHub top language]()
+![W3C Validation]()
 
 ## Repository
 
@@ -21,10 +25,10 @@
 # Table of Contents
 
 ## Contents
-- [User experience](#user-experience)
+- [User Experience (UX)](#user-experience)
   * [User Stories](#user-stories)
     + [Users](#users)
-    + [Owner](#owner)
+    + [Buisness Owner](#buisness)
 - [Design](#design)
   + [Overview](#overview)
   + [Colour Scheme](#colour-scheme)
@@ -50,46 +54,57 @@
   + [Content](#content)
   + [Acknowledgements](#acknowledgements)
 
-# User Experience
+# User Experience (UX)
 
-## User stoires
+## User Stories
 
 ### Users
 
-* As a user, I want the landing page of the website to explain the purpose of the website and allow me to preview the content.
+* As a user, I want the landing page of the website to explain the purpose of the website, as well as being able, to go where, access the next steps, as simple and quick as possible.
+
+* As a user I want to be able to navigate the site easily to find information I may require.
 
 * As a user, I want the website to work and be accesible on any device.
 
 ### Buisness Owner
 
-* As a owner, I want it to be as easy as possible for users to choose their favourite ice cream, and as fast as possible.
+* As a Owner, I want it to be as easy and fast as possible for users to choose their destinations, as well as getting the necessary information regarding their choices.
 
-* As a owner, I want the website to function and look good on any device.
+* To allow the users to to be able to contact the DragonFly either for questions or with recommendations.
 
-## Design
+* I want the website to function and look good on any device.
 
-### Overview
+# Design
 
-- The website design is playful, colourful inviting and easy to use. The name ‘Silver Sponn’ refers to the website’s as a way of indicate that their ice cream will be served from a silver spoon.
+## Overview
 
-### Colour
-<h2 align="center"><img src="gather/static/readme/images/gather-colour-palette.jpg"></h2>
+- The website design is, colorful, inviting and easy to use. The name ‘DragonFly’ refers to the, delicated, colorful, fast flying insect that served as inspiration.
 
-### Typography
+<img src="/workspace/first-milestrone-project/docs/images/landing-page.jpg">
 
-- Headings are in  The body is in Roboto with sans-serif as a fallback font. This means the text will be easy to read on all device sizes.
+## Colour
 
-### Imagery 
+<img src="/workspace/first-milestrone-project/docs/images/reademe-color-palets/milestone-project-coolors-1.png">
 
-- 
 
-### Icons
+<img src="/workspace/first-milestrone-project/docs/images/reademe-color-palets/milestone-project-coolors-2.png">
 
-- I have used icons on buttons on the website to enhance the text that states the button’s action. 
+  * The website uses a palette of colours taken from the logo image. The colour palette was created using the [Coolors]("https://coolors.co/") website. 
+  It uses a simple colour scheme of wisteria, columbia-blue and magenta with pops of dark-blue and red.
 
-### Cards
 
-- 
+## Typography
+
+  Google Fonts was used for the following fonts:
+  * Bruno Ace Sc : was used for the logo at the navbar.
+  * Ubuntu: was used for the headings
+  * Oswald: was used for the paragraphs, small texts and spans.
+  * Sans-serif: used as the fallback font.
+
+
+## Icons
+
+- I have used icons from [Font Awesome]("https://fontawesome.com/icons") on the navbar, about us, and destinations to enhance the text, get more attention. 
 
 
 # Features
@@ -98,11 +113,13 @@
 
 ### Nav Bar
 
-<h2 align="center"><img src="gather/static/readme/images/nav-bar-logged-out.jpg"></h2>
-<h2 align="center"><img src="gather/static/readme/images/nav-bar-admin-logged-in.jpg"></h2>
-<h2 align="center"><img src="gather/static/readme/images/nav-bar-non-admin-logged-in.jpg"></h2>
+<img src="/workspace/first-milestrone-project/docs/images/home-navbar.jpg">
 
-- The nav bar presents different options with the dropdown buttons. - used from [bootstrap]() 
+- The nav bar contains the logo, home button, about us, destinations and a sign up button.
+<img src="">
+<img src="">
+
+
 
 
 - The logo links back to the main landing page.
@@ -111,7 +128,7 @@
 
 ### Footer 
 
-<h2 align="center"><img src="gather/static/readme/images/footer.jpg"></h2>
+<img src="">
 
 - The footer includes the website’s name and a brief description. 
 
@@ -120,27 +137,27 @@
 
 ## Index Page
 
-<h2 align="center"><img src="gather/static/readme/images/index-page-logged-out.jpg"></h2>
+<img src="gather/static/readme/images/index-page-logged-out.jpg">
 
-<h2 align="center"><img src="gather/static/readme/images/index-page-logged-in-admin.jpg"></h2>
+<img src="gather/static/readme/images/index-page-logged-in-admin.jpg">
 
 - The purpose of the Silver Spoon website main page is to give a brief description of what the site is about.
 
 - There are big card images on the page, making the next step clear and easy to the user.
 
 
-### Ice Cream Page Cards
+###  gghhg
 
 - To give quick visual attraction and simple direction as to where it leads.
 
-<h2 align="center"><img src="gather/static/readme/images/index-page-recipe-cards.jpg"></h2>
+<img src="gather/static/readme/images/index-page-recipe-cards.jpg">
 
 
-## Register/ Log In Pages Features
+## gghjh
 
-<h2 align="center"><img src="gather/static/readme/images/sign-up-page.jpg"></h2>
+<img src="gather/static/readme/images/sign-up-page.jpg">
 
-<h2 align="center"><img src="gather/static/readme/images/log-in-page.jpg"></h2>
+<img src="gather/static/readme/images/log-in-page.jpg">
 
 - The Register form features input fields for Username, First Name, Last Name and Password. All fields are required.
 

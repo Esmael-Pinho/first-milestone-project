@@ -17,7 +17,6 @@
 body {
     background: url("/docs/images/background-body-img.jpg") no-repeat center center fixed; /*--Image Source: https://www.bing.com/th?id=OHR.JTNPMilkyWay_EN-GB5660603519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50--*/
     width: 100%;
-    font-family: 'Ubuntu', 'Roboto Mono', sans-serif;
 }
 
 h1,
@@ -26,8 +25,12 @@ h3,
 h4,
 h5, 
 h6, p {
+    font-family: 'Ubuntu';
     color: #fff;
     text-align: center;
+}
+p {
+    font-family: 'Oswald';
 }
 
 .uppercase {
@@ -202,19 +205,19 @@ button {
 }
 
 .hero-img-1 {
-    background: url("/docs/images/carousel-hero-img-1.jpg") no-repeat center center; /*Image Source: https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80 */
+    background: url("/docs/images/hero-carousel/carousel-hero-img-1.jpg") no-repeat center center; /*Image Source: https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80 */
 }
 
 .hero-img-2 {
-    background: url("/docs/images/carousel-hero-img-2.jpg") no-repeat center center; /*Image source: https://images.unsplash.com/photo-1658457459792-f4dfe37407ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80 */
+    background: url("/docs/images/hero-carousel/carousel-hero-img-2.jpg") no-repeat center center; /*Image source: https://images.unsplash.com/photo-1658457459792-f4dfe37407ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80 */
 }
 
 .hero-img-3 {
-    background: url("/docs/images/carousel-hero-img-3.jpg") no-repeat center center; /*Image Source: https://allears.net/wp-content/uploads/2019/12/Space-220-Space-Elevator.jpg */
+    background: url("/docs/images/hero-carousel/carousel-hero-img-3.jpg") no-repeat center center; /*Image Source: https://allears.net/wp-content/uploads/2019/12/Space-220-Space-Elevator.jpg */
 }
 
 .hero-img-4 {
-    background: url("/docs/images/carousel-hero-img-4.png") no-repeat center center; /*Image Source: https://www.saxonweald.com/images/content/getting-in-touch-1614955509.jpg */
+    background: url("/docs/images/hero-carousel/carousel-hero-img-4.png") no-repeat center center; /*Image Source: https://www.saxonweald.com/images/content/getting-in-touch-1614955509.jpg */
 }
 
 /* Buttons Inside Carousel */
@@ -454,72 +457,72 @@ button {
 
 /* Coments Image Right */
 #img-right-1 {
-    background: url("/docs/images/quotes-img-right-1.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-right-1.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-2 {
-    background: url("/docs/images/quotes-img-right-2.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-right-2.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-3 {
-    background: url("/docs/images/quotes-img-right-3.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-right-3.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-4 {
-    background: url("/docs/images/quotes-img-right-4.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-right-4.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-5 {
-    background: url("/docs/images/quotes-img-right-5.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-right-5.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-6 {
-    background: url("/docs/images/quotes-img-right-6.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-right-6.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-7 {
-    background: url("/docs/images/quotes-img-right-7.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-right-7.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 /* Coments Image Left */
 #img-left-1 {
-    background: url("/docs/images/quotes-img-left-1.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-left-1.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 #img-left-2 {
-    background: url("/docs/images/quotes-img-left-2.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-left-2.jpeg")no-repeat center center;
     background-size: cover;
 }
 #img-left-3 {
-    background: url("/docs/images/quotes-img-left-3.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-left-3.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 #img-left-4 {
-    background: url("/docs/images/quotes-img-left-4.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-left-4.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 #img-left-5 {
-    background: url("/docs/images/quotes-img-left-5.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-left-5.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 #img-left-6 {
-    background: url("/docs/images/quotes-img-left-6.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-left-6.jpeg")no-repeat center center;
     background-size: cover;
 }
 
 #img-left-7 {
-    background: url("/docs/images/quotes-img-left-7.jpeg")no-repeat center center;
+    background: url("/docs/images/memories/memories-img-left-7.jpeg")no-repeat center center;
     background-size: cover;
 }
 
@@ -1351,6 +1354,10 @@ footer a {
     /* Carousel container*/
     #hero-container {
         animation-play-state: running;
+    }
+
+    #hero-container div {
+        margin-top: 3rem;
     }
 
     .hero-img-2, .hero-img-4 {
