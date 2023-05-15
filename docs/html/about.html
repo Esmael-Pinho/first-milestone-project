@@ -18,8 +18,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Oswald:wght@500&family=Roboto+Mono&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
         <!-- External CSS -->
         <link rel="stylesheet" href="/docs/css/style.css" type="text/css"/>
-        <!-- External JavaScript -->
-        <link rel="stylesheet" href="/docs/javascript/index.js" type="text/css"/>
     </head>
 
     <body id="about-page-top">
@@ -172,17 +170,18 @@
                         <form action="https://formdump.codeinstitute.net/" method="post">
 
                             <fieldset>
-                                <h4 class="text-white font-weight-bold text-center">Your Details <i class="fa fa-address-card"></i></h4>
+                                <h4 class="text-white text-center">Your Details <i class="fa fa-address-card"></i></h4>
 
 
                                 <div class="details">
                                     <label class="text-white">Title:</label>
-                                    <input type="radio" name="consent" value="no" required>
+
+                                    <input id="opt-in" type="radio" name="consent" value="no" required>
                                     <label for="opt-in" class="radio-label black">Mr</label>
-                                    <input type="radio" name="consent" value="no" required>
+                                    <input id="opt-out" type="radio" name="consent" value="no" required>
                                     <label for="opt-out" class="black">Ms</label>
-                                    <input type="radio" name="consent" value="yes" checked>
-                                    <label for="opt-out" class="radio-label black">Doctor</label>
+                                    <input id="opt-out2" type="radio" name="consent" value="yes" checked>
+                                    <label for="opt-out2" class="radio-label black">Doctor</label>
                                 </div>
                                 <div class="details">
                                     <label for="name-field" class="block-label text-white">Full Name:</label>
@@ -242,7 +241,7 @@
                         <div class="contact-panel" id="contact-panel-right">
                             <h4 class="text-center">Find us <i class="fas fa-search-location red"></i></h4>
                             <div id="map">
-                                <iframe id="mapIframe" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1060.5891856360124!2d-57.217700286412885!3d74.58408341110247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNzTCsDM1JzAyLjciTiA1N8KwMTInNTQuNCJX!5e0!3m2!1sen!2snl!4v1681643862668!5m2!1sen!2snl" 
+                                <iframe id="mapIframe" title="Map with our location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1060.5891856360124!2d-57.217700286412885!3d74.58408341110247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNzTCsDM1JzAyLjciTiA1N8KwMTInNTQuNCJX!5e0!3m2!1sen!2snl!4v1681643862668!5m2!1sen!2snl" 
                                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                                 </iframe>
                             </div>
@@ -264,7 +263,7 @@
         <footer>
             <div id="footer-details" class="py-3 container-fluid row">
                 <div class="about col-sm-12 col-lg-4">
-                    <h5 class="uppercase"><strong>About <span class="blue">Us</span></strong></h5>
+                    <h5 class="uppercase"><strong>About Us</strong></h5>
                     <p class="inline-block footer-info">
                         Since 500 B.C focused on bringing you <br>the best, fastest, safest deep space travel.
                         <br>
@@ -289,7 +288,7 @@
                 </div>
 
                 <div class="col-sm-12 col-lg-4">
-                    <h5 class="uppercase"><strong>Stay <span class="blue">in</span> Touch</strong></h5>
+                    <h5 class="uppercase"><strong>Stay in Touch</strong></h5>
                     <div class="row justify-content-center">
                         <div class="col-12 text-center">
                             <ul class="socials">
