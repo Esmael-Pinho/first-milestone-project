@@ -80,14 +80,14 @@ The website design is responsive so it can be used on any device.
 
 - The website design is, colorful, inviting and easy to use. The name ‘DragonFly’ refers to the, delicated, colorful, fast flying insect that served as inspiration.
 
-<img src="/workspace/first-milestrone-project/docs/images/reademe-images/home-page.webp">
+[home-page](docs/assets/reademe-images/navbar.webp)
 
 ## Colour
 
-<img src="/workspace/first-milestrone-project/docs/images/reademe-images/milestone-project-coolors-1.png">
+![DragonFly Website Color Palette-1](docs/assets/reademe-images/milestone-project-coolors-1.png)
 
 
-<img src="/workspace/first-milestrone-project/docs/images/reademe-images/milestone-project-coolors-2.png">
+![DragonFly Website Color Palette-2](docs/assets/reademe-images/milestone-project-coolors-2.png)
 
   * The website uses a palette of colours taken from the logo image. The colour palette was created using the [Coolors]("https://coolors.co/") website. 
   It uses a simple colour scheme of wisteria, columbia-blue and magenta with pops of dark-blue and red.
@@ -104,14 +104,11 @@ The website design is responsive so it can be used on any device.
 ## Wireframes
 Wireframes were created for the main pages.
 
- [Home Page]("/workspace/first-milestrone-project/docs/images/reademe-images/home-page.png")
- <img src="/workspace/first-milestrone-project/docs/images/reademe-images/home-page.png">
+ [Home Page](docs/assets/reademe-images/home-page.png)
 
- [About Us Page]("/workspace/first-milestrone-project/docs/images/reademe-images/about-us-page.png")
- <img src="/workspace/first-milestrone-project/docs/images/reademe-images/about-us-page.png">
+ [About Us Page](docs/assets/reademe-images/about-us-page.png)
 
- [Destination Page]("/workspace/first-milestrone-project/docs/images/reademe-images/about-us-page.png")
- <img src="/workspace/first-milestrone-project/docs/images/reademe-images/destination-page.png">
+ [Destination Page](docs/assets/reademe-images/about-us-page.png)
  
 
 
@@ -124,15 +121,19 @@ Wireframes were created for the main pages.
 
 ## All Pages Features
 
-### Nav Bar
+### Home Page
+#### Navbar
 
-<img src="/workspace/first-milestrone-project/docs/images/reademe-images/navbar.webp">
+![DragonFly Navbar](docs/assets/reademe-images/navbar.webp)
 
 - The nav bar contains the logo, home button, about us, destinations and a sign up button.
 
 - The logo links back to the home page.
 
 - The nav bar turns into a slide-out menu on smaller screen sizes
+
+#### Carousel
+
 
 ### Footer 
 
