@@ -15,7 +15,7 @@
 
 /* -------------------------------------------------------------- BODY----------------------*/
 body {
-    background: url("/docs/background-body-img.jpg") no-repeat center center fixed; /*--Image Source: https://www.bing.com/th?id=OHR.JTNPMilkyWay_EN-GB5660603519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50--*/
+    background: url("../images/background-body-img.jpg") no-repeat center center fixed; /*--Image Source: https://www.bing.com/th?id=OHR.JTNPMilkyWay_EN-GB5660603519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50--*/
     width: 100%;
 }
 
@@ -203,19 +203,19 @@ button {
 }
 
 .hero-img-1 {
-    background: url("/docs/carousel-hero-img-1.webp") no-repeat center center; /*Image Source: https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80 */
+    background: url("../images/carousel-hero-img-1.webp") no-repeat center center; /*Image Source: https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80 */
 }
 
 .hero-img-2 {
-    background: url("/docs/carousel-hero-img-2.webp") no-repeat center center; /*Image source: https://images.unsplash.com/photo-1658457459792-f4dfe37407ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80 */
+    background: url("../images/carousel-hero-img-2.webp") no-repeat center center; /*Image source: https://images.unsplash.com/photo-1658457459792-f4dfe37407ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80 */
 }
 
 .hero-img-3 {
-    background: url("/docs/carousel-hero-img-3.webp") no-repeat center center; /*Image Source: https://allears.net/wp-content/uploads/2019/12/Space-220-Space-Elevator.jpg */
+    background: url("../images/carousel-hero-img-3.webp") no-repeat center center; /*Image Source: https://allears.net/wp-content/uploads/2019/12/Space-220-Space-Elevator.jpg */
 }
 
 .hero-img-4 {
-    background: url("/docs/carousel-hero-img-4.webp") no-repeat center center; /*Image Source: https://www.saxonweald.com/images/content/getting-in-touch-1614955509.jpg */
+    background: url("../images/carousel-hero-img-4.webp") no-repeat center center; /*Image Source: https://www.saxonweald.com/images/content/getting-in-touch-1614955509.jpg */
 }
 
 /* Buttons Inside Carousel */
@@ -277,7 +277,7 @@ button {
     display: none;
     width: 10px;
     height: 10px;
-    background: url("/docs/arrow-effect.png") no-repeat center center transparent;
+    background: url("../images/arrow-effect.png") no-repeat center center transparent;
     background-size: 10px 10px;
     top: 18px;
     transition: all 0.2s;
@@ -455,37 +455,37 @@ button {
 
 /* Coments Image Right */
 #img-right-1 {
-    background: url("/docs/memories-img-right-1.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-right-1.webp")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-2 {
-    background: url("/docs/memories-img-right-2.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-right-2.webp")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-3 {
-    background: url("/docs/memories-img-right-3.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-right-3.webp")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-4 {
-    background: url("/docs/memories-img-right-4.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-right-4.webp")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-5 {
-    background: url("/docs/memories-img-right-5.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-right-5.webp")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-6 {
-    background: url("/docs/memories-img-right-6.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-right-6.webp")no-repeat center center;
     background-size: cover;
 }
 
 #img-right-7 {
-    background: url("/docs/memories-img-right-7.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-right-7.webp")no-repeat center center;
     background-size: cover;
 }
 
@@ -496,31 +496,31 @@ button {
 }
 
 #img-left-2 {
-    background: url("/docs/memories-img-left-2.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-left-2.webp")no-repeat center center;
     background-size: cover;
 }
 #img-left-3 {
-    background: url("/docs/memories-img-left-3.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-left-3.webp")no-repeat center center;
     background-size: cover;
 }
 
 #img-left-4 {
-    background: url("/docs/memories-img-left-4.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-left-4.webp")no-repeat center center;
     background-size: cover;
 }
 
 #img-left-5 {
-    background: url("/docs/memories-img-left-5.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-left-5.webp")no-repeat center center;
     background-size: cover;
 }
 
 #img-left-6 {
-    background: url("/docs/memories-img-left-6.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-left-6.webp")no-repeat center center;
     background-size: cover;
 }
 
 #img-left-7 {
-    background: url("/docs/memories-img-left-7.webp")no-repeat center center;
+    background: url("..images/memories/memories-img-left-7.webp")no-repeat center center;
     background-size: cover;
 }
 
@@ -619,7 +619,7 @@ button {
 }
 
 #email-subscribe {
-    background: url("/docs/subscribe-image.webp") no-repeat center center;
+    background: url("../images/subscribe-image.webp") no-repeat center center;
     background-size: cover;
     border-radius: 15px;
 }
