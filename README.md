@@ -1,4 +1,4 @@
-# DragonFly - Space Travel
+# ![DragonFly Logo](docs/assets/readme-images/logo-for-readme.png) DragonFly - Space Travel
 
 This is my Milestone Project 1.
 
@@ -8,15 +8,15 @@ The website design is responsive so it can be used on any device.
 
 This website uses technologies that I have learned including HTML, CSS.
 
-![Image of DragonFly on different devices](docs/assets/readme-images/dragonfly-different-devices.webp)
+![Image of DragonFly on different devices](docs/assets/readme-images/dragonfly-different-devices.png)
 
 ## Live Project
 
-[View DragonFly on Github Pages here.]()
+[Click me for DragonFly live link.]()
 
 ## Repository
 
-[Find the project repository here.]()
+[Click me for the project repository.]()
 
 # Table of Contents
 
@@ -55,6 +55,7 @@ This website uses technologies that I have learned including HTML, CSS.
 - [Testing](#testing)
   + [W3C Validator](#w3c-validator)
   + [Lighthouse](#lighthouse)
+- [Future Features](#future-features)
 - [Credits](#credits)
   + [Code](#code)
   + [Content](#content)
@@ -85,7 +86,7 @@ This website uses technologies that I have learned including HTML, CSS.
 
 - The website design is, colorful, inviting and easy to use. The name ‘DragonFly’ refers to the, delicated, colorful, fast flying insect that served as inspiration.
 
-![home-page](docs/assets/readme-images/home-page.webp)
+![home-page](docs/assets/readme-images/home-page.png)
 
 ## Colour
 
@@ -109,11 +110,11 @@ This website uses technologies that I have learned including HTML, CSS.
 ## Wireframes
 Wireframes were created for the main pages.
 
- [Home Page](docs/assets/readme-images/wireframe-home-page.webp)
+ [Home Page](docs/assets/readme-images/wireframe-home-page.png)
 
- [About Us Page](docs/assets/readme-images/wireframe-about-us-page.webp)
+ [About Us Page](docs/assets/readme-images/wireframe-about-us.html.png)
 
- [Destination Page](docs/assets/readme-images/wireframe-destinations-page.webp)
+ [Destination Page](docs/assets/readme-images/wireframe-destinations-page.png)
  
 
 
@@ -129,7 +130,7 @@ Wireframes were created for the main pages.
 ### Home Page
 #### Navbar
 
-![DragonFly Navbar](docs/assets/readme-images/navbar.webp)
+![DragonFly Navbar](docs/assets/readme-images/navbar.png)
 
 - The nav bar contains the logo, home button, about us, destinations and a sign up button.
 
@@ -141,29 +142,29 @@ Wireframes were created for the main pages.
 
 Hero carousel shows informative text about the pourpose of the site, and it's different pages, it also has buttons that allow the user to quickly find what it's looking for.
 
-[Hero Carousel 1](docs/assets/readme-images/hero-carousel-1.webp)
+[Hero Carousel 1](docs/assets/readme-images/hero-carousel-1.png)
 
-[Hero Carousel 2](docs/assets/readme-images/hero-carousel-2.webp)
+[Hero Carousel 2](docs/assets/readme-images/hero-carousel-2.png)
 
-[Hero Carousel 3](docs/assets/readme-images/hero-carousel-3.webp)
+[Hero Carousel 3](docs/assets/readme-images/hero-carousel-3.png)
 
-[Hero Carousel 4](docs/assets/readme-images/hero-carousel-4.webp)
+[Hero Carousel 4](docs/assets/readme-images/hero-carousel-4.png)
 
 
 #### Quotes
 
 Users comentary, of what they feel thought of the experience with [DragonFly]().
-![Quotes](docs/assets/readme-images/quotes-section.webp)
+![Quotes](docs/assets/readme-images/quotes-section.png)
 
 Pictures to help attract possible new users, what others have been experiencing, memories we help them create.
 
-![Quotes Memories](docs/assets/readme-images/quotes-memories.webp)
+![Quotes Memories](docs/assets/readme-images/quotes-memories.png)
 
  #### Subscribe Section
 
 Small part of the page that allows the user to subscribe, in order to receive updates regarding more available destinations.
 
-![DragonFly Subscribe Section](docs/assets/readme-images/subscribe-section.webp)
+![DragonFly Subscribe Section](docs/assets/readme-images/subscribe-section.png)
 
 #### Footer 
 
@@ -178,34 +179,34 @@ It also features icons with links out to social media. These windows open in a n
 
 This page provides curiosity information regarding the Website, how it came to be, it's history and mission.
 
-  ![DragonFly About Us Page](docs/assets/readme-images/about-page.webp)
+  ![DragonFly About Us Page](docs/assets/readme-images/about-page.png)
   
 Contact us section that allow the user to leave a comment, ask some questions, or even make a special visit.
-  ![Contact Us Section](docs/assets/readme-images/contact.webp)
+  ![Contact Us Section](docs/assets/readme-images/contact.png)
 
 
 ### Destinations Page
 #### Moons and Planets
 #### Cards
-![Moon Cards](docs/assets/readme-images/moons-card.webp)
+![Moon Cards](docs/assets/readme-images/moons-card.png)
 
-![Planet Cards](docs/assets/readme-images/plantes-card.webp)
+![Planet Cards](docs/assets/readme-images/plantes-card.png)
 
 The card section on the Moons and Planet page, contains six cards that has a hover animation, rotating 180deg showing some descriptive text about it's moon.
 
-![Moons back cards](docs/assets/readme-images/moons-card-back.webp)
+![Moons back cards](docs/assets/readme-images/moons-card-back.png)
 
 The cards have two buttons that allow the user, either to be able to book a destination, that provides some extra information.
 
-![Planets cards buttons](docs/assets/readme-images/planets-card-back.webp)
+![Planets cards buttons](docs/assets/readme-images/planets-card-back.png)
 
 #### More Info
 
 Some possibe new curiosity about the Moon/Planet, that may help increase the want to visit on the user.
 
-![Moons Info](docs/assets/readme-images/moons-info.webp)
+![Moons Info](docs/assets/readme-images/moons-info.png)
 
-![Planets Info](docs/assets/readme-images/planets-info.webp)
+![Planets Info](docs/assets/readme-images/planets-info.png)
 
 
 # Technologies Used
@@ -302,37 +303,89 @@ To clone the DragonFly repository:
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-* [index.html]()
-* [about-us.html]()
-* [moons.html]()
-* [planets.html]()
-* [thank-you.html]()
-* [style.css]()
+* [index.html](docs/assets/readme-images/W3C-Validator-index.html.png)
+* [about-us.html](docs/assets/readme-images/W3C-Validator-about-us.html.png)
+* [moons.html](docs/assets/readme-images/W3C-Validator-moons.html.png)
+* [planets.html](docs/assets/readme-images/W3C-Validator-planets.html.png)
+* [thank-you.html](docs/assets/readme-images/W3C-Validator-thank-you.html.png)
+* [style.css](docs/assets/readme-images/W3C-Validator-style.css.png)
 
 
 ### Lighthouse
 
-I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+I used Lighthouse within the Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
 
-#### Index Page
+#### Home Page   
+- [Edge](docs/assets/readme-images/Edge-Lighthouse-Home-Page.png) - 
+
+- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-Home-Page.png) - 
+
+- [Opera](docs/assets/readme-images/Opera-Lighthouse-Home-Page.png) - 
+
+- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Home-Page.png) - 
 
 
 #### About Us Page
+- [Edge](docs/assets/readme-images/Edge-Lighthouse-About-Us-Page.pngEdge-Lighthouse-Home-Page.png) - 
+
+- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-About-Us-Page.pngChrome-Lighthouse-Home-Page.png) - 
+
+- [Opera](docs/assets/readme-images/Opera-Lighthouse-About-Us-Page.png) - 
+
+- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Abou-Us-Page.png) - 
 
 
 #### Moons Page
+- [Edge](docs/assets/readme-images/Edge-Lighthouse-Moon-Page.pngEdge-Lighthouse-Home-Page.png) - 
 
+- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-Moons-Page.pngChrome-Lighthouse-Home-Page.png) - 
+
+- [Opera](docs/assets/readme-images/Opera-Lighthouse-Moons-Page.png) - 
+
+- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Moons-Page.png) - 
 
 #### Planets Page
+- [Edge](docs/assets/readme-images/Edge-Lighthouse-Planet-Page.pngEdge-Lighthouse-Home-Page.png) - 
 
+- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-Planets-Page.pngChrome-Lighthouse-Home-Page.png) - 
+
+- [Opera](docs/assets/readme-images/Opera-Lighthouse-Planets-Page.png) - 
+
+- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Planets-Page.png) - 
+
+
+#### Thank You Page
+- [Edge](docs/assets/readme-images/Edge-Lighthouse-Thank-you-Page.pngEdge-Lighthouse-Home-Page.png) - 
+
+- [Chrome](docs/assets/readme-images/Chorme-Lighthouse-Thank-You-Page.pngChrome-Lighthouse-Home-Page.png) - 
+
+- [Opera](docs/assets/readme-images/Opera-Lighthouse-Thank-You-Page.png) - 
+
+- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Thank-You-Page.png) - 
 
 ### Full Testing
 
-To fully test my website I performed the following testing using a number of browsers (Google Chrome, Edge, Firefox).
+To fully test my website I performed the following testing using a number of browsers (Chrome, Edge, Firefox).
 
-Links.
+Links :
 
-1. Tested each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+1. Tested each link, worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+
+Buttons :
+
+1. Tested each button, worked as expected, the button the link internaly are working, as expected, as well as the buttons that link to separate pages.
+
+2. The submit buttons take effect only after the user fill in the necessary fields, working as expected.
+
+
+# Future Features 
+
+- It wasn't important for now, but I'll be implementing a into animation to the site, before any page loading.  
+- A user, account, profile picture, where they can get news/feeds, activities and challenges that would possibly allow them to get free trips.
+- Didn't know how to do it, but mostly run out of time and weren't comfortable implementing, but the ideia, is to reduce the lenght of the destinations page, leave simply the cards and upon clicking on any of them, then the extra information would appear, i saw something similar on a site once, but was long ago, and didn't know how to implement it.
+- I want to expand to destinations to other worlds, as a fictional website that it is. World with different types of lives, intelligent and not.
+- I want to provide more information, regarding how the deslocation happens, the ships(vehicles) work, what type of accomodation do they provide during the journey, where to they stay, and for how long.
+- Inprove the site images, I did searched a lot for images, as space related images are hard to find, theres, a lot, but mostly of the same.
 
 # Credits
 

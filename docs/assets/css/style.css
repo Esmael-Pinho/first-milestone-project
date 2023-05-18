@@ -927,7 +927,7 @@ ul li {
     margin-top: 4.5rem;
 }
 
-#about-text {
+.about-text {
     padding-top: 2rem;
 }
 
@@ -1283,6 +1283,16 @@ footer a {
         box-shadow: none;
     }
 
+    .info-btn {
+        width: 40%;
+        margin-top: 0;
+    }
+
+    .flip-card-back button {
+        margin-top: 0;
+        width: 40%;
+    }
+
     #small-back-top-btn {
         display: none;
     }
@@ -1317,6 +1327,21 @@ footer a {
     }
 }
 /* /End Small screens */
+
+/* --------Small Screens 350px */
+@media (min-width: 350px) {
+    .info-btn {
+        width: initial;
+        margin-top: 1rem;
+    }
+    
+    .flip-card-back button {
+        margin-top: 1rem;
+        width: initial;
+    }
+}
+/* End Smal 350px */
+
 
 /* ------------Meddium Screens 576px ---------*/
 
@@ -1358,6 +1383,15 @@ footer a {
 
     .long-heading::after {
         width: 33%;
+    }
+
+    /* Card buttons */
+    .info-btn {
+        margin-top: 2rem;
+    }
+    
+    .flip-card-back button {
+        margin-top: 2rem;
     }
 }
 

@@ -75,7 +75,7 @@
                                 <h4 class="text-highlight">Who are We<span class="red"> ?</span></h4>
                             </div>
                         </div>
-                        <div id="about-text" class="row justify-content-center">
+                        <div class="row justify-content-center about-text">
                             <div class="col-12">
                                 <p>Founded in 500 B.C by Esmael Pinho<br>
                                     <span class="red">"</span>Laying down, resting on a field, observing the night sky, a single fireflie<br>
@@ -92,7 +92,7 @@
                                 <h4 class="text-highlight">Why <i class="far fa-heart red"></i> Us<span class="red"> ?</span></h4>
                             </div>
                         </div>
-                        <div id="about-text" class="row justify-content-center">
+                        <div class="row justify-content-center about-text">
                             <div class="col-12">
                                 <p>With an emphasis on customer satisfaction we match our quality<br>
                                     with the best prices and a great range of destinations to ensure our<br>
@@ -150,7 +150,7 @@
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-12">
-                                <p id="about-text">Spreading joy, wow moments, help you relax and enjoy your vacation, holidays on a new space<br>
+                                <p class="about-text">Spreading joy, wow moments, help you relax and enjoy your vacation, holidays on a new space<br>
                                     explore and discover our universe and maybe our place in it.<br>
                                     Inspiring and encouraging by possibly providing a new prespective.
                                 </p>
@@ -178,10 +178,10 @@
                                 <div class="details">
                                     <label class="text-white">Title:</label>
 
-                                    <input id="opt-in" type="radio" name="consent" value="no" required>
-                                    <label for="opt-in" class="radio-label black">Mr</label>
-                                    <input id="opt-out" type="radio" name="consent" value="no" required>
-                                    <label for="opt-out" class="black">Ms</label>
+                                    <input id="opt-in1" type="radio" name="consent" value="no" required>
+                                    <label for="opt-in1" class="radio-label black">Mr</label>
+                                    <input id="opt-out1" type="radio" name="consent" value="no" required>
+                                    <label for="opt-out1" class="black">Ms</label>
                                     <input id="opt-out2" type="radio" name="consent" value="yes" checked>
                                     <label for="opt-out2" class="radio-label black">Doctor</label>
                                 </div>
@@ -216,7 +216,7 @@
                             <fieldset>
                                 <div>
                                     <label for="enquiry" class="block-label text-white details">Nature of Enquiry?</label>
-                                    <select id="enquiry" custom-select size="1" required>
+                                    <select id="enquiry" size="1">
                                         <option selected>Thank You so Much</option>
                                         <option value="1">Design Notes</option>
                                         <option value="2">Content Tips</option>
@@ -322,12 +322,12 @@
             </div>
         </footer>
 
-        <!-- Modal Bootstrap -->
-        <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- Modal Bootstrap for Sign up -->
+        <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="signUpModal" aria-hidden="true">
             <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h2 class="black">Sign up for free </h2>
+                    <h2 id="signUpModal" class="black">Sign up for free </h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -359,12 +359,12 @@
                             <small id="passwordRepeat" class="form-text text-muted">Make sure your passwords match</small>
                         </div>
                         <div class="form-group text-center">
-                            <p class="black">
+                            <h5 class="black">
                                 Save sign up details?
-                            </p>
-                            <input type="radio" id="radio-btn-1" name="consent" value="no" required>
+                            </h5>
+                            <input type="radio" id="opt-in" name="consent" value="no" required>
                             <label for="opt-in" class="radio-label black">No Thanks</label>
-                            <input type="radio" id="radio-btn-2" name="consent" value="yes" checked>
+                            <input type="radio" id="opt-out" name="consent" value="yes" checked>
                             <label for="opt-out" class="black">Yes Please</label>
                         </div>
 
