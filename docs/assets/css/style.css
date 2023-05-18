@@ -16,6 +16,7 @@
 /* -------------------------------------------------------------- BODY----------------------*/
 body {
     background: url("../images/background-body-img.jpg") no-repeat center center fixed;
+    background-size: cover;
     width: 100%;
 }
 
@@ -1078,6 +1079,26 @@ textarea:hover {
     color: #DE3C4B;
 }
 
+/* ------Thank You Page------ */
+main {
+    background-color: rgba(4, 15, 15, 0.5);
+    padding: 2rem;
+}
+
+.thank-you-container h1 {
+   font-size: 60px;
+} 
+
+.thank-you-text-container {
+    background-color: hsla(219, 9%, 71%, 0.2);
+    border-radius: 15px;
+}
+
+.thank-you-text {
+    padding-top: 3.5rem;
+    font-size: 30px;
+}
+
 /* -------------------------------------------------------------- FOOTER----------------------*/
 /* Footer */
 footer {
@@ -1188,8 +1209,8 @@ footer a {
         font-size: 25px;
     }
 
-    button.navbar-toggler.collapsed {
-        margin: auto;
+    .navbar-toggler {
+        margin: 0 auto;
     }
 
     nav form {
@@ -1307,6 +1328,12 @@ footer a {
 /* ------------Meddium Screens 576px ---------*/
 
 @media (min-width: 576px) {
+
+    /* Navbar */
+    .navbar-toggler {
+        margin: initial;
+    }
+
     /* Destinations / About Us / Comments section */
     .heading::before {
         display: block;
@@ -1416,6 +1443,20 @@ footer a {
         margin-top: 1.5rem;
     }
 
+    /* Thank You page */
+
+    .thank-you-container h1 {
+        font-size: 40px;
+    }
+
+    .thank-you-text {
+        font-size: 30px;
+    } 
+
+    .thank-you-img {
+        width: 265px;
+    }
+
     /* Modal */
     .form-names-input {
         width: 30%;
@@ -1500,6 +1541,17 @@ footer a {
         border: 1px solid #fff;
         background-color: #8d0b8d;
     }
+
+    /* Thank You page */
+
+    .thank-you-container h1 {
+        font-size: 60px;
+    }
+
+    .thank-you-text {
+        font-size: 40px;
+    } 
+
 }
 /* /End Larger Screens */
 
