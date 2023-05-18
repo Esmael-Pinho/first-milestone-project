@@ -181,7 +181,7 @@ button {
     overflow: hidden;
 }
 
-#hero-container {
+.hero-container {
     height: 90vh;
 
     animation-name: hero-zoom;
@@ -199,7 +199,7 @@ button {
     }
 }
 
-#hero-container h1 {
+.hero-container h1 {
     font-weight: 700;
 }
 
@@ -805,6 +805,7 @@ button {
 /*Destination Cards info button*/
 .info-btn {
     background-color: #8d0b8d;
+    margin-top: 2rem;
 }
 
 .info-btn:hover {
@@ -881,15 +882,11 @@ button {
 #back-top-btn a {
     color: #fff;
     font-size: 35px;
-}
-
-#back-top-btn button {
     transform: none;
     border-radius: 50%;
-    background: transparent;
 }
 
-#back-top-btn button a:hover {
+#back-top-btn a:hover {
     text-decoration: none;
     color: #8d0b8d;
 }
@@ -1182,7 +1179,7 @@ footer a {
 .modal-button {
     border-radius: 4px;
     background-color: #C4E3F8;
-    color: #fff;
+    color: #0062E2;
     box-shadow: 3px 8px #0062E2;
     display: grid;
     margin: 20px auto;
@@ -1214,7 +1211,7 @@ footer a {
     }
 
     /* Carousel container */
-    #hero-container {
+    .hero-container {
         animation-play-state: paused;
     }
 
@@ -1226,7 +1223,7 @@ footer a {
         background-position: right;
     }
 
-    #hero-container .button {
+    .hero-container .button {
         margin: auto;
         width: 50%;
     }
@@ -1373,11 +1370,11 @@ footer a {
     }
     
     /* Carousel container*/
-    #hero-container {
+    .hero-container {
         animation-play-state: running;
     }
 
-    #hero-container div {
+    .hero-container div {
         margin-top: 3rem;
     }
 
@@ -1385,7 +1382,7 @@ footer a {
         background-position: center;
     }
 
-    #hero-container .button {
+    .hero-container .button {
         width: 60%;
     }
 
@@ -1470,7 +1467,7 @@ footer a {
     }
 
     /* Carousel container */
-    #hero-container .button {
+    .hero-container .button {
         width: initial;
     }
 

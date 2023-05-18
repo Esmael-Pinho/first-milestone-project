@@ -266,7 +266,7 @@ Some possibe new curiosity about the Moon/Planet, that may help increase the wan
 - [AllEars](https://allears.net/)
   - AllEars was used to obtain some images used on the project.
 
-  - [Microsoft Bing](https://allears.net/)
+- [Microsoft Bing](https://allears.net/)
   - Microsoft Bing was used to obtain some images used on the project.
 # Deployment
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
@@ -302,11 +302,12 @@ To clone the DragonFly repository:
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-* [Index Page]()
-* [About Us Page]()
-* [Moons Page]()
-* [Planets Page]()
-* [style.css CSS]()
+* [index.html]()
+* [about-us.html]()
+* [moons.html]()
+* [planets.html]()
+* [thank-you.html]()
+* [style.css]()
 
 
 ### Lighthouse
@@ -327,7 +328,7 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 ### Full Testing
 
-To fully test my website I performed the following testing using a number of browsers (Google Chrome, Edge, Firefox) and devices.
+To fully test my website I performed the following testing using a number of browsers (Google Chrome, Edge, Firefox).
 
 Links.
 
@@ -337,11 +338,19 @@ Links.
 
 ## Content
 
-- Background - [Microsoft Bing](https://www.bing.com/th?id=OHR.JTNPMilkyWay_EN-GB5660603519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50)
+Some text, on the Moons and Planets page were taken from [Nasa](https://solarsystem.nasa.gov/planets/overview/)
+
+- Icons - [Fontawesome](https://fontawesome.com/icons)
+
+- Background Image - [Microsoft Bing](https://www.bing.com/th?id=OHR.JTNPMilkyWay_EN-GB5660603519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=50)
 
 - Logo - [Pinclipart](https://www.pinclipart.com/picdir/big/243-2434585_dragonfly-clipart-png-download.png)
 
 - Subscribe background image - [Microsoft Bing](https://www.bing.com/images/search?view=detailV2&ccid=Bxg7Fkg9&id=9F9B5B76A7FB54242C17BFDAB9389D0DBADFE071&thid=OIP.Bxg7Fkg9n3jpQO6NsYcVAgHaEK&mediaurl=https%3a%2f%2fwallpaperaccess.com%2ffull%2f1669141.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.07183b16483d9f78e940ee8db1871502%3frik%3dceDfug2dOLnavw%26pid%3dImgRaw%26r%3d0&exph=1440&expw=2560&q=magma&simid=608048613738964070&FORM=IRPRST&ck=ED8FCF177BAD46299F55A546196AF864&selectedIndex=13&ajaxhist=0&ajaxserp=0)
+
+- Thank You Img-2 - [Microsoft Bing](https://www.bing.com/images/search?view=detailV2&ccid=sOcUpTpo&id=C86D40D421592624E16BA2E6286E031C7B877E36&thid=OIP.sOcUpTpoq4y5g7x6fETgOQAAAA&mediaurl=https%3A%2F%2Forig00.deviantart.net%2Fdf5d%2Ff%2F2016%2F206%2Fa%2Fe%2Fpredator_transparent_by_davidbksandrade-dabc7gq.png&exph=483&expw=284&q=alien+png&simid=608045869263565062&form=IRPRST&ck=FB67C36A0DBF773684D6F1614FAA096E&selectedindex=2&ajaxhist=0&ajaxserp=0&vt=0&sim=11&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.b0e714a53a68ab8cb983bc7a7c44e039%3Frik%3DNn6HexwDbijmog%26pid%3DImgRaw%26r%3D0&pivotparams=insightsToken%3Dccid_g3b80aCc*cp_5C634E92E28FBF002933273E27427664*mid_38C3935B5A7C5C20941EFE794380DB9D615E3732*simid_608027959257360962*thid_OIP.g3b80aCcywRSZ!_-W0VDBEgHaLH&iss=VSI&ajaxhist=0&ajaxserp=0)
+
+- Thank You Img-1 - [Microsoft Bing](https://www.bing.com/images/search?view=detailV2&ccid=Izld4CZZ&id=22D6DDCCCCF6A686DB9CFA6E95509A9C4DB07E10&thid=OIP.Izld4CZZ9uns7WHheKAyXgHaG8&mediaurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.23395de02659f6e9eced61e178a0325e%3Frik%3DEH6wTZyaUJVu%252bg%26riu%3Dhttp%253a%252f%252fwww.pngmart.com%252ffiles%252f5%252fAlien-PNG-Image.png%26ehk%3DrAdj8uFA2RdnK%252blM%252bDvfR7QZ4KMV10HbFNiAve33ZHQ%253d%26risl%3D%26pid%3DImgRaw%26r%3D0&exph=450&expw=480&q=alien+images&simid=608025867617455268&form=IRPRST&ck=E144AADA9FAC39479F3107EF4F3BF792&selectedindex=0&ajaxhist=0&ajaxserp=0&pivotparams=insightsToken%3Dccid_%252FaBg36Pp*cp_D0E152FE34B5FEFB4B5847A5C32E222C*mid_EDBAB5F42943769D1FC217B882D31849C7077806*simid_608036652275345193*thid_OIP.!_aBg36Pp2xXQHycGa!_Wm8wHaGf&vt=0&sim=11&iss=VSI&ajaxhist=0&ajaxserp=0)
 
 
 Hero-Carousel
@@ -422,11 +431,17 @@ Planets
 
 ## Code
 
-Bootstrap: I used this library throughout the project. Particularly for the nav bar, cards, forms, buttons, grid and modals.
+[Bootstrap](https://getbootstrap.com/) I used this library throughout the project. Particularly for the [NavBar](https://getbootstrap.com/docs/5.3/components/navbar/), [buttons](https://getbootstrap.com/docs/5.3/components/buttons/), [grids](https://getbootstrap.com/docs/5.3/layout/grid/#example) and [modals](https://getbootstrap.com/docs/5.3/components/modal/).
 
-Code Institute: I referred to lessons and source code from Code Institute's Web Application Development course. I sourced the Beyond Bootstrap, Love Running, CV(resume) from the Walk Through Projects, as inpiration for the modals, nav, history timeline.
+Code Institute: I referred to lessons and source code from Code Institute's Web Application Development course. I sourced the, [Bootstrapping Your Next Big Idea With Bootstrap 4](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/4?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40video%2Bblock%40f586183b665f4f9295f2c3bd3e3cedc6) for the modal.
 
-W3Schools: I referred to guides on [CSS Images](https://www.w3schools.com/), [CSS Grid](), [CSS Hover]()
+[Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/), for the hero-image idea, along with the animation.
+
+[CV(Resume)](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/a3bcedac97ea4678953a75f07ffd6931/) from the Walk Through Projects, as inpiration for the  history timeline.
+
+[W3Schools](https://www.w3schools.com/) I referred to guides on [CSS Images](https://www.w3schools.com/w3css/w3css_images.asp),  [CSS Card Flip](https://www.w3schools.com/howto/howto_css_flip_card.asp), and [Scroll to Top Button](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp), for the buttons on both moon and planets page that disappear if scrolled more than 20px down.
+
+[BOTB](https://www.botb.com/) used code for the arrow animation on the home page carousel button as well as, on destinations cards.
 
 
 Esmael Pinho

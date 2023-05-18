@@ -15,7 +15,6 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         
         <!-- Google Font -->
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Oswald:wght@500&family=Roboto+Mono&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 
         <!-- External CSS -->
@@ -63,7 +62,7 @@
 
         </header>
 
-        <section class="body-section">
+        <div class="body-section">
             <section id="carousel-container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -76,7 +75,7 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <div id="hero-container" class="hero-img-1 hero-img container-fluid px-4 py-5 d-block w-100">
+                                    <div class="hero-container hero-img-1 hero-img container-fluid px-4 py-5 d-block w-100">
                                         <div class="row justify-content-center g-1 py-5">
                                             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
                                                 <h1 class="blue">Space Travel<span class="white"> ?</span></h1>
@@ -95,7 +94,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div id="hero-container" class="hero-img-2 hero-img container-fluid px-4 py-5 d-block w-100">
+                                    <div class="hero-container hero-img-2 hero-img container-fluid px-4 py-5 d-block w-100">
                                         <div class="row justify-content-center g-5 py-5">
                                             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
                                                 <h1 class="blue">Destinations</h1>
@@ -103,49 +102,43 @@
                                                     From burning hot surfaces, to icy oceans
                                                     <br>Choose your adventure</p>
                                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                                    <button type="button" class="btn button journey btn-lg">
-                                                        <a href="moons.html">
-                                                            Choose<span class="button-arrow"></span>
-                                                            <span class="sr-only">Choose your destination</span>
-                                                        </a>
-                                                    </button>
+                                                    <a href="moons.html" class="btn button journey btn-lg uppercase">
+                                                        Choose<span class="button-arrow"></span>
+                                                        <span class="sr-only">Choose your destination</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div id="hero-container" class="hero-img-3 hero-img container-fluid px-4 py-5 d-block w-100">
+                                    <div class="hero-container hero-img-3 hero-img container-fluid px-4 py-5 d-block w-100">
                                         <div class="row justify-content-center g-5 py-5">
                                             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
                                                 <h1 class="blue">About Dragonfly</h1>
                                                 <p class=" lead">Learn more about us,<br>discover what we represent<br>and our mission.</p>
                                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                                    <button type="button" class="btn button journey btn-lg">
-                                                        <a href="about.html">
-                                                            Find More<span class="button-arrow"></span>
-                                                            <span class="sr-only">Find more about us</span>
-                                                        </a>
-                                                    </button>
+                                                    <a href="about.html" class="btn button journey btn-lg uppercase">
+                                                        Find More<span class="button-arrow"></span>
+                                                        <span class="sr-only">Find more about us</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div id="hero-container" class="hero-img-4 hero-img container-fluid px-4 py-5 d-block w-100">
+                                    <div class="hero-container hero-img-4 hero-img container-fluid px-4 py-5 d-block w-100">
                                         <div class="row justify-content-center g-5 py-5">
                                             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
                                                 <h1 class="blue">Get In Touch</h1>
                                                 <p class=" lead">Have a question, or just want to say hello.<br>
                                                     Our team of friendly staff are waiting to hear from you.</p>
                                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                                    <button type="button" class="btn button journey btn-lg">
-                                                        <a href="about.html#about-contact">
-                                                            Contact Us<span class="button-arrow"></span>
-                                                            <span class="sr-only">Contact Us</span>
-                                                        </a>
-                                                    </button>
+                                                    <a href="about.html#about-contact" class="btn button journey btn-lg uppercase">
+                                                        Contact Us<span class="button-arrow"></span>
+                                                        <span class="sr-only">Contact Us</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -527,7 +520,7 @@
                                     </div>
                                     <div class="sm-quotes-body">
                                         <blockquote class="blockquote">
-                                            <h3 class=""><p>Noah White</p></h3>
+                                            <h3>Noah White</h3>
                                             <h6><span class="red">"</span>I met someone thanks to you<br> 
                                                 Dragonfly, althought scary a safe journey<span class="red">"</span><br>
                                                 <a class="quotes-a-link wisteria" href="planets.html#mars">#Mars</a>
@@ -545,7 +538,7 @@
                                         </div>
                                         <div class="sm-quotes-body">
                                             <blockquote class="blockquote">
-                                                <h3 class=""><p>Ava Glade</p></h3>
+                                                <h3>Ava Glade</h3>
                                                 <h6><span class="red">"</span>I shoud have brought<br>
                                                     my bikini, no faster way to get a tan<span class="red">"</span><br>
                                                     <a class="quotes-a-link wisteria" href="planets.html#venus">#Venus</a>
@@ -564,7 +557,7 @@
                                         </div>
                                         <div class="sm-quotes-body">
                                             <blockquote class="blockquote">
-                                                <h3 class=""><p>Teo Benny</p></h3>
+                                                <h3>Teo Benny</h3>
                                                 <h6><span class="red">"</span>That's it, simple, fast, mind blowing<br>
                                                     all that cloud be expexted<span class="red">"</span><br>
                                                     <a class="quotes-a-link wisteria" href="planets.html#neptune">#Neptune</a>
@@ -583,7 +576,7 @@
                                         </div>
                                         <div class="sm-quotes-body">
                                             <blockquote class="blockquote">
-                                                <h3 class=""><p>Lilly Rose</p></h3>
+                                                <h3>Lilly Rose</h3>
                                                 <h6><span class="red">"</span>No picture is worth more<br>
                                                     Whow Whow Whow Whow<span class="red">"</span><br>
                                                     <a class="quotes-a-link wisteria" href="planets.html#jupiter">#Jupiter </a>
@@ -930,43 +923,43 @@
                             <div class="coments-img-container">
                                 <div class="coments-img-wrapper">
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-right-1.webp" width="241.5px" height="160px" alt="coments-img-right-1">
+                                        <img src="assets/images/memories/memories-img-right-1.webp" width="242" height="160" alt="coments-img-right-1">
                                         <div id="img-right-1" class="coments-img-hover img-1 text-center" style="width: 150%; height: 150%;">
                                             <p><a href="/docs/planets.html#saturn">#Saturn</a></p>
                                         </div>
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-right-2.webp" width="241.5px" height="160px" alt="coments-img-right-2">
+                                        <img src="assets/images/memories/memories-img-right-2.webp" width="242" height="160" alt="coments-img-right-2">
                                         <div id="img-right-2" class="coments-img-hover img-2 text-center" style="width: 150%; height: 150%;">
                                             <p><a href="/docs/moons.html#lapetus">#Lapetus</a></p>
                                         </div>
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-right-3.webp" width="150px" height="100px" alt="coments-img-right-3">
+                                        <img src="assets/images/memories/memories-img-right-3.webp" width="150" height="100" alt="coments-img-right-3">
                                         <div id="img-right-3" class="coments-img-hover img-3 text-center" style="width: 200%; height: 200%;">
                                             <p><a href="/docs/planets.html#mars">#Mars</a></p>
                                         </div>
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-right-4.webp" width="150px" height="100px" alt="coments-img-right-4">
+                                        <img src="assets/images/memories/memories-img-right-4.webp" width="150" height="100" alt="coments-img-right-4">
                                         <div id="img-right-4" class="coments-img-hover img-4 text-center" style="width: 200%; height: 200%;">
                                             <p><a href="/docs/moons.html#io">#Io</a></p>
                                         </div>
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-right-5.webp" width="150px" height="100px" alt="coments-img-right-5">
+                                        <img src="assets/images/memories/memories-img-right-5.webp" width="150" height="100" alt="coments-img-right-5">
                                         <div id="img-right-5" class="coments-img-hover img-5 text-center" style="width: 200%; height: 200%;">
                                             <p><a href="/docs/planets.html#neptune">#Neptune</a></p>
                                         </div>
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-right-6.webp" width="241.5px" height="170px" alt="coments-img-right-6">
+                                        <img src="assets/images/memories/memories-img-right-6.webp" width="242" height="170" alt="coments-img-right-6">
                                         <div id="img-right-6" class="coments-img-hover img-6 text-center" style="width: 150%; height: 150%;">
                                             <p><a href="/docs/moons.html#callisto">#Callisto</a></p>
                                         </div>
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-right-7.webp" width="241.5px" height="170px" alt="coments-img-right-7">
+                                        <img src="assets/images/memories/memories-img-right-7.webp" width="242" height="170" alt="coments-img-right-7">
                                         <div id="img-right-7" class="coments-img-hover img-7 text-center" style="width: 150%; height: 150%;">
                                             <p><a href="/docs/planets.html#jupiter">#Jupiter</a></p>
                                         </div>
@@ -980,43 +973,43 @@
                             <div class="coments-img-container">
                                 <div class="coments-img-wrapper">
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-left-1.webp" width="241.5px" height="170px" alt="coments-img-left-1">
+                                        <img src="assets/images/memories/memories-img-left-1.webp" width="242" height="170" alt="coments-img-left-1">
                                         <div id="img-left-1" class="coments-img-hover img-1 text-center" style="width: 150%; height: 150%;">
                                             <p><a href="/docs/moons.html#theMoon">#The Moon</a></p>
                                         </div>
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-left-2.webp" width="241.5px" height="170px" alt="coments-img-left-2">
+                                        <img src="assets/images/memories/memories-img-left-2.webp" width="242" height="170" alt="coments-img-left-2">
                                         <div id="img-left-2" class="coments-img-hover img-2 text-center" style="width: 150%; height: 150%;">
                                             <p><a href="/docs/planets.html#mars">#Mars</a></p>
                                         </div> 
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-left-3.webp" width="150px" height="100px" alt="coments-img-left-3">
+                                        <img src="assets/images/memories/memories-img-left-3.webp" width="150" height="100" alt="coments-img-left-3">
                                         <div id="img-left-3" class="coments-img-hover img-3 text-center" style="width: 200%; height: 200%;">
                                             <p><a href="/docs/moons.html#titan">#Titan</a></p>
                                         </div>
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-left-4.webp" width="170px" height="100px" alt="coments-img-left-4">
+                                        <img src="assets/images/memories/memories-img-left-4.webp" width="170" height="100" alt="coments-img-left-4">
                                         <div id="img-left-4" class="coments-img-hover img-4 text-center" style="width: 200%; height: 200%;">
                                             <p><a href="/docs/planets.html#mercury">#Mercury</a></p>
                                         </div>
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-left-5.webp" width="150px" height="100px" alt="coments-img-left-5">
+                                        <img src="assets/images/memories/memories-img-left-5.webp" width="150" height="100" alt="coments-img-left-5">
                                         <div id="img-left-5" class="coments-img-hover img-5 text-center" style="width: 200%; height: 200%;">
                                             <p><a href="/docs/moons.html#lapetus">#Lapetus</a></p>
                                         </div>
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-left-6.webp" width="241.5px" height="170px" alt="coments-img-left-6">
+                                        <img src="assets/images/memories/memories-img-left-6.webp" width="242" height="170" alt="coments-img-left-6">
                                         <div id="img-left-6" class="coments-img-hover img-6 text-center" style="width: 150%; height: 150%;">
                                             <p><a href="/docs/planets.html#venus">#Venus</a></p>
                                         </div>
                                     </div>
                                     <div class="coments-img">
-                                        <img src="assets/images/memories/memories-img-left-7.webp" width="241.5px" height="170px" alt="coments-img-right-7"> 
+                                        <img src="assets/images/memories/memories-img-left-7.webp" width="242" height="170" alt="coments-img-right-7"> 
                                         <div id="img-left-7" class="coments-img-hover img-7 text-center" style="width: 150%; height: 150%;">
                                             <p><a href="/docs/moons.html#europa">#Europa</a></p>
                                         </div>
@@ -1065,7 +1058,7 @@
                     </div>
                 </div>
             </section>
-        </section>
+        </div>
         
         <!-- Footer -->
         <footer>
@@ -1127,11 +1120,11 @@
         </footer>
 
         <!-- Modal Bootstrap for Sign up -->
-        <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="signUpModal" aria-hidden="true">
             <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h2 class="black">Sign up for free </h2>
+                    <h2 id="signUpModal" class="black">Sign up for free </h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -1166,9 +1159,9 @@
                             <h5 class="black">
                                 Save sign up details?
                             </h5>
-                            <input type="radio" id="radio-btn-1" name="consent" value="no" required>
+                            <input type="radio" id="opt-in" name="consent" value="no" required>
                             <label for="opt-in" class="radio-label black">No Thanks</label>
-                            <input type="radio" id="radio-btn-2" name="consent" value="yes" checked>
+                            <input type="radio" id="opt-out" name="consent" value="yes" checked>
                             <label for="opt-out" class="black">Yes Please</label>
                         </div>
 
@@ -1184,8 +1177,8 @@
         <!-- Bootstrap Script -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
-         <!-- Fontawesome -->
-         <script src="https://kit.fontawesome.com/524826ac04.js" crossorigin="anonymous"></script>
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/524826ac04.js" crossorigin="anonymous"></script>
     </body>
 
 </html>
