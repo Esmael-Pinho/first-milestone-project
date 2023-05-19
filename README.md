@@ -1,6 +1,6 @@
 # ![DragonFly Logo](docs/assets/readme-images/logo-for-readme.png) DragonFly - Space Travel
 
-This is my Milestone Project 1.
+Milestone Project 1.
 
 DragonFly is a space travel website that allows users to book trips, destinations, to Moons and/or Planets. With only a few clicks, and a small section to obtain more infomations about said Moon and/or Planets.
 
@@ -154,7 +154,7 @@ Hero carousel shows informative text about the pourpose of the site, and it's di
 
 #### Quotes
 
-Users comentary, of what they feel thought of the experience with [DragonFly]().
+Users comentary, of what they feel thought of the experience with [DragonFly](https://esmael-pinho.github.io/first-milestone-project/).
 ![Quotes](docs/assets/readme-images/quotes-section.png)
 
 Pictures to help attract possible new users, what others have been experiencing, memories we help them create.
@@ -165,7 +165,7 @@ Pictures to help attract possible new users, what others have been experiencing,
 
 Small part of the page that allows the user to subscribe, in order to receive updates regarding more available destinations.
 
-![DragonFly Subscribe Section](docs/assets/readme-images/subscribe-section.png)
+![DragonFly Subscribe Section](docs/assets/readme-images/subscribe.png)
 
 #### Footer 
 
@@ -363,7 +363,7 @@ Scored well in all areas on mobile except for performance. [Lighthouse](https://
 
 ### Full Testing
 
-To fully test my website I performed the following testing using a number of browsers (Chrome, Edge, Firefox, Opera).
+To fully test my website I performed the following testing using a number of browsers (Chrome, Edge, Firefox, Opera), and on numbered of devices from 320px to 1400px, to test it's responsiveness.
 
 Links :
 
@@ -463,37 +463,41 @@ Planets
 
 Iframes
 
-Moons
-- The Moon - [Nasa](https://solarsystem.nasa.gov/resources/2366/earths-moon-3d-model/)
-- Io - [Nasa](https://solarsystem.nasa.gov/resources/2379/io-3d-model/)
-- Europa - [Nasa](https://solarsystem.nasa.gov/resources/2369/europa-3d-model/)
-- Callisto - [Nasa](https://solarsystem.nasa.gov/resources/2369/callisto-3d-model/)
-- Titan - [Nasa](https://solarsystem.nasa.gov/resources/2369/titan-3d-model/)
-- Iapetus - [Nasa](https://solarsystem.nasa.gov/resources/2381/iapetus-3d-model/)
+- Moons
+  - The Moon - [Nasa](https://solarsystem.nasa.gov/resources/2366/earths-moon-3d-model/)
+  - Io - [Nasa](https://solarsystem.nasa.gov/resources/2379/io-3d-model/)
+  - Europa - [Nasa](https://solarsystem.nasa.gov/resources/2369/europa-3d-model/)
+  - Callisto - [Nasa](https://solarsystem.nasa.gov/resources/2369/callisto-3d-model/)
+  - Titan - [Nasa](https://solarsystem.nasa.gov/resources/2369/titan-3d-model/)
+  - Iapetus - [Nasa](https://solarsystem.nasa.gov/resources/2381/iapetus-3d-model/)
 
-Planets
-- Mercury - [Nasa](https://solarsystem.nasa.gov/resources/2369/mercury-3d-model/)
-- Venus - [Nasa](https://solarsystem.nasa.gov/resources/2343/venus-3d-model/)
-- Mars - [Nasa](https://solarsystem.nasa.gov/resources/2372/mars-3d-model/)
-- Jupiter - [Nasa](https://solarsystem.nasa.gov/resources/2375/jupiter-3d-model/)
-- Saturn - [Nasa](https://solarsystem.nasa.gov/resources/2355/saturn-3d-model/)
-- Neptune - [Nasa](https://solarsystem.nasa.gov/resources/2364/neptune-3d-model/)
+- Planets
+  - Mercury - [Nasa](https://solarsystem.nasa.gov/resources/2369/mercury-3d-model/)
+  - Venus - [Nasa](https://solarsystem.nasa.gov/resources/2343/venus-3d-model/)
+  - Mars - [Nasa](https://solarsystem.nasa.gov/resources/2372/mars-3d-model/)
+  - Jupiter - [Nasa](https://solarsystem.nasa.gov/resources/2375/jupiter-3d-model/)
+  - Saturn - [Nasa](https://solarsystem.nasa.gov/resources/2355/saturn-3d-model/)
+  - Neptune - [Nasa](https://solarsystem.nasa.gov/resources/2364/neptune-3d-model/)
 
 
 ## Code
 
-[Bootstrap](https://getbootstrap.com/) I used this library throughout the project. Particularly for the [NavBar](https://getbootstrap.com/docs/5.3/components/navbar/), [buttons](https://getbootstrap.com/docs/5.3/components/buttons/), [grids](https://getbootstrap.com/docs/5.3/layout/grid/#example) and [modals](https://getbootstrap.com/docs/5.3/components/modal/).
-
 Code Institute: I referred to lessons and source code from Code Institute's Web Application Development course. I sourced the, [Bootstrapping Your Next Big Idea With Bootstrap 4](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/4?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40video%2Bblock%40f586183b665f4f9295f2c3bd3e3cedc6) for the modal.
 
-[Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/), for the hero-image idea, along with the animation.
+- [Bootstrap](https://getbootstrap.com/) I used this library throughout the project. Particularly for the [NavBar](https://getbootstrap.com/docs/5.3/components/navbar/), [buttons](https://getbootstrap.com/docs/5.3/components/buttons/), [grids](https://getbootstrap.com/docs/5.3/layout/grid/#example) and [modals](https://getbootstrap.com/docs/5.3/components/modal/).
 
-[CV(Resume)](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/a3bcedac97ea4678953a75f07ffd6931/) from the Walk Through Projects, as inpiration for the  history timeline.
+- [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/), for the hero-image idea, along with the animation.
 
-[W3Schools](https://www.w3schools.com/) I referred to guides on [CSS Images](https://www.w3schools.com/w3css/w3css_images.asp),  [CSS Card Flip](https://www.w3schools.com/howto/howto_css_flip_card.asp), and [Scroll to Top Button](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp), for the buttons on both moon and planets page that disappear if scrolled more than 20px down.
+- [CV(Resume)](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/a3bcedac97ea4678953a75f07ffd6931/) from the Walk Through Projects, as inpiration for the  history timeline.
 
-[BOTB](https://www.botb.com/) used code for the arrow animation on the home page carousel button as well as, on destinations cards.
+- [W3Schools](https://www.w3schools.com/) I referred to guides on [CSS Images](https://www.w3schools.com/w3css/w3css_images.asp),  [CSS Card Flip](https://www.w3schools.com/howto/howto_css_flip_card.asp), and [Scroll to Top Button](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp), for the buttons on both moon and planets page that only appears if scrolled more than 20px down.
 
+- [BOTB](https://www.botb.com/) used code for the arrow animation on the home page carousel button as well as, on destinations cards.
+
+
+Please note this is a personal project. This website is purely for the sake of the developer's portfolio and not for public consumption.
+
+Thank You, for getting this far!
 
 Esmael Pinho
 2023
