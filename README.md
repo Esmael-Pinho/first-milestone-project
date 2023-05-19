@@ -12,11 +12,12 @@ This website uses technologies that I have learned including HTML, CSS.
 
 ## Live Project
 
-[Click me for DragonFly live link.]()
+
+[Click me for DragonFly live link.](https://esmael-pinho.github.io/first-milestone-project/)
 
 ## Repository
 
-[Click me for the project repository.]()
+[Click me for the project repository.](https://github.com/Esmael-Pinho/first-milestone-project)
 
 # Table of Contents
 
@@ -208,7 +209,11 @@ Some possibe new curiosity about the Moon/Planet, that may help increase the wan
 
 ![Planets Info](docs/assets/readme-images/planets-info.png)
 
+# Known Bugs
+I don't know if it can be considered a bug but since I separeted the images collums, porportionaly, at extra large screen (+1400px) col-xxl-5 
+![Images right](docs/assets/readme-images/bugg-1.png) ![Images left](docs/assets/readme-images/bugg-2.png) and used the code : ![Bugg code](docs/assets/readme-images/bugg-code.png)
 
+the display flex, and the flex wrap should wrap it, keep it contained inside it's container, and since both side of the images have the same size and height and the same collum size, i couldn't figure it ou as to why one side it's smaller then the other.
 # Technologies Used
 
 ## Languages Used
@@ -273,7 +278,7 @@ Some possibe new curiosity about the Moon/Planet, that may help increase the wan
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
 1. Log in (or sign up) to Github.
-2. Find the repository for this project,.
+2. Find the repository for this project, [DragonFly Repository](https://github.com/Esmael-Pinho/first-milestone-project).
 3. Click on the Settings link.
 4. Click on the Pages link in the left hand side navigation bar.
 5. In the Source section, choose main from the drop down select branch menu. Select docs/ from the drop down select folder menu.
@@ -281,18 +286,20 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 #### How to Fork
 
+Forks are used to propose changes to someone else's project or to use someone else's project as a starting point for your own idea. By forking the GitHub Repository you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
 To fork the DragonFly repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project,.
+2. Go to the repository for this project, [DragonFly Repository](https://github.com/Esmael-Pinho/first-milestone-project).
 3. Click the Fork button in the top right corner.
+4. You should now have a copy of the original repository in your GitHub account.
 
 #### How to Clone
 
 To clone the DragonFly repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, .
+2. Go to the repository for this project, [DragonFly Repository](https://github.com/Esmael-Pinho/first-milestone-project).
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -310,62 +317,53 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [thank-you.html](docs/assets/readme-images/W3C-Validator-thank-you.html.png)
 * [style.css](docs/assets/readme-images/W3C-Validator-style.css.png)
 
+- The main issues found while teste on the [W3C Validator](https://validator.w3.org/), were mainly the repetition of "id's", that I had forgotten it can be only one(i forgot to screen shot). 
+* One other issue I encounter was the iframe on the Moon and Planets page, as i had copied it from nasa as it is - (<iframe &lt;iframe src=&#39https://solarsystem.nasa.gov/gltf_embed/2388&#39; width=&#39;100%&#39; height=&#39;450px&#39; frameborder=&#39;0&#39;>) - I couldn't figure out what the issue was, the after a couple of searches learned(&#39 = "), From that ended up being only: (iframe src=https://solarsystem.nasa.gov/gltf_embed/2381>), those were the main issues I encountered.
 
 ### Lighthouse
 
 I used Lighthouse within the Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
 
+Scored well in all areas on mobile except for performance. [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) suggested saving images in next gen formats and eliminating unused Javascript. As well as for a better properly sized imgs and some "render-blocking resources". (I didn't have time for a more in dept look at it, but something to keep an eye on for next time).
+
 #### Home Page   
-- [Edge](docs/assets/readme-images/Edge-Lighthouse-Home-Page.png) - 
-
-- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-Home-Page.png) - 
-
-- [Opera](docs/assets/readme-images/Opera-Lighthouse-Home-Page.png) - 
-
-- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Home-Page.png) - 
+- [Edge](docs/assets/readme-images/Edge-Lighthouse-Home-Page.png) 
+- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-Home-Page.png)
+- [Opera](docs/assets/readme-images/Opera-Lighthouse-Home-Page.png)
+- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Home-Page.png)
 
 
 #### About Us Page
-- [Edge](docs/assets/readme-images/Edge-Lighthouse-About-Us-Page.pngEdge-Lighthouse-Home-Page.png) - 
-
-- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-About-Us-Page.pngChrome-Lighthouse-Home-Page.png) - 
-
-- [Opera](docs/assets/readme-images/Opera-Lighthouse-About-Us-Page.png) - 
-
-- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Abou-Us-Page.png) - 
+- [Edge](docs/assets/readme-images/Edge-Lighthouse-About-Us-Page.png)
+- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-About-Us-Page.png)
+- [Opera](docs/assets/readme-images/Opera-Lighthouse-About-Us-Page.png)
+- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Abou-Us-Page.png)
 
 
 #### Moons Page
-- [Edge](docs/assets/readme-images/Edge-Lighthouse-Moon-Page.pngEdge-Lighthouse-Home-Page.png) - 
-
-- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-Moons-Page.pngChrome-Lighthouse-Home-Page.png) - 
-
-- [Opera](docs/assets/readme-images/Opera-Lighthouse-Moons-Page.png) - 
-
-- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Moons-Page.png) - 
+- [Edge](docs/assets/readme-images/Edge-Lighthouse-Moon-Page.png)
+- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-Moons-Page.png)
+- [Opera](docs/assets/readme-images/Opera-Lighthouse-Moons-Page.png)
+- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Moons-Page.png)
+  - For some reason the performance was extreamlly low on Firefox, but I couldn't understand any of the issues, as seen [here](docs/assets/readme-images/Firefox-Lighthouse-Moon-performance.png), maybe it's the browser?
 
 #### Planets Page
-- [Edge](docs/assets/readme-images/Edge-Lighthouse-Planet-Page.pngEdge-Lighthouse-Home-Page.png) - 
-
-- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-Planets-Page.pngChrome-Lighthouse-Home-Page.png) - 
-
-- [Opera](docs/assets/readme-images/Opera-Lighthouse-Planets-Page.png) - 
-
-- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Planets-Page.png) - 
+- [Edge](docs/assets/readme-images/Edge-Lighthouse-Planet-Page.png)
+- [Chrome](docs/assets/readme-images/Chrome-Lighthouse-Planets-Page.png)
+- [Opera](docs/assets/readme-images/Opera-Lighthouse-Planets-Page.png)
+- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Planets-Page.png)
+  - Same Issue as with the Moons page, as seen [here](docs/assets/readme-images/Firefox-Lighthouse-Planets-performance.png).
 
 
 #### Thank You Page
-- [Edge](docs/assets/readme-images/Edge-Lighthouse-Thank-you-Page.pngEdge-Lighthouse-Home-Page.png) - 
-
-- [Chrome](docs/assets/readme-images/Chorme-Lighthouse-Thank-You-Page.pngChrome-Lighthouse-Home-Page.png) - 
-
-- [Opera](docs/assets/readme-images/Opera-Lighthouse-Thank-You-Page.png) - 
-
-- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Thank-You-Page.png) - 
+- [Edge](docs/assets/readme-images/Edge-Lighthouse-Thank-you-Page.pngEdge-Lighthouse-Home-Page.png)
+- [Chrome](docs/assets/readme-images/Chorme-Lighthouse-Thank-You-Page.pngChrome-Lighthouse-Home-Page.png) 
+- [Opera](docs/assets/readme-images/Opera-Lighthouse-Thank-You-Page.png)
+- [Firefox](docs/assets/readme-images/Firefox-Lighthouse-Thank-You-Page.png)
 
 ### Full Testing
 
-To fully test my website I performed the following testing using a number of browsers (Chrome, Edge, Firefox).
+To fully test my website I performed the following testing using a number of browsers (Chrome, Edge, Firefox, Opera).
 
 Links :
 
