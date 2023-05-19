@@ -1082,6 +1082,10 @@ main {
     padding: 2rem;
 }
 
+.thank-you-container {
+    margin: 5.5rem auto;
+}
+
 .thank-you-container h1 {
    font-size: 60px;
 } 
