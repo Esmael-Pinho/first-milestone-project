@@ -213,6 +213,8 @@ Some possibe new curiosity about the Moon/Planet, that may help increase the wan
 I don't know if it can be considered a bug but since I separeted the images collums, porportionaly, at extra large screen (+1400px) col-xxl-5 
 ![Images right](docs/assets/readme-images/bugg-1.png) ![Images left](docs/assets/readme-images/bugg-2.png) and used the code : ![Bugg code](docs/assets/readme-images/bugg-code.png)
 
+![Bugg on memories images](docs/assets/readme-images/bugg.png)
+
 the display flex, and the flex wrap should wrap it, keep it contained inside it's container, and since both side of the images have the same size and height and the same collum size, i couldn't figure it ou as to why one side it's smaller then the other.
 # Technologies Used
 
