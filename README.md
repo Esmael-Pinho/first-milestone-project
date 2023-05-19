@@ -324,7 +324,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 I used Lighthouse within the Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
 
-Scored well in all areas on mobile except for performance. [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) suggested saving images in next gen formats and eliminating unused Javascript. As well as for a better properly sized imgs and some "render-blocking resources". (I didn't have time for a more in dept look at it, but something to keep an eye on for next time).
+Scored well in all areas on mobile except for performance. [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) suggested saving images in next gen formats and eliminating unused Javascript. As well as for a better properly sized imgs and some "render-blocking resources". (Changed the images format to webp, which helped, but I didn't have time for a more in dept look at the render-blocking resources, but something to keep an eye on for next time).
 
 #### Home Page   
 - [Edge](docs/assets/readme-images/Edge-Lighthouse-Home-Page.png) 
